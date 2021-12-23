@@ -1,0 +1,3 @@
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\bin\Release\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Release\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Release\TreasuryReport.dll

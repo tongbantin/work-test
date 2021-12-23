@@ -1,0 +1,125 @@
+2021-05-11 01:54:24,758 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Error-----
+2021-05-11 02:20:28,703 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - ORA-01843: not a valid month
+2021-05-11 02:20:28,704 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Finish-----
+2021-05-11 02:20:28,639 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start Update-----
+2021-05-11 02:20:28,706 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - SQL Statement : UPDATE OPICINF.TB_TRANS_TO_ALR SET TEAM = :TEAM  , DEALNO = :DEALNO , ID_NO_PART1 = :ID_NO_PART1 , ID_NO_PART2 = :ID_NO_PART2  , SENDER_CUST_TYPE = :SENDER_CUST_TYPE, SENDING_BANK_CODE = :SENDING_BANK_CODE, SENDING_TYPE = :SENDING_TYPE, SENDING_AC_NO = :SENDING_AC_NO  , SENDING_INFO = :SENDING_INFO, RECEIVER_CUST_TYPE = :RECEIVER_CUST_TYPE, RECEIVING_BANK_CODE = :RECEIVING_BANK_CODE, RECEIVING_TYPE = :RECEIVING_TYPE  , RECEIVING_AC_NO = :RECEIVING_AC_NO, RECEIVING_INFO = :RECEIVING_INFO  , TRANSFER_AMOUNT = :TRANSFER_AMOUNT , SETTLE_DATE = :SETTLE_DATE  WHERE TRANSID = :TRANSID 
+2021-05-11 02:20:53,342 [8] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-05-11 02:20:53,342 [8] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Object reference not set to an instance of an object.
+2021-05-11 02:22:40,166 [8] ERROR TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Error-----
+2021-05-11 02:22:40,177 [8] ERROR TreasuryModel.Data.TransToALR [(null)] - Connection must be open for this operation
+2021-05-11 02:22:40,178 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Finish-----
+2021-05-11 03:00:09,478 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:00:31,950 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:00:37,713 [13] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:00:42,896 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:01:17,640 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:00,038 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:04,874 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:08,787 [11] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:14,896 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:21,497 [11] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 03:04:48,045 [11] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 09:56:31,252 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 09:56:32,971 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 09:56:32
+2021-05-11 09:56:33,088 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 09:58:22,027 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511095822test_upload_2.xlsx
+2021-05-11 10:10:36,951 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511101036test_upload_2.xlsx
+2021-05-11 10:37:39,423 [13] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511103739test_upload_2.xlsx
+2021-05-11 10:37:44,740 [13] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 10:38:24,205 [13] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 10:38:24,410 [13] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Object reference not set to an instance of an object.
+2021-05-11 10:40:10,795 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreasuryShadowSystem.ALR.UploadTranALR.ConvertDataTableToListTrans(DataTable dt) in C:\TRO\Production\TreasuryShadowSystem\ALR\UploadTranALR.aspx.cs:line 123
+2021-05-11 10:45:14,119 [15] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511104514test_upload_2.xlsx
+2021-05-11 10:45:28,589 [15] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 10:46:23,542 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511104623test_upload_2.xlsx
+2021-05-11 10:46:42,651 [12] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 10:47:02,589 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511104702test_upload_2.xlsx
+2021-05-11 10:47:28,120 [12] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 10:51:07,018 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 10:51:07,637 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 10:51:07
+2021-05-11 10:51:07,753 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 10:51:19,373 [7] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511105119test_upload_2.xlsx
+2021-05-11 10:54:44,659 [7] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 10:58:59,499 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 10:59:00,855 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 10:59:00
+2021-05-11 10:59:00,985 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 11:00:21,678 [12] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511110021test_upload_2.xlsx
+2021-05-11 11:01:37,076 [12] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:02:01,309 [11] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511110201test_upload_2.xlsx
+2021-05-11 11:02:44,415 [11] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:03:24,282 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511110324test_upload_2.xlsx
+2021-05-11 11:10:15,111 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = '?????????') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = '?????????')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 11:10:15,564 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 11:10:15
+2021-05-11 11:10:15,689 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 11:10:35,915 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 11:10:36,134 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 11:10:36
+2021-05-11 11:10:36,259 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 11:11:10,524 [10] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511111110test_upload_2.xlsx
+2021-05-11 11:11:47,040 [10] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:11:55,118 [10] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511111155test_upload_2.xlsx
+2021-05-11 11:21:38,710 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 11:21:39,256 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 11:21:39
+2021-05-11 11:21:39,405 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 11:21:59,608 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511112159test_upload_2.xlsx
+2021-05-11 11:22:10,717 [6] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:22:24,160 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511112224test_upload_2.xlsx
+2021-05-11 11:38:10,358 [6] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:38:36,944 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511113836test_upload_2.xlsx
+2021-05-11 11:39:56,561 [21] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511113956test_upload_2.xlsx
+2021-05-11 11:43:05,973 [21] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:43:27,765 [19] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511114327test_upload_2.xlsx
+2021-05-11 11:45:46,370 [19] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-05-11 11:46:05,437 [19] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511114605test_upload_2.xlsx
+2021-05-11 11:46:51,484 [19] ERROR TreasuryModel.Data.TransToALR [(null)] - ----Start Error-----
+2021-05-11 11:46:51,484 [19] ERROR TreasuryModel.Data.TransToALR [(null)] - ORA-03114: not connected to ORACLE
+2021-05-11 11:46:51,609 [19] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Close Connection Error----
+2021-05-11 11:46:51,609 [19] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03114: not connected to ORACLE
+2021-05-11 11:47:39,571 [19] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511114739test_upload_2.xlsx
+2021-05-11 11:50:37,720 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 11:50:38,329 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 11:50:38
+2021-05-11 11:50:38,462 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 11:50:50,071 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511115050test_upload_2.xlsx
+2021-05-11 12:05:59,203 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 12:06:03,390 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 12:06:03
+2021-05-11 12:06:03,515 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 12:06:12,109 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+2021-05-11 12:06:36,351 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+2021-05-11 12:21:53,671 [12] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Specified argument was out of the range of valid values.
+Parameter name: index
+2021-05-11 12:22:26,044 [12] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Specified argument was out of the range of valid values.
+Parameter name: index
+2021-05-11 12:36:41,502 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 12:36:42,095 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 12:36:42
+2021-05-11 12:36:42,228 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 12:50:05,018 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 12:50:05,477 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 12:50:05
+2021-05-11 12:50:05,600 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 12:52:04,652 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start delete-----
+2021-05-11 12:52:04,729 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Finish-----
+2021-05-11 13:22:12,010 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-11 13:22:12,440 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :11/05/2021 01:22:12
+2021-05-11 13:22:12,565 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-11 13:22:26,609 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511132226test_upload_2.xls
+2021-05-11 13:22:58,254 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511132258test_upload_2.xls
+2021-05-11 13:26:41,189 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511132641test_upload_2.xls
+2021-05-11 13:29:33,263 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511132933test_upload_2.xls
+2021-05-11 13:31:52,371 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511133152test_upload_2.xls
+2021-05-11 13:32:38,363 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511133238test_upload_2.xls
+2021-05-11 13:35:52,001 [14] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210511133551test_upload_2.xls
+2021-05-11 13:39:42,803 [14] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start delete-----
+2021-05-11 13:39:42,887 [14] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Finish-----
+2021-05-11 13:45:30,456 [14] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start delete-----
+2021-05-11 13:45:30,519 [14] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Finish-----

@@ -1,0 +1,4 @@
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Release\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Release\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Release\log4net.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Release\TreasuryCommon.dll

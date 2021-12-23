@@ -1,0 +1,146 @@
+2021-09-15 10:56:55,734 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 10:56:55,897 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 10:56:55
+2021-09-15 10:56:56,014 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 14:03:26,463 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 14:03:26,464 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 14:03:26,465 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=s
+2021-09-15 14:03:26,710 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-09-15 14:03:26,712 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03113: end-of-file on communication channel
+Process ID: 0
+Session ID: 135 Serial number: 9193
+2021-09-15 14:03:26,713 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 14:03:42,828 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 14:03:42,916 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 02:03:42
+2021-09-15 14:03:43,526 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 14:04:12,742 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 14:04:12,743 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 14:04:12,743 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=11
+2021-09-15 14:04:14,646 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:22:48,998 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 15:22:49,154 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 03:22:49
+2021-09-15 15:22:49,283 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 15:23:24,269 [12] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:23:24,447 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:23:24,449 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:23:24,593 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:23:30,018 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:23:30,018 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:23:30,019 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 15:23:30,892 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:23:53,742 [12] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:23:53,763 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:23:53,763 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:23:53,798 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:23:54,055 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:23:54,056 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:23:54,056 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 15:23:54,345 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:24:27,967 [11] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:24:31,938 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:24:39,948 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:25:36,986 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:26:01,227 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:26:01,227 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:26:01,228 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 15:26:02,557 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:44:00,768 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 15:44:00,975 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 03:44:00
+2021-09-15 15:44:01,116 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 15:48:58,872 [11] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:48:59,753 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:48:59,778 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:48:59,813 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:49:29,051 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:49:29,052 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:49:29,053 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 15:49:29,212 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:49:40,026 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:49:43,718 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:49:44,459 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:50:31,223 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:58:58,479 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 15:58:58,634 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 03:58:58
+2021-09-15 15:58:58,738 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 15:59:20,557 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:59:21,289 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:59:21,305 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:59:21,332 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:59:28,610 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:59:28,611 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:59:28,611 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=2165677
+2021-09-15 15:59:35,011 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-09-15 15:59:35,012 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 15:59:50,878 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 15:59:51,545 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 15:59:51,566 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 15:59:52,095 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 15:59:55,784 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 15:59:55,785 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 15:59:55,785 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 15:59:55,937 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 16:00:28,775 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 16:00:29,705 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 16:00:29,723 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 16:00:29,773 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 16:00:40,247 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 16:00:40,247 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 16:00:40,248 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=2165680
+2021-09-15 16:00:40,354 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-09-15 16:01:08,172 [16] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 16:01:08,189 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF-----
+2021-09-15 16:01:08,190 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 16:01:08,225 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 16:01:08,773 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-09-15 16:01:08,774 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-09-15 16:01:08,775 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=2165680
+2021-09-15 16:01:11,404 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-09-15 16:01:11,405 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-09-15 16:01:18,820 [16] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 16:01:18,838 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF-----
+2021-09-15 16:01:18,838 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 16:01:18,879 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 16:01:19,163 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-09-15 16:01:19,163 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-09-15 16:01:19,164 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=0
+2021-09-15 16:01:19,247 [16] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-09-15 19:21:29,292 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-09-15 19:21:29,458 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :15/09/2021 07:21:29
+2021-09-15 19:21:29,802 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-09-15 19:28:16,687 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-09-15 19:28:16,940 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-09-15 19:28:16,944 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-09-15 19:28:16,947 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-09-15 19:28:16,947 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-09-15 19:28:16,948 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-09-15 19:28:16,950 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-09-15 19:28:16,950 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-09-15 19:28:16,951 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-09-15 19:28:16,952 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-09-15 19:28:16,952 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-09-15 19:28:16,952 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-09-15 19:28:16,953 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 11
+2021-09-15 19:28:16,953 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 12
+2021-09-15 19:28:16,954 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 13
+2021-09-15 19:28:16,954 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 14
+2021-09-15 19:28:16,955 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 15
+2021-09-15 19:28:16,955 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 16
+2021-09-15 19:28:16,977 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 17
+2021-09-15 19:28:17,024 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,087 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,111 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,139 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,164 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,212 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,235 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,275 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,299 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:28:17,323 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-09-15 19:49:07,030 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-09-15 19:49:07,056 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF-----
+2021-09-15 19:49:07,057 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - checkCustNoReport : Start
+2021-09-15 19:49:07,102 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-09-15 19:49:12,075 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-09-15 19:49:12,076 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-09-15 19:49:12,076 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=2165677
+2021-09-15 19:49:20,793 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-09-15 19:49:20,794 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----

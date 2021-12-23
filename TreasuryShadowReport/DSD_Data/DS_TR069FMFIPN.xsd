@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR069FMFIPN" targetNamespace="http://tempuri.org/DS_TR069FMFIPN.xsd" xmlns:mstns="http://tempuri.org/DS_TR069FMFIPN.xsd" xmlns="http://tempuri.org/DS_TR069FMFIPN.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR069FMFIPN" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR069FMFIPN" msprop:Generator_DataSetName="DS_TR069FMFIPN" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR069FMFIPN" msprop:Generator_UserTableName="TB_TR069FMFIPN" msprop:Generator_RowDeletedName="TB_TR069FMFIPNRowDeleted" msprop:Generator_RowChangedName="TB_TR069FMFIPNRowChanged" msprop:Generator_RowClassName="TB_TR069FMFIPNRow" msprop:Generator_RowChangingName="TB_TR069FMFIPNRowChanging" msprop:Generator_RowEvArgName="TB_TR069FMFIPNRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR069FMFIPNRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR069FMFIPNDataTable" msprop:Generator_TableVarName="tableTB_TR069FMFIPN" msprop:Generator_RowDeletingName="TB_TR069FMFIPNRowDeleting" msprop:Generator_TablePropName="TB_TR069FMFIPN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BR" msprop:Generator_UserColumnName="BR" msprop:Generator_ColumnVarNameInTable="columnBR" msprop:Generator_ColumnPropNameInRow="BR" msprop:Generator_ColumnPropNameInTable="BRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TDREALIZE" msprop:Generator_UserColumnName="TDREALIZE" msprop:Generator_ColumnVarNameInTable="columnTDREALIZE" msprop:Generator_ColumnPropNameInRow="TDREALIZE" msprop:Generator_ColumnPropNameInTable="TDREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PMEREALIZE" msprop:Generator_UserColumnName="PMEREALIZE" msprop:Generator_ColumnVarNameInTable="columnPMEREALIZE" msprop:Generator_ColumnPropNameInRow="PMEREALIZE" msprop:Generator_ColumnPropNameInTable="PMEREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PYEREALIZE" msprop:Generator_UserColumnName="PYEREALIZE" msprop:Generator_ColumnVarNameInTable="columnPYEREALIZE" msprop:Generator_ColumnPropNameInRow="PYEREALIZE" msprop:Generator_ColumnPropNameInTable="PYEREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TDUNREALIZE" msprop:Generator_UserColumnName="TDUNREALIZE" msprop:Generator_ColumnVarNameInTable="columnTDUNREALIZE" msprop:Generator_ColumnPropNameInRow="TDUNREALIZE" msprop:Generator_ColumnPropNameInTable="TDUNREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PMEUNREALIZE" msprop:Generator_UserColumnName="PMEUNREALIZE" msprop:Generator_ColumnVarNameInTable="columnPMEUNREALIZE" msprop:Generator_ColumnPropNameInRow="PMEUNREALIZE" msprop:Generator_ColumnPropNameInTable="PMEUNREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PYEUNREALIZE" msprop:Generator_UserColumnName="PYEUNREALIZE" msprop:Generator_ColumnVarNameInTable="columnPYEUNREALIZE" msprop:Generator_ColumnPropNameInRow="PYEUNREALIZE" msprop:Generator_ColumnPropNameInTable="PYEUNREALIZEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TDCOST" msprop:Generator_UserColumnName="TDCOST" msprop:Generator_ColumnVarNameInTable="columnTDCOST" msprop:Generator_ColumnPropNameInRow="TDCOST" msprop:Generator_ColumnPropNameInTable="TDCOSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PMECOST" msprop:Generator_UserColumnName="PMECOST" msprop:Generator_ColumnVarNameInTable="columnPMECOST" msprop:Generator_ColumnPropNameInRow="PMECOST" msprop:Generator_ColumnPropNameInTable="PMECOSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PYECOST" msprop:Generator_UserColumnName="PYECOST" msprop:Generator_ColumnVarNameInTable="columnPYECOST" msprop:Generator_ColumnPropNameInRow="PYECOST" msprop:Generator_ColumnPropNameInTable="PYECOSTColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

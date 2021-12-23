@@ -1,0 +1,12 @@
+2021-04-23 13:16:44,220 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-23 13:16:44,419 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/04/2021 01:16:44
+2021-04-23 13:16:44,516 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-23 13:17:03,286 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-04-23 13:17:03,286 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-04-23 13:17:03,287 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=1960098
+2021-04-23 13:17:05,339 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-04-23 13:17:30,570 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-04-23 13:17:30,570 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-04-23 13:17:30,570 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=1960058
+2021-04-23 13:17:30,919 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-23 13:17:30,919 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----

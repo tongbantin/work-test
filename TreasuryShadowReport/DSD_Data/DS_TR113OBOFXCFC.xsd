@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR113OBOFXCFC" targetNamespace="http://tempuri.org/DS_TR113OBOFXCFC.xsd" xmlns:mstns="http://tempuri.org/DS_TR113OBOFXCFC.xsd" xmlns="http://tempuri.org/DS_TR113OBOFXCFC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR113OBOFXCFC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR113OBOFXCFC" msprop:Generator_DataSetName="DS_TR113OBOFXCFC" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR113OBOFXCFC" msprop:Generator_UserTableName="TB_TR113OBOFXCFC" msprop:Generator_RowDeletedName="TB_TR113OBOFXCFCRowDeleted" msprop:Generator_RowChangedName="TB_TR113OBOFXCFCRowChanged" msprop:Generator_RowClassName="TB_TR113OBOFXCFCRow" msprop:Generator_RowChangingName="TB_TR113OBOFXCFCRowChanging" msprop:Generator_RowEvArgName="TB_TR113OBOFXCFCRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR113OBOFXCFCRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR113OBOFXCFCDataTable" msprop:Generator_TableVarName="tableTB_TR113OBOFXCFC" msprop:Generator_RowDeletingName="TB_TR113OBOFXCFCRowDeleting" msprop:Generator_TablePropName="TB_TR113OBOFXCFC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BR" msprop:Generator_UserColumnName="BR" msprop:Generator_ColumnVarNameInTable="columnBR" msprop:Generator_ColumnPropNameInRow="BR" msprop:Generator_ColumnPropNameInTable="BRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SN" msprop:Generator_UserColumnName="SN" msprop:Generator_ColumnVarNameInTable="columnSN" msprop:Generator_ColumnPropNameInRow="SN" msprop:Generator_ColumnPropNameInTable="SNColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCYAMOUNT" msprop:Generator_UserColumnName="CCYAMOUNT" msprop:Generator_ColumnVarNameInTable="columnCCYAMOUNT" msprop:Generator_ColumnPropNameInRow="CCYAMOUNT" msprop:Generator_ColumnPropNameInTable="CCYAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTRCCY" msprop:Generator_UserColumnName="CTRCCY" msprop:Generator_ColumnVarNameInTable="columnCTRCCY" msprop:Generator_ColumnPropNameInRow="CTRCCY" msprop:Generator_ColumnPropNameInTable="CTRCCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CTRAMOUNT" msprop:Generator_UserColumnName="CTRAMOUNT" msprop:Generator_ColumnVarNameInTable="columnCTRAMOUNT" msprop:Generator_ColumnPropNameInRow="CTRAMOUNT" msprop:Generator_ColumnPropNameInTable="CTRAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SPOTRATE_8" msprop:Generator_UserColumnName="SPOTRATE_8" msprop:Generator_ColumnVarNameInTable="columnSPOTRATE_8" msprop:Generator_ColumnPropNameInRow="SPOTRATE_8" msprop:Generator_ColumnPropNameInTable="SPOTRATE_8Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,59 @@
+D:\SVN TRO\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+D:\SVN TRO\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+D:\SVN TRO\TSS\TreasuryShadowCommon\bin\Debug\log4net.dll
+D:\SVN TRO\TSS\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN TRO\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+D:\SVN TRO\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+D:\Deploy\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+D:\Deploy\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+D:\Deploy\TSS\TreasuryShadowCommon\bin\Debug\log4net.dll
+D:\Deploy\TSS\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\Deploy\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+D:\Deploy\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\bin\Debug\log4net.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\bin\Debug\log4net.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\log4net.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowCommon\bin\Debug\Oracle.DataAccess.dll
+C:\TRO\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+C:\TRO\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+C:\TRO\Production\TreasuryShadowCommon\bin\Debug\Ionic.Zip.dll
+C:\TRO\Production\TreasuryShadowCommon\bin\Debug\log4net.dll
+C:\TRO\Production\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+C:\TRO\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\bin\Debug\Ionic.Zip.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\bin\Debug\log4net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\bin\Debug\TreasuryCommon.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\bin\Debug\Ionic.Zip.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\bin\Debug\log4net.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\bin\Debug\Oracle.DataAccess.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowCommon\obj\Debug\TreasuryCommon.pdb

@@ -1,0 +1,189 @@
+2021-03-22 13:00:47,417 [4] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 13:05:07,268 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 13:05:07,334 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 01:05:07
+2021-03-22 13:05:07,419 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 13:05:14,491 [10] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:05:15,289 [10] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:05:15,329 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:05:15,329 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:05:15,330 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:05:15,338 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:05:50,119 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:05:50,133 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:05:50,144 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:05:50,147 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by manual
+2021-03-22 13:05:50,147 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :hello
+2021-03-22 13:05:50,148 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:05:50,148 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/Manual
+2021-03-22 13:06:08,973 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:06:08,981 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/Manual
+2021-03-22 13:06:08,983 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - fileCount :1
+2021-03-22 13:06:08,983 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - uploadCount :1
+2021-03-22 13:06:21,146 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:06:21,828 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:06:21,856 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:06:21,856 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:06:21,857 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:06:21,858 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:06:27,249 [12] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 13:09:03,478 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:03,488 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:03,498 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:03,502 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by product
+2021-03-22 13:09:03,502 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :1.07546000229E112021
+2021-03-22 13:09:03,624 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:03,625 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getEmailByProdtype : Start
+2021-03-22 13:09:03,634 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:03,636 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:03,637 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getSubjectByProdtype : Start
+2021-03-22 13:09:03,642 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:03,647 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:03,647 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getMessageByProdtype : Start
+2021-03-22 13:09:03,656 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:03,658 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:09:03,658 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - subMail :Zip files from Webtreasury Application
+2021-03-22 13:09:03,658 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - msgMail :Please kindly recheck and feedback.
+2021-03-22 13:09:03,659 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/CONFIRM
+2021-03-22 13:09:06,294 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:09:21,985 [12] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:21,994 [12] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:22,003 [12] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:22,008 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by product
+2021-03-22 13:09:22,008 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :1.07546000229E112021
+2021-03-22 13:09:22,008 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:22,008 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getEmailByProdtype : Start
+2021-03-22 13:09:22,010 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:22,013 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:22,013 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getSubjectByProdtype : Start
+2021-03-22 13:09:22,017 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:22,021 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:22,021 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getMessageByProdtype : Start
+2021-03-22 13:09:22,025 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:09:22,028 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:09:22,028 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - subMail :Zip files from Webtreasury Application
+2021-03-22 13:09:22,028 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - msgMail :Please kindly recheck and feedback.
+2021-03-22 13:09:22,028 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/CONFIRM
+2021-03-22 13:09:30,578 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:09:37,529 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/CONFIRM
+2021-03-22 13:09:37,544 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - fileCount :1
+2021-03-22 13:09:37,544 [12] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - uploadCount :1
+2021-03-22 13:09:55,846 [12] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:09:56,572 [12] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:09:56,616 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:09:56,617 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:09:56,624 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:09:56,631 [12] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:10:01,557 [12] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 13:10:35,018 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:10:35,028 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:10:35,040 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:10:35,043 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by manual
+2021-03-22 13:10:35,043 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :helloworld
+2021-03-22 13:10:35,043 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:10:35,043 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/Manual
+2021-03-22 13:10:38,660 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:10:38,669 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/Manual
+2021-03-22 13:10:38,671 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - fileCount :1
+2021-03-22 13:10:38,671 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - uploadCount :1
+2021-03-22 13:11:17,847 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:11:18,673 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:11:18,729 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:11:18,729 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:11:18,729 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:11:18,737 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:11:24,471 [9] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 13:11:46,488 [10] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:11:46,496 [10] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:11:46,505 [10] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:11:46,508 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by product
+2021-03-22 13:11:46,508 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :11002001499602021%
+2021-03-22 13:11:46,618 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:11:46,619 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getEmailByProdtype : Start
+2021-03-22 13:11:46,629 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:11:46,631 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:11:46,631 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getSubjectByProdtype : Start
+2021-03-22 13:11:46,636 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:11:46,639 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:11:46,639 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getMessageByProdtype : Start
+2021-03-22 13:11:46,644 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:11:46,647 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:11:46,647 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - subMail :KKP Margin Notice as of COB 
+2021-03-22 13:11:46,647 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - msgMail :Dear Team,<br />From valuation statement as of <br />We are calling you to&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for value date<br />Please Confirm<br />Due to following instruction :
+2021-03-22 13:11:46,647 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/CSA
+2021-03-22 13:11:47,984 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:11:47,992 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/CSA
+2021-03-22 13:11:47,993 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/CSA
+2021-03-22 13:11:47,994 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - fileCount :2
+2021-03-22 13:11:47,994 [10] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - uploadCount :2
+2021-03-22 13:11:59,137 [10] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:11:59,901 [10] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:11:59,947 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:11:59,947 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:11:59,947 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:11:59,954 [10] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 13:12:05,443 [10] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 13:12:25,000 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:12:25,008 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:12:25,016 [4] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:12:25,018 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - upload by manual
+2021-03-22 13:12:25,018 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - password :dd
+2021-03-22 13:12:25,018 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - mailTo :voranun.junc@kkpfg.com
+2021-03-22 13:12:25,018 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - folder :20210322/Manual
+2021-03-22 13:12:26,929 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - checkEncrypt :True
+2021-03-22 13:12:30,663 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/Manual
+2021-03-22 13:12:33,753 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/Manual
+2021-03-22 13:12:36,230 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - path directory : C:\TRO\Production\TreasuryShadowSystem\Temporary\Encrypt\20210322/Manual
+2021-03-22 13:12:41,225 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - fileCount :3
+2021-03-22 13:12:41,472 [4] DEBUG TreasuryShadowSystem.Encrypt.frm_EncryptUpload [(null)] - uploadCount :3
+2021-03-22 13:13:06,741 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - sql GetCustomerAllSource : SELECT CASE WHEN CTYPE = 'I' THEN REPLACE(TRIM(NVL(TAXID,CA5)), ' ', '_') ELSE REPLACE(TRIM(CMNE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(SN)) AS CUSTNAME , 'OPICS' as SOURCE FROM OPICS.CUST WHERE( UPPER(SN) LIKE UPPER(:findCust) OR UPPER(CMNE) LIKE UPPER(:findCust))  UNION SELECT CASE WHEN CUSTOMERTYPE = 'P' THEN REPLACE(TRIM(TAXID), ' ', '_') WHEN CUSTOMERTYPE = 'C' THEN NVL(REPLACE(TRIM(CODE), ' ', '_'), REPLACE(TRIM(TAXID), ' ', '_')) ELSE REPLACE(TRIM(CODE), ' ', '_') END AS CUSTCODE , TRIM(TO_NCHAR(NAMEEN)) AS CUSTNAME,  'OPICINF' AS SOURCE FROM OPICINF.KKB_TB_CUSTOMER WHERE (UPPER(NAMETH) LIKE UPPER(:findCust) OR UPPER(NAMEEN) LIKE UPPER(:findCust) OR UPPER(CODE) LIKE UPPER(:findCust) ) 
+2021-03-22 13:13:07,581 [4] INFO  TreasuryModel.Master.Model_MS_CUSTOMER [(null)] - -----Model_MS_Customer Finish-----
+2021-03-22 13:13:07,656 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Start-----
+2021-03-22 13:13:07,656 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList : Start
+2021-03-22 13:13:07,657 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - getParamValueList sql :SELECT NAME, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1)) AS PRODTYPE, VALUE, TRIM(SUBSTR(TRIM(NAME),INSTR(TRIM(NAME),'_',-1)+1))||'|'||trim(VALUE) AS SELVALUE FROM OPICINF.KKB_TB_WEBPARAM WHERE SUBSTR(NAME,1,7) = 'ENCRYPT'
+2021-03-22 13:13:07,665 [4] INFO  TreasuryModel.Master.Model_MS_WEBPARAM [(null)] - -----Model_MS_WEBPARAM Finish-----
+2021-03-22 14:57:30,216 [4] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 14:57:58,816 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 14:57:58,869 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 02:57:58
+2021-03-22 14:57:58,961 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 14:58:23,768 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20210301'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 14:58:30,878 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20210324'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 14:58:42,386 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20190722'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:04:01,594 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:04:13,458 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 17:04:13,505 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 05:04:13
+2021-03-22 17:04:13,596 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 17:04:29,093 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:07:04,507 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:13:02,759 [6] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI Select All : ALL
+2021-03-22 17:13:02,760 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:13:02,821 [6] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI records : 12
+2021-03-22 17:13:02,949 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Execute : Update OPICINF.KKB_TB_MS_PTITRANS_LOG Set GenXML='1' Where RelateRef='20201126' 
+2021-03-22 17:13:08,709 [10] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 17:33:19,944 [4] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 17:33:32,582 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 17:33:32,613 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 05:33:32
+2021-03-22 17:33:32,694 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 17:33:46,217 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:34:29,628 [9] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI Select All : 
+2021-03-22 17:34:29,696 [9] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI records : 4
+2021-03-22 17:34:29,778 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Execute : Update OPICINF.KKB_TB_MS_PTITRANS_LOG Set GenXML='1' Where RelateRef='20201126' 
+2021-03-22 17:34:34,332 [10] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 17:36:03,213 [11] ERROR TreasuryShadowSystem.Site [(null)] - Thread was being aborted.
+2021-03-22 17:36:09,400 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 17:36:09,424 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 05:36:09
+2021-03-22 17:36:09,503 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 17:36:44,470 [13] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:37:07,045 [13] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI Select All : 
+2021-03-22 17:37:07,101 [13] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI records : 7
+2021-03-22 17:37:07,176 [13] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Execute : Update OPICINF.KKB_TB_MS_PTITRANS_LOG Set GenXML='1' Where RelateRef='20201126' 
+2021-03-22 17:37:12,544 [8] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-22 17:41:30,201 [11] ERROR TreasuryShadowSystem.Site [(null)] - Thread was being aborted.
+2021-03-22 17:41:37,269 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-22 17:41:37,297 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/03/2021 05:41:37
+2021-03-22 17:41:37,392 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-22 17:42:03,925 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:42:07,711 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:42:09,852 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:42:13,141 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:42:16,786 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-22 17:47:04,522 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20201126'  ORDER BY RELATEREF , TRANSLOGID ASC 

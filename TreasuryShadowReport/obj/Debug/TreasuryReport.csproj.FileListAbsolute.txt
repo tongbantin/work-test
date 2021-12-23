@@ -1,0 +1,45 @@
+D:\SVN TRO\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+D:\SVN TRO\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+D:\SVN TRO\TSS\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN TRO\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+D:\SVN TRO\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+D:\Deploy\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+D:\Deploy\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+D:\Deploy\TSS\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Deploy\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+D:\Deploy\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+C:\TRO\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+C:\TRO\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+C:\TRO\Production\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+C:\TRO\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowReport\bin\Debug\TreasuryReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowReport\obj\Debug\TreasuryReport.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KiatnakinBank" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="KiatnakinBank" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Treasury">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Source" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Column" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xs:element name="Row" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="Data" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                  </xs:sequence>
+                  <xs:attribute name="Sheet" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TF026OBOTX" targetNamespace="http://tempuri.org/DS_TF026OBOTX.xsd" xmlns:mstns="http://tempuri.org/DS_TF026OBOTX.xsd" xmlns="http://tempuri.org/DS_TF026OBOTX.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TF026OBOTX" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TF026OBOTX" msprop:Generator_DataSetName="DS_TF026OBOTX" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TF026OBOTX" msprop:Generator_UserTableName="TB_TF026OBOTX" msprop:Generator_RowDeletedName="TB_TF026OBOTXRowDeleted" msprop:Generator_RowChangedName="TB_TF026OBOTXRowChanged" msprop:Generator_RowClassName="TB_TF026OBOTXRow" msprop:Generator_RowChangingName="TB_TF026OBOTXRowChanging" msprop:Generator_RowEvArgName="TB_TF026OBOTXRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TF026OBOTXRowChangeEventHandler" msprop:Generator_TableClassName="TB_TF026OBOTXDataTable" msprop:Generator_TableVarName="tableTB_TF026OBOTX" msprop:Generator_RowDeletingName="TB_TF026OBOTXRowDeleting" msprop:Generator_TablePropName="TB_TF026OBOTX">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REFNO" msprop:Generator_UserColumnName="REFNO" msprop:Generator_ColumnPropNameInRow="REFNO" msprop:Generator_ColumnVarNameInTable="columnREFNO" msprop:Generator_ColumnPropNameInTable="REFNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WITHHOLDINGTAX1" msprop:Generator_UserColumnName="WITHHOLDINGTAX1" msprop:Generator_ColumnPropNameInRow="WITHHOLDINGTAX1" msprop:Generator_ColumnVarNameInTable="columnWITHHOLDINGTAX1" msprop:Generator_ColumnPropNameInTable="WITHHOLDINGTAX1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TAXID1" msprop:Generator_UserColumnName="TAXID1" msprop:Generator_ColumnPropNameInRow="TAXID1" msprop:Generator_ColumnVarNameInTable="columnTAXID1" msprop:Generator_ColumnPropNameInTable="TAXID1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDRESS1" msprop:Generator_UserColumnName="ADDRESS1" msprop:Generator_ColumnPropNameInRow="ADDRESS1" msprop:Generator_ColumnVarNameInTable="columnADDRESS1" msprop:Generator_ColumnPropNameInTable="ADDRESS1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="WITHHOLDINGTAX2" msprop:Generator_UserColumnName="WITHHOLDINGTAX2" msprop:Generator_ColumnPropNameInRow="WITHHOLDINGTAX2" msprop:Generator_ColumnVarNameInTable="columnWITHHOLDINGTAX2" msprop:Generator_ColumnPropNameInTable="WITHHOLDINGTAX2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TAXID2" msprop:Generator_UserColumnName="TAXID2" msprop:Generator_ColumnPropNameInRow="TAXID2" msprop:Generator_ColumnVarNameInTable="columnTAXID2" msprop:Generator_ColumnPropNameInTable="TAXID2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDRESS2" msprop:Generator_UserColumnName="ADDRESS2" msprop:Generator_ColumnPropNameInRow="ADDRESS2" msprop:Generator_ColumnVarNameInTable="columnADDRESS2" msprop:Generator_ColumnPropNameInTable="ADDRESS2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TAXTYPE" msprop:Generator_UserColumnName="TAXTYPE" msprop:Generator_ColumnPropNameInRow="TAXTYPE" msprop:Generator_ColumnVarNameInTable="columnTAXTYPE" msprop:Generator_ColumnPropNameInTable="TAXTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENTTYPE" msprop:Generator_UserColumnName="PAYMENTTYPE" msprop:Generator_ColumnPropNameInRow="PAYMENTTYPE" msprop:Generator_ColumnVarNameInTable="columnPAYMENTTYPE" msprop:Generator_ColumnPropNameInTable="PAYMENTTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENTDATE" msprop:Generator_UserColumnName="PAYMENTDATE" msprop:Generator_ColumnPropNameInRow="PAYMENTDATE" msprop:Generator_ColumnVarNameInTable="columnPAYMENTDATE" msprop:Generator_ColumnPropNameInTable="PAYMENTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAIDAMOUNT" msprop:Generator_UserColumnName="PAIDAMOUNT" msprop:Generator_ColumnPropNameInRow="PAIDAMOUNT" msprop:Generator_ColumnVarNameInTable="columnPAIDAMOUNT" msprop:Generator_ColumnPropNameInTable="PAIDAMOUNTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TAXAMOUNT" msprop:Generator_UserColumnName="TAXAMOUNT" msprop:Generator_ColumnPropNameInRow="TAXAMOUNT" msprop:Generator_ColumnVarNameInTable="columnTAXAMOUNT" msprop:Generator_ColumnPropNameInTable="TAXAMOUNTColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="DOCDATE" msprop:Generator_UserColumnName="DOCDATE" msprop:Generator_ColumnPropNameInRow="DOCDATE" msprop:Generator_ColumnVarNameInTable="columnDOCDATE" msprop:Generator_ColumnPropNameInTable="DOCDATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

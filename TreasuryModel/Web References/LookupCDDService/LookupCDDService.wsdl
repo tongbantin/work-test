@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://www.kiatnakin.co.th/services/sanction/" xmlns:tsl="http://www.kiatnakin.co.th/schema/lookupCDD/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" targetNamespace="http://www.kiatnakin.co.th/services/sanction/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://www.kiatnakin.co.th/schema/lookupCDD/" version="1.0">
+      <xs:element name="lookupCDDResponse">
+        <xs:complexType>
+          <xs:complexContent mixed="false">
+            <xs:extension base="tsl:CommonResponseType">
+              <xs:sequence>
+                <xs:element minOccurs="0" name="lookupCDDRecord" type="tsl:LookupCDDRecordType" />
+              </xs:sequence>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="lookupCDDRequest">
+        <xs:complexType>
+          <xs:complexContent mixed="false">
+            <xs:extension base="tsl:CommonRequestType">
+              <xs:sequence>
+                <xs:element name="entityID" type="tsl:EntityIDType" />
+              </xs:sequence>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="LookupCDDRecordType">
+        <xs:sequence>
+          <xs:element name="entityID" type="xs:string" />
+          <xs:element minOccurs="0" name="entityType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="infoSource" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="activeStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="master" type="tsl:MasterType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="address" type="tsl:AddressType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="birthInfo" type="tsl:BirthInfoType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="classification" type="tsl:ClassificationType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="criminal" type="tsl:CriminalType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="description" type="tsl:DescriptionType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="education" type="tsl:EducationType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="falsePositve" type="tsl:FalsePositveType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="idnumber" type="tsl:IDNumberType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="image" type="tsl:ImageType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="name" type="tsl:NameType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="relationship" type="tsl:RelationshipType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="resident" type="tsl:ResidentType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="role" type="tsl:RoleType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="sanction" type="tsl:SanctionType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="source" type="tsl:SourceType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="str" type="tsl:StrType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="vessel" type="tsl:VesselType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="EntityIDType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="30" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:complexType name="MasterType">
+        <xs:sequence>
+          <xs:element name="entityID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="entityType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="infoSource" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="briefName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="existingStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="birthPlace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="profileNotes" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dateOfBirth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dateOfDeath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="activeStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="compCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="deceased" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="highRiskCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="highRiskCountryScore" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="falsePositive" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="falsePositiveExpiryDt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="approvalStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="rjRemarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="approvedBy" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="approvedDt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="approvedTm" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastUpdateDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stampDttm" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AddressType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="addressLine" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="addressCity" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="addressState" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="addressCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subEntityID" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="BirthInfoType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="infoType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="birthinfoDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="birthinfoPlace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="birthinfoCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mainEntry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subEntityId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ClassificationType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="regulationDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sectionNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subSectionNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subsubSectionNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="regulationMain" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="regulationSub" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="regulationSubsub" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stampDttm" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CriminalType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="sinceDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="reference" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="DescriptionType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="EducationType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="sinceDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="instituteName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="qualification" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="majorSubject" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stampDttm" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FalsePositveType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="falsePositive" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="falsePositiveExpiryDt" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IDNumberType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="idTypeCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idValue" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idIssuedate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idExpirydate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idAddnRef" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subEntityId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="infoSource" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="orgId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ImageType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="imageUrl" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="NameType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="nameType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="middleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="surname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="suffix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="entityName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="englishName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="singleStringName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="originalScriptName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="falsePositive" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="falsePositiveExpiryDt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="approvalStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subEntityId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="category" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="highRiskCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="highRiskCountryScore" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="infoSource" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="orgId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="action" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="idRefNo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RelationshipType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="associateEntity" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="relationshipType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="exRelationship" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ResidentType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="countryType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="countryCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="countryDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mainEntry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="subEntityId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RoleType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="roleType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="occCategory" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="occTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="roleLocation" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SanctionType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="sinceDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sinceYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toDay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toMonth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="toYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="reference" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SourceType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="StrType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="accountNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="refCaseNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="refNoticeNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="docType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="docControlNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="orgId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="orgName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="batchNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="batchDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="downloadableInd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="publicInd" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="VesselType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sysId" nillable="true" type="xs:integer" />
+          <xs:element minOccurs="0" name="vesselCallSign" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vesselType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vesselTonnage" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vesselGrt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vesselOwner" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vesselFlag" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CommonRequestType" abstract="true">
+        <xs:sequence>
+          <xs:element name="header" type="tsl:HeaderType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CommonResponseType" abstract="true">
+        <xs:sequence>
+          <xs:element name="header" type="tsl:HeaderType" />
+          <xs:element name="responseStatus" type="tsl:ResponseStatusType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="HeaderType">
+        <xs:sequence>
+          <xs:element name="referenceNo" type="tsl:ReferenceNoType" />
+          <xs:element name="transactionDateTime" type="tsl:TxnDateTimeType" />
+          <xs:element name="serviceName" type="tsl:ServiceNameType" />
+          <xs:element name="systemCode" type="tsl:SystemCodeType" />
+          <xs:element name="ChannelID" type="tsl:ChannelIDType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PagingRequestType">
+        <xs:sequence>
+          <xs:element default="1" name="pageNumber" type="xs:unsignedInt" />
+          <xs:element default="50" name="pageSize" type="xs:unsignedInt" />
+          <xs:element minOccurs="0" name="sortColumn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sortDirection" nillable="true" type="tsl:SortDirectionType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PagingResponseType">
+        <xs:sequence>
+          <xs:element default="1" name="pageNumber" type="xs:unsignedInt" />
+          <xs:element default="50" name="pageSize" type="xs:unsignedInt" />
+          <xs:element minOccurs="0" name="sortColumn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sortDirection" nillable="true" type="tsl:SortDirectionType" />
+          <xs:element minOccurs="0" default="0" name="totalRecord" nillable="true" type="xs:unsignedInt" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ResponseStatusType">
+        <xs:sequence>
+          <xs:element name="responseCode" type="xs:string" />
+          <xs:element name="responseMessage" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="SortDirectionType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="ASC" />
+          <xs:enumeration value="DESC" />
+          <xs:enumeration value="" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="StringTxtType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="250" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="StringAddrType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="1000" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ReferenceNoType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="40" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="TxnDateTimeType">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([0-9]{4}[\-]?((0[13-9]|1[012])[\-]?(0[1-9]|[12][0-9]|30)|(0[13578]|1[02])[\-]?31|02[\-]?(0[1-9]|1[0-9]|2[0-8]))|([0-9]{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0[0-9]|1[0-6])00)[\-]?02[\-]?29)(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])$">
+            <xs:annotation>
+              <xs:documentation>Transaction Date String format yyyyMMddHHmmss
+							</xs:documentation>
+            </xs:annotation>
+          </xs:pattern>
+          <xs:maxLength value="14" />
+          <xs:minLength value="14" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ServiceNameType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="100" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="SystemCodeType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="10" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ChannelIDType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="10" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="lookupCDDResponse">
+    <wsdl:part name="parameters" element="tsl:lookupCDDResponse" />
+  </wsdl:message>
+  <wsdl:message name="lookupCDD">
+    <wsdl:part name="parameters1" element="tsl:lookupCDDRequest" />
+  </wsdl:message>
+  <wsdl:portType name="LookupCDDService">
+    <wsdl:operation name="lookup">
+      <wsdl:input name="lookupCDD" message="tns:lookupCDD" />
+      <wsdl:output name="lookupCDDResponse" message="tns:lookupCDDResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LookupCDDServiceSoapBinding" type="tns:LookupCDDService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="lookup">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="lookupCDD">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="lookupCDDResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LookupCDDService">
+    <wsdl:port name="LookupCDDServicePort" binding="tns:LookupCDDServiceSoapBinding">
+      <soap:address location="http://10.202.103.97:8080/sanction/services/LookupCDDService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

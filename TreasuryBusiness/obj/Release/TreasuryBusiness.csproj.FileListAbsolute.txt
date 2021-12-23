@@ -1,0 +1,17 @@
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Release\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryBusiness.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryBusiness.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryModel.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\log4net.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\DealTicketModel.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\KKB.Treasury.ThirdParty.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\DealTicketReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\DealTicketModel.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\KKB.Treasury.ThirdParty.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\DealTicketReport.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Release\TreasuryBusiness.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Release\TreasuryBusiness.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryModel.XmlSerializers.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Release\TreasuryModel.pdb

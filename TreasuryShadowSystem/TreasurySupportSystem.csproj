@@ -1,0 +1,2290 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FD9FC66-3EDC-4664-A9A0-272CB465AE76}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TreasuryShadowSystem</RootNamespace>
+    <AssemblyName>TreasuryShadowSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <TargetFrameworkSubset>Full</TargetFrameworkSubset>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Ionic.Zip, Version=1.9.8.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Project Resource\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Project Resource\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TreasuryShadowSystem\TreasuryShadowSystem\bin\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="adminws.asmx.cs">
+      <DependentUpon>adminws.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ALR\ViewTranALR.aspx.cs">
+      <DependentUpon>ViewTranALR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ALR\ViewTranALR.aspx.designer.cs">
+      <DependentUpon>ViewTranALR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ALR\UploadTranALR.aspx.cs">
+      <DependentUpon>UploadTranALR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ALR\UploadTranALR.aspx.designer.cs">
+      <DependentUpon>UploadTranALR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Api\apiBOTExchangeRate.aspx.cs">
+      <DependentUpon>apiBOTExchangeRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Api\apiBOTExchangeRate.aspx.designer.cs">
+      <DependentUpon>apiBOTExchangeRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Api\apiBOTInterestRate.aspx.cs">
+      <DependentUpon>apiBOTInterestRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Api\apiBOTInterestRate.aspx.designer.cs">
+      <DependentUpon>apiBOTInterestRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Asset\frm_AssetGroup.aspx.cs">
+      <DependentUpon>frm_AssetGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asset\frm_AssetGroup.aspx.designer.cs">
+      <DependentUpon>frm_AssetGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Asset\frm_SecAsset.aspx.cs">
+      <DependentUpon>frm_SecAsset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asset\frm_SecAsset.aspx.designer.cs">
+      <DependentUpon>frm_SecAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\frm_BatchSchedule.aspx.cs">
+      <DependentUpon>frm_BatchSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Batch\frm_BatchSchedule.aspx.designer.cs">
+      <DependentUpon>frm_BatchSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BE\frm_BESeries.aspx.cs">
+      <DependentUpon>frm_BESeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BE\frm_BESeries.aspx.designer.cs">
+      <DependentUpon>frm_BESeries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blank.aspx.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blank.aspx.designer.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bond\DownloadFile.aspx.cs">
+      <DependentUpon>DownloadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bond\DownloadFile.aspx.designer.cs">
+      <DependentUpon>DownloadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bond\frmBondTransactionList.aspx.cs">
+      <DependentUpon>frmBondTransactionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bond\frmBondTransactionList.aspx.designer.cs">
+      <DependentUpon>frmBondTransactionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bond\frmBondUpload.aspx.cs">
+      <DependentUpon>frmBondUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bond\frmBondUpload.aspx.designer.cs">
+      <DependentUpon>frmBondUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFee.aspx.cs">
+      <DependentUpon>frm_BrokerageFee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFee.aspx.designer.cs">
+      <DependentUpon>frm_BrokerageFee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFeeConfig.aspx.cs">
+      <DependentUpon>frm_BrokerageFeeConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFeeConfig.aspx.designer.cs">
+      <DependentUpon>frm_BrokerageFeeConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFeeDiscount.aspx.cs">
+      <DependentUpon>frm_BrokerageFeeDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerageFee\frm_BrokerageFeeDiscount.aspx.designer.cs">
+      <DependentUpon>frm_BrokerageFeeDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CBS\frmCBSAddress.aspx.cs">
+      <DependentUpon>frmCBSAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CBS\frmCBSAddress.aspx.designer.cs">
+      <DependentUpon>frmCBSAddress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CBS\frmCBSContact.aspx.cs">
+      <DependentUpon>frmCBSContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CBS\frmCBSContact.aspx.designer.cs">
+      <DependentUpon>frmCBSContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CBS\frmCBSCustomer.aspx.cs">
+      <DependentUpon>frmCBSCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CBS\frmCBSCustomer.aspx.designer.cs">
+      <DependentUpon>frmCBSCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\AjaxBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrBalance.aspx.cs">
+      <DependentUpon>CtrBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrBalance.aspx.designer.cs">
+      <DependentUpon>CtrBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrCashFlow.aspx.cs">
+      <DependentUpon>CtrCashFlow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrCashFlow.aspx.designer.cs">
+      <DependentUpon>CtrCashFlow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrDailyExposure.aspx.cs">
+      <DependentUpon>CtrDailyExposure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrDailyExposure.aspx.designer.cs">
+      <DependentUpon>CtrDailyExposure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrMaster.aspx.cs">
+      <DependentUpon>CtrMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrMaster.aspx.designer.cs">
+      <DependentUpon>CtrMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrRate.aspx.cs">
+      <DependentUpon>CtrRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrRate.aspx.designer.cs">
+      <DependentUpon>CtrRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrRateGroup.aspx.cs">
+      <DependentUpon>CtrRateGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrRateGroup.aspx.designer.cs">
+      <DependentUpon>CtrRateGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrReport.aspx.cs">
+      <DependentUpon>CtrReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrReport.aspx.designer.cs">
+      <DependentUpon>CtrReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\CtrSetting.aspx.cs">
+      <DependentUpon>CtrSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\CtrSetting.aspx.designer.cs">
+      <DependentUpon>CtrSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collateral\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collateral\Filters\BalanceFilter.cs" />
+    <Compile Include="Collateral\Filters\CashFlowFilter.cs" />
+    <Compile Include="Collateral\Filters\DailyExposureFilter.cs" />
+    <Compile Include="Collateral\Filters\RateFilter.cs" />
+    <Compile Include="Collateral\Filters\RateGroupFilter.cs" />
+    <Compile Include="Collateral\Filters\SettingFilter.cs" />
+    <Compile Include="Collateral\IController.cs" />
+    <Compile Include="Content.Master.cs">
+      <DependentUpon>Content.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content.Master.designer.cs">
+      <DependentUpon>Content.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Content2.Master.cs">
+      <DependentUpon>Content2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content2.Master.designer.cs">
+      <DependentUpon>Content2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DealTicket.aspx.cs">
+      <DependentUpon>DealTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DealTicket.aspx.designer.cs">
+      <DependentUpon>DealTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DealTicket.Master.cs">
+      <DependentUpon>DealTicket.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DealTicket.Master.designer.cs">
+      <DependentUpon>DealTicket.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Deal\frm_DealManagement.aspx.cs">
+      <DependentUpon>frm_DealManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deal\frm_DealManagement.aspx.designer.cs">
+      <DependentUpon>frm_DealManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deal\frm_DealUpload.aspx.cs">
+      <DependentUpon>frm_DealUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deal\frm_DealUpload.aspx.designer.cs">
+      <DependentUpon>frm_DealUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureBE.aspx.cs">
+      <DependentUpon>frm_DebentureBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureBE.aspx.designer.cs">
+      <DependentUpon>frm_DebentureBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureImport.aspx.cs">
+      <DependentUpon>frm_DebentureImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureImport.aspx.designer.cs">
+      <DependentUpon>frm_DebentureImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureManagement.aspx.cs">
+      <DependentUpon>frm_DebentureManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureManagement.aspx.designer.cs">
+      <DependentUpon>frm_DebentureManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureCloseBook.aspx.cs">
+      <DependentUpon>frm_DebentureCloseBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debenture\frm_DebentureCloseBook.aspx.designer.cs">
+      <DependentUpon>frm_DebentureCloseBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt\frm_EncryptUpload.aspx.cs">
+      <DependentUpon>frm_EncryptUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Encrypt\frm_EncryptUpload.aspx.designer.cs">
+      <DependentUpon>frm_EncryptUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForeignExchange\frm_PositionDetail.aspx.cs">
+      <DependentUpon>frm_PositionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForeignExchange\frm_PositionDetail.aspx.designer.cs">
+      <DependentUpon>frm_PositionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForeignExchange\frm_PositionView.aspx.cs">
+      <DependentUpon>frm_PositionView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForeignExchange\frm_PositionView.aspx.designer.cs">
+      <DependentUpon>frm_PositionView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TC022OBOBE.aspx.cs">
+      <DependentUpon>frm_TC022OBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TC022OBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TC022OBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TC022OBOBE1.aspx.cs">
+      <DependentUpon>frm_TC022OBOBE1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TC022OBOBE1.aspx.designer.cs">
+      <DependentUpon>frm_TC022OBOBE1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TF048OBOBE.aspx.cs">
+      <DependentUpon>frm_TF048OBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TF048OBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TF048OBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR007MBOBE.aspx.cs">
+      <DependentUpon>frm_TR007MBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR007MBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TR007MBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR008DBOBN.aspx.cs">
+      <DependentUpon>frm_TR008DBOBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR008DBOBN.aspx.designer.cs">
+      <DependentUpon>frm_TR008DBOBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR012MFOFI.aspx.cs">
+      <DependentUpon>frm_TR012MFOFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR012MFOFI.aspx.designer.cs">
+      <DependentUpon>frm_TR012MFOFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR0142SWIFTREC.aspx.cs">
+      <DependentUpon>frm_TR0142SWIFTREC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR0142SWIFTREC.aspx.designer.cs">
+      <DependentUpon>frm_TR0142SWIFTREC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR014DFOFI.aspx.cs">
+      <DependentUpon>frm_TR014DFOFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR014DFOFI.aspx.designer.cs">
+      <DependentUpon>frm_TR014DFOFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR024MBOFI.aspx.cs">
+      <DependentUpon>frm_TR024MBOFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR024MBOFI.aspx.designer.cs">
+      <DependentUpon>frm_TR024MBOFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR033DBOAL.aspx.cs">
+      <DependentUpon>frm_TR033DBOAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR033DBOAL.aspx.designer.cs">
+      <DependentUpon>frm_TR033DBOAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR043OBOBN.aspx.cs">
+      <DependentUpon>frm_TR043OBOBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR043OBOBN.aspx.designer.cs">
+      <DependentUpon>frm_TR043OBOBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR045OBORP.aspx.cs">
+      <DependentUpon>frm_TR045OBORP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR045OBORP.aspx.designer.cs">
+      <DependentUpon>frm_TR045OBORP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR046OBOBN.aspx.cs">
+      <DependentUpon>frm_TR046OBOBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR046OBOBN.aspx.designer.cs">
+      <DependentUpon>frm_TR046OBOBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR049DBOFX.aspx.cs">
+      <DependentUpon>frm_TR049DBOFX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR049DBOFX.aspx.designer.cs">
+      <DependentUpon>frm_TR049DBOFX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR049DBOPF.aspx.cs">
+      <DependentUpon>frm_TR049DBOPF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR049DBOPF.aspx.designer.cs">
+      <DependentUpon>frm_TR049DBOPF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR050OBOBN.aspx.cs">
+      <DependentUpon>frm_TR050OBOBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR050OBOBN.aspx.designer.cs">
+      <DependentUpon>frm_TR050OBOBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051BONDALLOT.aspx.cs">
+      <DependentUpon>frm_TR051BONDALLOT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051BONDALLOT.aspx.designer.cs">
+      <DependentUpon>frm_TR051BONDALLOT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051BONTH.aspx.cs">
+      <DependentUpon>frm_TR051BONTH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051BONTH.aspx.designer.cs">
+      <DependentUpon>frm_TR051BONTH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051GENERATE.aspx.cs">
+      <DependentUpon>frm_TR051GENERATE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051GENERATE.aspx.designer.cs">
+      <DependentUpon>frm_TR051GENERATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051GENPTI.aspx.cs">
+      <DependentUpon>frm_TR051GENPTI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051GENPTI.aspx.designer.cs">
+      <DependentUpon>frm_TR051GENPTI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051TAX.aspx.cs">
+      <DependentUpon>frm_TR051TAX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051TAX.aspx.designer.cs">
+      <DependentUpon>frm_TR051TAX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051TAXSUMMARY.aspx.cs">
+      <DependentUpon>frm_TR051TAXSUMMARY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051TAXSUMMARY.aspx.designer.cs">
+      <DependentUpon>frm_TR051TAXSUMMARY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR051TRANSLIST.aspx.cs">
+      <DependentUpon>frm_TR051TRANSLIST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR051TRANSLIST.aspx.designer.cs">
+      <DependentUpon>frm_TR051TRANSLIST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR052OBORP.aspx.cs">
+      <DependentUpon>frm_TR052OBORP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR052OBORP.aspx.designer.cs">
+      <DependentUpon>frm_TR052OBORP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR053OBOBN.aspx.cs">
+      <DependentUpon>frm_TR053OBOBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR053OBOBN.aspx.designer.cs">
+      <DependentUpon>frm_TR053OBOBN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR054OBOSW.aspx.cs">
+      <DependentUpon>frm_TR054OBOSW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR054OBOSW.aspx.designer.cs">
+      <DependentUpon>frm_TR054OBOSW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR055OBOFX.aspx.cs">
+      <DependentUpon>frm_TR055OBOFX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR055OBOFX.aspx.designer.cs">
+      <DependentUpon>frm_TR055OBOFX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR056OBODL.aspx.cs">
+      <DependentUpon>frm_TR056OBODL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR056OBODL.aspx.designer.cs">
+      <DependentUpon>frm_TR056OBODL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR057DBOSL.aspx.cs">
+      <DependentUpon>frm_TR057DBOSL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR057DBOSL.aspx.designer.cs">
+      <DependentUpon>frm_TR057DBOSL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR058DBOSL.aspx.cs">
+      <DependentUpon>frm_TR058DBOSL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR058DBOSL.aspx.designer.cs">
+      <DependentUpon>frm_TR058DBOSL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR059MBOFI.aspx.cs">
+      <DependentUpon>frm_TR059MBOFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR059MBOFI.aspx.designer.cs">
+      <DependentUpon>frm_TR059MBOFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR060MBOFI.aspx.cs">
+      <DependentUpon>frm_TR060MBOFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR060MBOFI.aspx.designer.cs">
+      <DependentUpon>frm_TR060MBOFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR063MBOAL.aspx.cs">
+      <DependentUpon>frm_TR063MBOAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR063MBOAL.aspx.designer.cs">
+      <DependentUpon>frm_TR063MBOAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR064DBORP.aspx.cs">
+      <DependentUpon>frm_TR064DBORP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR064DBORP.aspx.designer.cs">
+      <DependentUpon>frm_TR064DBORP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR065DBOCM.aspx.cs">
+      <DependentUpon>frm_TR065DBOCM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR065DBOCM.aspx.designer.cs">
+      <DependentUpon>frm_TR065DBOCM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR067FMFICOF1.aspx.cs">
+      <DependentUpon>frm_TR067FMFICOF1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR067FMFICOF1.aspx.designer.cs">
+      <DependentUpon>frm_TR067FMFICOF1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR068FMFIOUT1.aspx.cs">
+      <DependentUpon>frm_TR068FMFIOUT1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR068FMFIOUT1.aspx.designer.cs">
+      <DependentUpon>frm_TR068FMFIOUT1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR069FMALLPM.aspx.cs">
+      <DependentUpon>frm_TR069FMALLPM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR069FMALLPM.aspx.designer.cs">
+      <DependentUpon>frm_TR069FMALLPM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR070DFOTD.aspx.cs">
+      <DependentUpon>frm_TR070DFOTD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR070DFOTD.aspx.designer.cs">
+      <DependentUpon>frm_TR070DFOTD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR072OFOCF.aspx.cs">
+      <DependentUpon>frm_TR072OFOCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR072OFOCF.aspx.designer.cs">
+      <DependentUpon>frm_TR072OFOCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR073DBOFIDF.aspx.cs">
+      <DependentUpon>frm_TR073DBOFIDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR073DBOFIDF.aspx.designer.cs">
+      <DependentUpon>frm_TR073DBOFIDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR074OBOFX.aspx.cs">
+      <DependentUpon>frm_TR074OBOFX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR074OBOFX.aspx.designer.cs">
+      <DependentUpon>frm_TR074OBOFX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR075OBOFXSW.aspx.cs">
+      <DependentUpon>frm_TR075OBOFXSW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR075OBOFXSW.aspx.designer.cs">
+      <DependentUpon>frm_TR075OBOFXSW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR076OBOFXSW.aspx.cs">
+      <DependentUpon>frm_TR076OBOFXSW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR076OBOFXSW.aspx.designer.cs">
+      <DependentUpon>frm_TR076OBOFXSW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR077OBOFXGL.aspx.cs">
+      <DependentUpon>frm_TR077OBOFXGL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR077OBOFXGL.aspx.designer.cs">
+      <DependentUpon>frm_TR077OBOFXGL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR078DFFISD.aspx.cs">
+      <DependentUpon>frm_TR078DFFISD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR078DFFISD.aspx.designer.cs">
+      <DependentUpon>frm_TR078DFFISD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR079DFFITD.aspx.cs">
+      <DependentUpon>frm_TR079DFFITD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR079DFFITD.aspx.designer.cs">
+      <DependentUpon>frm_TR079DFFITD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR080ACSWGL.aspx.cs">
+      <DependentUpon>frm_TR080ACSWGL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR080ACSWGL.aspx.designer.cs">
+      <DependentUpon>frm_TR080ACSWGL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR081ACSWPR.aspx.cs">
+      <DependentUpon>frm_TR081ACSWPR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR081ACSWPR.aspx.designer.cs">
+      <DependentUpon>frm_TR081ACSWPR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR082DBOBE.aspx.cs">
+      <DependentUpon>frm_TR082DBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR082DBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TR082DBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR083DBOBECF.aspx.cs">
+      <DependentUpon>frm_TR083DBOBECF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR083DBOBECF.aspx.designer.cs">
+      <DependentUpon>frm_TR083DBOBECF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR084DBOBERP.aspx.cs">
+      <DependentUpon>frm_TR084DBOBERP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR084DBOBERP.aspx.designer.cs">
+      <DependentUpon>frm_TR084DBOBERP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR085DBOIRS.aspx.cs">
+      <DependentUpon>frm_TR085DBOIRS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR085DBOIRS.aspx.designer.cs">
+      <DependentUpon>frm_TR085DBOIRS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR086MFOCCO.aspx.cs">
+      <DependentUpon>frm_TR086MFOCCO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR086MFOCCO.aspx.designer.cs">
+      <DependentUpon>frm_TR086MFOCCO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089CONFMTM.aspx.cs">
+      <DependentUpon>frm_TR089CONFMTM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089CONFMTM.aspx.designer.cs">
+      <DependentUpon>frm_TR089CONFMTM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089DFMTM.aspx.cs">
+      <DependentUpon>frm_TR089DFMTM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089DFMTM.aspx.designer.cs">
+      <DependentUpon>frm_TR089DFMTM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089IMPRATE.aspx.cs">
+      <DependentUpon>frm_TR089IMPRATE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089IMPRATE.aspx.designer.cs">
+      <DependentUpon>frm_TR089IMPRATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089MAPPINGMTM.aspx.cs">
+      <DependentUpon>frm_TR089MAPPINGMTM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089MAPPINGMTM.aspx.designer.cs">
+      <DependentUpon>frm_TR089MAPPINGMTM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089OTHMTM.aspx.cs">
+      <DependentUpon>frm_TR089OTHMTM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089OTHMTM.aspx.designer.cs">
+      <DependentUpon>frm_TR089OTHMTM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR089SENDMAIL.aspx.cs">
+      <DependentUpon>frm_TR089SENDMAIL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR089SENDMAIL.aspx.designer.cs">
+      <DependentUpon>frm_TR089SENDMAIL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR090OBOFIBC.aspx.cs">
+      <DependentUpon>frm_TR090OBOFIBC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR090OBOFIBC.aspx.designer.cs">
+      <DependentUpon>frm_TR090OBOFIBC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR091OBOFXCF.aspx.cs">
+      <DependentUpon>frm_TR091OBOFXCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR091OBOFXCF.aspx.designer.cs">
+      <DependentUpon>frm_TR091OBOFXCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR092OBOFXCF.aspx.cs">
+      <DependentUpon>frm_TR092OBOFXCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR092OBOFXCF.aspx.designer.cs">
+      <DependentUpon>frm_TR092OBOFXCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR093OBOFXCF.aspx.cs">
+      <DependentUpon>frm_TR093OBOFXCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR093OBOFXCF.aspx.designer.cs">
+      <DependentUpon>frm_TR093OBOFXCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR094FXPAYMAINTAIN.aspx.cs">
+      <DependentUpon>frm_TR094FXPAYMAINTAIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR094FXPAYMAINTAIN.aspx.designer.cs">
+      <DependentUpon>frm_TR094FXPAYMAINTAIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR094OBOFXSW.aspx.cs">
+      <DependentUpon>frm_TR094OBOFXSW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR094OBOFXSW.aspx.designer.cs">
+      <DependentUpon>frm_TR094OBOFXSW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR095OBOECAI.aspx.cs">
+      <DependentUpon>frm_TR095OBOECAI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR095OBOECAI.aspx.designer.cs">
+      <DependentUpon>frm_TR095OBOECAI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR096MBOFIDB.aspx.cs">
+      <DependentUpon>frm_TR096MBOFIDB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR096MBOFIDB.aspx.designer.cs">
+      <DependentUpon>frm_TR096MBOFIDB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR098OBOTSDD.aspx.cs">
+      <DependentUpon>frm_TR098OBOTSDD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR098OBOTSDD.aspx.designer.cs">
+      <DependentUpon>frm_TR098OBOTSDD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR099OBOBRFI.aspx.cs">
+      <DependentUpon>frm_TR099OBOBRFI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR099OBOBRFI.aspx.designer.cs">
+      <DependentUpon>frm_TR099OBOBRFI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR100OBOBRFX.aspx.cs">
+      <DependentUpon>frm_TR100OBOBRFX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR100OBOBRFX.aspx.designer.cs">
+      <DependentUpon>frm_TR100OBOBRFX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR108DBOEMIR.aspx.cs">
+      <DependentUpon>frm_TR108DBOEMIR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR108DBOEMIR.aspx.designer.cs">
+      <DependentUpon>frm_TR108DBOEMIR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR109DBOEQTB.aspx.cs">
+      <DependentUpon>frm_TR109DBOEQTB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR109DBOEQTB.aspx.designer.cs">
+      <DependentUpon>frm_TR109DBOEQTB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR110DBODVTB.aspx.cs">
+      <DependentUpon>frm_TR110DBODVTB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR110DBODVTB.aspx.designer.cs">
+      <DependentUpon>frm_TR110DBODVTB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR113OBOFXCFC.aspx.cs">
+      <DependentUpon>frm_TR113OBOFXCFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR113OBOFXCFC.aspx.designer.cs">
+      <DependentUpon>frm_TR113OBOFXCFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR114TO125OBOCF.aspx.cs">
+      <DependentUpon>frm_TR114TO125OBOCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR114TO125OBOCF.aspx.designer.cs">
+      <DependentUpon>frm_TR114TO125OBOCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR130BOTANNUAL.aspx.cs">
+      <DependentUpon>frm_TR130BOTANNUAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR130BOTANNUAL.aspx.designer.cs">
+      <DependentUpon>frm_TR130BOTANNUAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR132BODBSHOT.aspx.cs">
+      <DependentUpon>frm_TR132BODBSHOT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR132BODBSHOT.aspx.designer.cs">
+      <DependentUpon>frm_TR132BODBSHOT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR133BODEBTOUT.aspx.cs">
+      <DependentUpon>frm_TR133BODEBTOUT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR133BODEBTOUT.aspx.designer.cs">
+      <DependentUpon>frm_TR133BODEBTOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR134BOLCR.aspx.cs">
+      <DependentUpon>frm_TR134BOLCR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR134BOLCR.aspx.designer.cs">
+      <DependentUpon>frm_TR134BOLCR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR134BOLCRATIO.aspx.cs">
+      <DependentUpon>frm_TR134BOLCRATIO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR134BOLCRATIO.aspx.designer.cs">
+      <DependentUpon>frm_TR134BOLCRATIO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBP.aspx.cs">
+      <DependentUpon>frm_TR135BOTBP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBP.aspx.designer.cs">
+      <DependentUpon>frm_TR135BOTBP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBPMANAGE.aspx.cs">
+      <DependentUpon>frm_TR135BOTBPMANAGE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBPMANAGE.aspx.designer.cs">
+      <DependentUpon>frm_TR135BOTBPMANAGE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBPUPD.aspx.cs">
+      <DependentUpon>frm_TR135BOTBPUPD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR135BOTBPUPD.aspx.designer.cs">
+      <DependentUpon>frm_TR135BOTBPUPD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR136BOBESERIES.aspx.cs">
+      <DependentUpon>frm_TR136BOBESERIES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR136BOBESERIES.aspx.designer.cs">
+      <DependentUpon>frm_TR136BOBESERIES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR137BOCPTYPE.aspx.cs">
+      <DependentUpon>frm_TR137BOCPTYPE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR137BOCPTYPE.aspx.designer.cs">
+      <DependentUpon>frm_TR137BOCPTYPE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR138PTBE.aspx.cs">
+      <DependentUpon>frm_TR138PTBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR138PTBE.aspx.designer.cs">
+      <DependentUpon>frm_TR138PTBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR139PAYS.aspx.cs">
+      <DependentUpon>frm_TR139PAYS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR139PAYS.aspx.designer.cs">
+      <DependentUpon>frm_TR139PAYS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR140NTFXCF.aspx.cs">
+      <DependentUpon>frm_TR140NTFXCF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR140NTFXCF.aspx.designer.cs">
+      <DependentUpon>frm_TR140NTFXCF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR141FIXRATE.aspx.cs">
+      <DependentUpon>frm_TR141FIXRATE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR141FIXRATE.aspx.designer.cs">
+      <DependentUpon>frm_TR141FIXRATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONF.aspx.cs">
+      <DependentUpon>frm_TR143PCONF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONF.aspx.designer.cs">
+      <DependentUpon>frm_TR143PCONF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONFIG.aspx.cs">
+      <DependentUpon>frm_TR143PCONFIG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONFIG.aspx.designer.cs">
+      <DependentUpon>frm_TR143PCONFIG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONFREC.aspx.cs">
+      <DependentUpon>frm_TR143PCONFREC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR143PCONFREC.aspx.designer.cs">
+      <DependentUpon>frm_TR143PCONFREC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TROREPO01.aspx.cs">
+      <DependentUpon>frm_TROREPO01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TROREPO01.aspx.designer.cs">
+      <DependentUpon>frm_TROREPO01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TROREPOOUT.aspx.cs">
+      <DependentUpon>frm_TROREPOOUT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TROREPOOUT.aspx.designer.cs">
+      <DependentUpon>frm_TROREPOOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GridMenu.aspx.cs">
+      <DependentUpon>GridMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridMenu.aspx.designer.cs">
+      <DependentUpon>GridMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridUSG.aspx.cs">
+      <DependentUpon>GridUSG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridUSG.aspx.designer.cs">
+      <DependentUpon>GridUSG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\ActionOperation.cs" />
+    <Compile Include="Helper\JsonHelper.cs" />
+    <Compile Include="Helper\LinqExtensions.cs" />
+    <Compile Include="Helper\StringEnum.cs" />
+    <Compile Include="Helper\StringExtensions.cs" />
+    <Compile Include="Helper\WhereOperation.cs" />
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_CurrentPosition.aspx.cs">
+      <DependentUpon>frm_CurrentPosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_CurrentPosition.aspx.designer.cs">
+      <DependentUpon>frm_CurrentPosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_Custodian.aspx.cs">
+      <DependentUpon>frm_Custodian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_Custodian.aspx.designer.cs">
+      <DependentUpon>frm_Custodian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_Customer.aspx.cs">
+      <DependentUpon>frm_Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_Customer.aspx.designer.cs">
+      <DependentUpon>frm_Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_CustomerMapping.aspx.cs">
+      <DependentUpon>frm_CustomerMapping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_CustomerMapping.aspx.designer.cs">
+      <DependentUpon>frm_CustomerMapping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_FundPosition.aspx.cs">
+      <DependentUpon>frm_FundPosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_FundPosition.aspx.designer.cs">
+      <DependentUpon>frm_FundPosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_MaintainPTIExpense.aspx.cs">
+      <DependentUpon>frm_MaintainPTIExpense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_MaintainPTIExpense.aspx.designer.cs">
+      <DependentUpon>frm_MaintainPTIExpense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintain\frm_Parameters.aspx.cs">
+      <DependentUpon>frm_Parameters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintain\frm_Parameters.aspx.designer.cs">
+      <DependentUpon>frm_Parameters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Management.aspx.cs">
+      <DependentUpon>Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Management.aspx.designer.cs">
+      <DependentUpon>Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Management\frm_Menu.aspx.cs">
+      <DependentUpon>frm_Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Management\frm_Menu.aspx.designer.cs">
+      <DependentUpon>frm_Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Management\frm_MenuManagement.aspx.cs">
+      <DependentUpon>frm_MenuManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Management\frm_MenuManagement.aspx.designer.cs">
+      <DependentUpon>frm_MenuManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Management\frm_Permission.aspx.cs">
+      <DependentUpon>frm_Permission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Management\frm_Permission.aspx.designer.cs">
+      <DependentUpon>frm_Permission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR023OBOBE.aspx.cs">
+      <DependentUpon>frm_TR023OBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR023OBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TR023OBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR027DFOEQ.aspx.cs">
+      <DependentUpon>frm_TR027DFOEQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR027DFOEQ.aspx.designer.cs">
+      <DependentUpon>frm_TR027DFOEQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR034MFOEQ.aspx.cs">
+      <DependentUpon>frm_TR034MFOEQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR034MFOEQ.aspx.designer.cs">
+      <DependentUpon>frm_TR034MFOEQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TC021OBOBE.aspx.cs">
+      <DependentUpon>frm_TC021OBOBE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TC021OBOBE.aspx.designer.cs">
+      <DependentUpon>frm_TC021OBOBE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TF020OBOPN.aspx.cs">
+      <DependentUpon>frm_TF020OBOPN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TF020OBOPN.aspx.designer.cs">
+      <DependentUpon>frm_TF020OBOPN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TF026OBOTX.aspx.cs">
+      <DependentUpon>frm_TF026OBOTX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TF026OBOTX.aspx.designer.cs">
+      <DependentUpon>frm_TF026OBOTX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_TR025OITAL.aspx.cs">
+      <DependentUpon>frm_TR025OITAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\frm_TR025OITAL.aspx.designer.cs">
+      <DependentUpon>frm_TR025OITAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Management\frm_User.aspx.cs">
+      <DependentUpon>frm_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Management\frm_User.aspx.designer.cs">
+      <DependentUpon>frm_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkToMarket\frm_MarkToMarketPoint.aspx.cs">
+      <DependentUpon>frm_MarkToMarketPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkToMarket\frm_MarkToMarketPoint.aspx.designer.cs">
+      <DependentUpon>frm_MarkToMarketPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BOTFXFile.cs" />
+    <Compile Include="Model\JsTree.cs" />
+    <Compile Include="Model\MappingList.cs" />
+    <Compile Include="Model\Model_Tb_Master.cs" />
+    <Compile Include="Model\Model_Tb_Menu.cs" />
+    <Compile Include="Model\Model_Tb_Menu_Auth.cs" />
+    <Compile Include="Model\Model_Tb_UserGroup.cs" />
+    <Compile Include="Model\PagedList.cs" />
+    <Compile Include="Model\Utilities.cs" />
+    <Compile Include="Model\WeeklyDay.cs" />
+    <Compile Include="Nostro\frm_NTADJUST.aspx.cs">
+      <DependentUpon>frm_NTADJUST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nostro\frm_NTADJUST.aspx.designer.cs">
+      <DependentUpon>frm_NTADJUST.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nostro\frm_NTDAILY.aspx.cs">
+      <DependentUpon>frm_NTDAILY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nostro\frm_NTDAILY.aspx.designer.cs">
+      <DependentUpon>frm_NTDAILY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nostro\frm_NUPDCHECK.aspx.cs">
+      <DependentUpon>frm_NUPDCHECK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nostro\frm_NUPDCHECK.aspx.designer.cs">
+      <DependentUpon>frm_NUPDCHECK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\frm_RepoYieldImport.aspx.cs">
+      <DependentUpon>frm_RepoYieldImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repo\frm_RepoYieldImport.aspx.designer.cs">
+      <DependentUpon>frm_RepoYieldImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_BatchList.aspx.cs">
+      <DependentUpon>frm_BatchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_BatchList.aspx.designer.cs">
+      <DependentUpon>frm_BatchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_Message.aspx.cs">
+      <DependentUpon>frm_Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_Message.aspx.designer.cs">
+      <DependentUpon>frm_Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_MessageBatch.aspx.cs">
+      <DependentUpon>frm_MessageBatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_MessageBatch.aspx.designer.cs">
+      <DependentUpon>frm_MessageBatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_MessageMoneyTransfer.aspx.cs">
+      <DependentUpon>frm_MessageMoneyTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_MessageMoneyTransfer.aspx.designer.cs">
+      <DependentUpon>frm_MessageMoneyTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_MoneyTransferDownload.aspx.cs">
+      <DependentUpon>frm_MoneyTransferDownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_MoneyTransferDownload.aspx.designer.cs">
+      <DependentUpon>frm_MoneyTransferDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_MoneyTransferList.aspx.cs">
+      <DependentUpon>frm_MoneyTransferList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_MoneyTransferList.aspx.designer.cs">
+      <DependentUpon>frm_MoneyTransferList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_ReportSwiftList.aspx.cs">
+      <DependentUpon>frm_ReportSwiftList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_ReportSwiftList.aspx.designer.cs">
+      <DependentUpon>frm_ReportSwiftList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_SanctionBatch.aspx.cs">
+      <DependentUpon>frm_SanctionBatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_SanctionBatch.aspx.designer.cs">
+      <DependentUpon>frm_SanctionBatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sanction\frm_SanctionList.aspx.cs">
+      <DependentUpon>frm_SanctionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sanction\frm_SanctionList.aspx.designer.cs">
+      <DependentUpon>frm_SanctionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Customer.asmx.cs">
+      <DependentUpon>Customer.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\Logon.asmx.cs">
+      <DependentUpon>Logon.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\Opicinf.asmx.cs">
+      <DependentUpon>Opicinf.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\Opics.asmx.cs">
+      <DependentUpon>Opics.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SessionExpired.aspx.cs">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionExpired.aspx.designer.cs">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="STN\ConfigSTN.aspx.cs">
+      <DependentUpon>ConfigSTN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STN\ConfigSTN.aspx.designer.cs">
+      <DependentUpon>ConfigSTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STN\MasterSTN.aspx.cs">
+      <DependentUpon>MasterSTN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STN\MasterSTN.aspx.designer.cs">
+      <DependentUpon>MasterSTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STN\UploadSTN.aspx.cs">
+      <DependentUpon>UploadSTN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STN\UploadSTN.aspx.designer.cs">
+      <DependentUpon>UploadSTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Swift\frm_ImportSwift.aspx.cs">
+      <DependentUpon>frm_ImportSwift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Swift\frm_ImportSwift.aspx.designer.cs">
+      <DependentUpon>frm_ImportSwift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Template\Blank.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Blank.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_AdjNostro.aspx.cs">
+      <DependentUpon>frm_AdjNostro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_AdjNostro.aspx.designer.cs">
+      <DependentUpon>frm_AdjNostro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroAvg.aspx.cs">
+      <DependentUpon>frm_FXNostroAvg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroAvg.aspx.designer.cs">
+      <DependentUpon>frm_FXNostroAvg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroAvgCancel.aspx.cs">
+      <DependentUpon>frm_FXNostroAvgCancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroAvgCancel.aspx.designer.cs">
+      <DependentUpon>frm_FXNostroAvgCancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroUpload.aspx.cs">
+      <DependentUpon>frm_FXNostroUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR145BORATEAVG\frm_FXNostroUpload.aspx.designer.cs">
+      <DependentUpon>frm_FXNostroUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR146OBOPFXCF\frm_PreConfirm.aspx.cs">
+      <DependentUpon>frm_PreConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR146OBOPFXCF\frm_PreConfirm.aspx.designer.cs">
+      <DependentUpon>frm_PreConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR149OBOFCDOUT\frm_TR149OBOFCDOUT.aspx.cs">
+      <DependentUpon>frm_TR149OBOFCDOUT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR149OBOFCDOUT\frm_TR149OBOFCDOUT.aspx.designer.cs">
+      <DependentUpon>frm_TR149OBOFCDOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR152OBOSWIFT\frm_TR152OBOSWIFT.aspx.cs">
+      <DependentUpon>frm_TR152OBOSWIFT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR152OBOSWIFT\frm_TR152OBOSWIFT.aspx.designer.cs">
+      <DependentUpon>frm_TR152OBOSWIFT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR154TRSSFTLN\frm_TR154IMPTFILE.aspx.cs">
+      <DependentUpon>frm_TR154IMPTFILE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR154TRSSFTLN\frm_TR154IMPTFILE.aspx.designer.cs">
+      <DependentUpon>frm_TR154IMPTFILE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR154TRSSFTLN\frm_TR154LSTDT.aspx.cs">
+      <DependentUpon>frm_TR154LSTDT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR154TRSSFTLN\frm_TR154LSTDT.aspx.designer.cs">
+      <DependentUpon>frm_TR154LSTDT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR155OBOACKNAK\frm_TR155OBOACKNAK.aspx.cs">
+      <DependentUpon>frm_TR155OBOACKNAK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR155OBOACKNAK\frm_TR155OBOACKNAK.aspx.designer.cs">
+      <DependentUpon>frm_TR155OBOACKNAK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TR155OBOACKNAK\frm_TR155OBOBOFA.aspx.cs">
+      <DependentUpon>frm_TR155OBOBOFA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TR155OBOACKNAK\frm_TR155OBOBOFA.aspx.designer.cs">
+      <DependentUpon>frm_TR155OBOBOFA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreePermission.aspx.cs">
+      <DependentUpon>TreePermission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreePermission.aspx.designer.cs">
+      <DependentUpon>TreePermission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\JavascriptControl.ascx.cs">
+      <DependentUpon>JavascriptControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\JavascriptControl.ascx.designer.cs">
+      <DependentUpon>JavascriptControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SideMenu.ascx.cs">
+      <DependentUpon>SideMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SideMenu.ascx.designer.cs">
+      <DependentUpon>SideMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReportViewer.aspx.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ReportViewer.aspx.designer.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReportViewer2.aspx.cs">
+      <DependentUpon>ReportViewer2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ReportViewer2.aspx.designer.cs">
+      <DependentUpon>ReportViewer2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Xml\config.cs">
+      <DependentUpon>config.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Xml\config.Designer.cs">
+      <DependentUpon>config.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Form\frm_TF048OBOBE.aspx" />
+    <Content Include="Form\frm_TR007MBOBE.aspx" />
+    <Content Include="Form\frm_TR008DBOBN.aspx" />
+    <Content Include="Form\frm_TR024MBOFI.aspx" />
+    <Content Include="Form\frm_TR033DBOAL.aspx" />
+    <Content Include="Form\frm_TR043OBOBN.aspx" />
+    <Content Include="Form\frm_TR045OBORP.aspx" />
+    <Content Include="Form\frm_TR046OBOBN.aspx" />
+    <Content Include="Form\frm_TR050OBOBN.aspx" />
+    <Content Include="Form\frm_TR051BONTH.aspx" />
+    <Content Include="Form\frm_TR052OBORP.aspx" />
+    <Content Include="Form\frm_TR053OBOBN.aspx" />
+    <Content Include="Form\frm_TR054OBOSW.aspx" />
+    <Content Include="Form\frm_TR055OBOFX.aspx" />
+    <Content Include="Form\frm_TR056OBODL.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Management\frm_MenuManagement.aspx" />
+    <Content Include="Management\frm_Permission.aspx" />
+    <Content Include="Form\frm_TC021OBOBE.aspx" />
+    <Content Include="Form\frm_TF020OBOPN.aspx" />
+    <Content Include="Form\frm_TF026OBOTX.aspx" />
+    <Content Include="Form\frm_TR023OBOBE.aspx" />
+    <Content Include="Form\frm_TR025OITAL.aspx" />
+    <Content Include="Form\frm_TR027DFOEQ.aspx" />
+    <Content Include="Form\frm_TR034MFOEQ.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Management\frm_User.aspx" />
+    <Content Include="Scripts\date.format.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-migrate-1.1.0.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="Scripts\jquery.datetime.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Services\Logon.asmx" />
+    <Content Include="Theme\cupertino\images\animated-overlay.gif" />
+    <Content Include="Theme\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Theme\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Theme\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Theme\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Theme\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Theme\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Theme\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Theme\cupertino\jquery-ui-1.10.0.custom.css" />
+    <Content Include="Theme\cupertino\jquery-ui-1.10.0.custom.min.css" />
+    <Content Include="Theme\Default\Css\bootstrap.css" />
+    <Content Include="Theme\Default\Css\ss_style.css" />
+    <Content Include="Theme\Default\Images\banner.png" />
+    <Content Include="Theme\Default\Images\bghead.png" />
+    <Content Include="Theme\Default\Images\bgheadtitle.png" />
+    <Content Include="Theme\Default\Images\bgheadtitletile.png" />
+    <Content Include="Theme\Default\Images\changelogin.gif" />
+    <Content Include="Theme\Default\Images\changelogin.png" />
+    <Content Include="Theme\Default\Images\glyphicons-halflings-white.png" />
+    <Content Include="Theme\Default\Images\glyphicons-halflings.png" />
+    <Content Include="Theme\Default\Images\headtitle.png" />
+    <Content Include="Theme\Default\Images\ss_template\artwork-pattern.png" />
+    <Content Include="Theme\Default\Images\ss_template\company-logo.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_add.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_cancel.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_delete.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_download.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_edit.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_favorite.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_left.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_lock.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_power.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_print.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_refresh.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_right.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_settings.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_upload.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_up_circle.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\ic_zoom.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-email-over.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-email-special.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-email.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-logoff-over.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-logoff.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-settings-over.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-settings.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\menu\menu-user.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\message-boxes\confirmation.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\message-boxes\error.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\message-boxes\information.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\message-boxes\warning.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\table\actions-delete.png" />
+    <Content Include="Theme\Default\Images\ss_template\icons\table\actions-edit.png" />
+    <Content Include="Theme\Default\Images\ss_template\login-icon.png" />
+    <Content Include="Theme\Default\Images\ss_template\menu-dark-indicator.png" />
+    <Content Include="Theme\Default\Images\ss_template\menu-indicator.png" />
+    <Content Include="Theme\Default\Images\ss_template\separator-bg.png" />
+    <Content Include="Theme\Default\Images\ss_template\tab-dashboard.png" />
+    <Content Include="Theme\Default\Images\subbanner.png" />
+    <Content Include="Theme\Default\Javascript\bootstrap.js" />
+    <Content Include="Theme\Default\Javascript\html5.js" />
+    <Content Include="Theme\Default\Javascript\jquery.html5-placeholder.js" />
+    <Content Include="Theme\Default\Javascript\ss_script.js" />
+    <Content Include="Theme\Default\Css\style.css" />
+    <Content Include="Theme\Default\Images\bg.jpg" />
+    <Content Include="Theme\Default\Images\logokk.jpg" />
+    <Content Include="Theme\Default\Javascript\jquery-1.8.2.js" />
+    <Content Include="UserControl\Footer.ascx" />
+    <Content Include="UserControl\JavascriptControl.ascx" />
+    <Content Include="UserControl\SideMenu.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Template\Blank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Blank.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Blank.aspx" />
+    <Content Include="Site2.Master" />
+    <Content Include="View\ReportViewer2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content.Master" />
+    <Content Include="Form\frm_TC022OBOBE.aspx" />
+    <Content Include="Scripts\jquery.tinyscrollbar.min.js" />
+    <Content Include="Scripts\string.format.js" />
+    <Content Include="SessionExpired.aspx" />
+    <Content Include="Theme\Default\Images\kklogo.jpg" />
+    <Content Include="Theme\Default\Images\loading.gif" />
+    <Content Include="Theme\Default\Images\loading_image.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TreasuryBusiness\TreasuryBusiness.csproj">
+      <Project>{366851A8-BED2-4C90-BC1E-6D87BB74018F}</Project>
+      <Name>TreasuryBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryJob\TreasuryJob.csproj">
+      <Project>{47E4A25E-1760-4D7D-8A9F-67396DE44C5E}</Project>
+      <Name>TreasuryJob</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryModel\TreasuryModel.csproj">
+      <Project>{1526E282-9C06-41A1-B767-EB6B4BBE4F77}</Project>
+      <Name>TreasuryModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryShadowCommon\TreasuryCommon.csproj">
+      <Project>{ED4763EF-2086-4BF7-9715-FDA78E65DE2F}</Project>
+      <Name>TreasuryCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryShadowReport\TreasuryReport.csproj">
+      <Project>{A175330E-C339-4A81-AF51-DCA29DC7E45B}</Project>
+      <Name>TreasuryReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.Master" />
+    <Content Include="Form\frm_TC022OBOBE1.aspx" />
+    <Content Include="Form\frm_TR012MFOFI.aspx" />
+    <Content Include="Form\frm_TR014DFOFI.aspx" />
+    <Content Include="Form\frm_TR049DBOFX.aspx" />
+    <Content Include="Form\frm_TR057DBOSL.aspx" />
+    <Content Include="Form\frm_TR058DBOSL.aspx" />
+    <Content Include="Form\frm_TR059MBOFI.aspx" />
+    <Content Include="Form\frm_TR060MBOFI.aspx" />
+    <Content Include="Form\frm_TR063MBOAL.aspx" />
+    <Content Include="Form\frm_TR064DBORP.aspx" />
+    <Content Include="Form\frm_TR065DBOCM.aspx" />
+    <Content Include="Form\frm_TR067FMFICOF1.aspx" />
+    <Content Include="Form\frm_TR068FMFIOUT1.aspx" />
+    <Content Include="Form\frm_TR069FMALLPM.aspx" />
+    <Content Include="Form\frm_TR070DFOTD.aspx" />
+    <Content Include="Form\frm_TR072OFOCF.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\frm_AssetGroup.aspx" />
+    <Content Include="Asset\frm_SecAsset.aspx" />
+    <Content Include="BE\frm_BESeries.aspx" />
+    <Content Include="Bond\DownloadFile.aspx" />
+    <Content Include="Bond\frmBondTransactionList.aspx" />
+    <Content Include="Bond\frmBondUpload.aspx" />
+    <Content Include="BrokerageFee\frm_BrokerageFee.aspx" />
+    <Content Include="BrokerageFee\frm_BrokerageFeeConfig.aspx" />
+    <Content Include="BrokerageFee\frm_BrokerageFeeDiscount.aspx" />
+    <Content Include="DealTicket.aspx" />
+    <Content Include="DealTicket.Master" />
+    <Content Include="Deal\frm_DealManagement.aspx" />
+    <Content Include="Deal\frm_DealUpload.aspx" />
+    <Content Include="ForeignExchange\frm_PositionDetail.aspx" />
+    <Content Include="Form\frm_TR049DBOPF.aspx" />
+    <Content Include="Form\frm_TR051BONDALLOT.aspx" />
+    <Content Include="Form\frm_TR051GENERATE.aspx" />
+    <Content Include="Form\frm_TR051TAX.aspx" />
+    <Content Include="Form\frm_TR051TAXSUMMARY.aspx" />
+    <Content Include="Form\frm_TR051TRANSLIST.aspx" />
+    <Content Include="Form\frm_TR073DBOFIDF.aspx" />
+    <Content Include="Form\frm_TR074OBOFX.aspx" />
+    <Content Include="Form\frm_TR075OBOFXSW.aspx" />
+    <Content Include="Form\frm_TR076OBOFXSW.aspx" />
+    <Content Include="Form\frm_TR077OBOFXGL.aspx" />
+    <Content Include="Form\frm_TR078DFFISD.aspx" />
+    <Content Include="Form\frm_TR079DFFITD.aspx" />
+    <Content Include="Form\frm_TR080ACSWGL.aspx" />
+    <Content Include="Form\frm_TR081ACSWPR.aspx" />
+    <Content Include="Form\frm_TR082DBOBE.aspx" />
+    <Content Include="Form\frm_TR083DBOBECF.aspx" />
+    <Content Include="Form\frm_TR084DBOBERP.aspx" />
+    <Content Include="Form\frm_TR085DBOIRS.aspx" />
+    <Content Include="Form\frm_TR086MFOCCO.aspx" />
+    <Content Include="Form\frm_TR089CONFMTM.aspx" />
+    <Content Include="Form\frm_TR089DFMTM.aspx" />
+    <Content Include="Form\frm_TR089IMPRATE.aspx" />
+    <Content Include="Form\frm_TR089MAPPINGMTM.aspx" />
+    <Content Include="Form\frm_TR089OTHMTM.aspx" />
+    <Content Include="Form\frm_TR089SENDMAIL.aspx" />
+    <Content Include="Form\frm_TR090OBOFIBC.aspx" />
+    <Content Include="Form\frm_TR091OBOFXCF.aspx" />
+    <Content Include="Form\frm_TR092OBOFXCF.aspx" />
+    <Content Include="Form\frm_TR093OBOFXCF.aspx" />
+    <Content Include="Form\frm_TR094OBOFXSW.aspx" />
+    <Content Include="Form\frm_TR095OBOECAI.aspx" />
+    <Content Include="Form\frm_TR096MBOFIDB.aspx" />
+    <Content Include="Form\frm_TR098OBOTSDD.aspx" />
+    <Content Include="Form\frm_TR099OBOBRFI.aspx" />
+    <Content Include="Form\frm_TR100OBOBRFX.aspx" />
+    <Content Include="Form\frm_TR108DBOEMIR.aspx" />
+    <Content Include="Form\frm_TR109DBOEQTB.aspx" />
+    <Content Include="Form\frm_TR110DBODVTB.aspx" />
+    <Content Include="Form\frm_TR113OBOFXCFC.aspx" />
+    <Content Include="Form\frm_TR114TO125OBOCF.aspx" />
+    <Content Include="Form\frm_TR130BOTANNUAL.aspx" />
+    <Content Include="Form\frm_TR132BODBSHOT.aspx" />
+    <Content Include="Form\frm_TR133BODEBTOUT.aspx" />
+    <Content Include="Form\frm_TR134BOLCR.aspx" />
+    <Content Include="Form\frm_TR134BOLCRATIO.aspx" />
+    <Content Include="Form\frm_TR135BOTBP.aspx" />
+    <Content Include="Form\frm_TR135BOTBPMANAGE.aspx" />
+    <Content Include="Form\frm_TR135BOTBPUPD.aspx" />
+    <Content Include="Form\frm_TR136BOBESERIES.aspx" />
+    <Content Include="Form\frm_TR137BOCPTYPE.aspx" />
+    <Content Include="Form\frm_TROREPO01.aspx" />
+    <Content Include="Form\frm_TROREPOOUT.aspx" />
+    <Content Include="GridMenu.aspx" />
+    <Content Include="GridUSG.aspx" />
+    <Content Include="Lib\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="Lib\CrystalDecisions.Data.AdoDotNetInterop.dll" />
+    <Content Include="Lib\CrystalDecisions.ReportSource.dll" />
+    <Content Include="Lib\CrystalDecisions.Shared.dll" />
+    <Content Include="Lib\CrystalDecisions.VSDesigner.dll" />
+    <Content Include="Lib\CrystalDecisions.Web.dll" />
+    <Content Include="Lib\CrystalDecisions.Windows.Forms.dll" />
+    <Content Include="Lib\KKB.Treasury.ThirdParty.dll" />
+    <Content Include="Lib\log4net.dll" />
+    <Content Include="Lib\NPOI.dll" />
+    <Content Include="Lib\Oracle.DataAccess.dll" />
+    <Content Include="Maintain\frm_Custodian.aspx" />
+    <Content Include="Maintain\frm_Customer.aspx" />
+    <Content Include="Maintain\frm_FundPosition.aspx" />
+    <Content Include="Maintain\frm_MaintainPTIExpense.aspx" />
+    <Content Include="Maintain\frm_Parameters.aspx" />
+    <Content Include="Management.aspx" />
+    <Content Include="Management\frm_Menu.aspx" />
+    <Content Include="Scripts\jqGridMenu.js" />
+    <Content Include="Scripts\jqGridUserGroup.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\jquery.hotkeys.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\css\ellipsis-xbl.xml" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\css\ui.jqgrid.css" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\Changes.txt" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-dk.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-id.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-kr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-tw.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\i18n\grid.locale-vi.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\install.txt" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\jquery.jqGrid.min.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\js\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\grid.addons.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\grid.postext.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\grid.setcolumns.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\jquery.contextmenu.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\jquery.searchFilter.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\jquery.tablednd.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\searchFilter.css" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\ui.multiselect.css" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\plugins\ui.multiselect.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\css\ellipsis-xbl.xml" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\css\ui.jqgrid.css" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\css\ui.multiselect.css" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.base.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.celledit.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.common.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.custom.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.filter.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.formedit.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.grouping.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.import.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.inlinedit.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.jqueryui.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.loader.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.subgrid.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.tbltogrid.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\grid.treegrid.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-ar.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-bg.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-bg1251.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-cat.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-cn.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-cs.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-da.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-de.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-dk.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-el.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-en.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-fa.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-fi.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-fr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-gl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-he.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-hr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-hr1250.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-hu.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-id.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-is.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-it.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-ja.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-kr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-lt.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-mne.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-nl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-no.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-pl.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-pt-br.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-pt.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-ro.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-ru.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-sk.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-sr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-sv.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-th.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-tr.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-tw.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-ua.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\i18n\grid.locale-vi.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\jqDnR.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\jqModal.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\jquery.fmatter.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\jquery.jqGrid.js" />
+    <Content Include="Scripts\jquery.jqGrid-4.5.2\src\JsonXml.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.jstree.js" />
+    <Content Include="Scripts\json3.min.js" />
+    <Content Include="Scripts\jsTreePesmission.js" />
+    <Content Include="Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.js" />
+    <Content Include="Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.min.js" />
+    <Content Include="Scripts\jtable\external\json2.js" />
+    <Content Include="Scripts\jtable\external\json2.min.js" />
+    <Content Include="Scripts\jtable\jquery.jtable.js" />
+    <Content Include="Scripts\jtable\jquery.jtable.min.js" />
+    <Content Include="Scripts\jtable\localization\jquery.jtable.tr.js" />
+    <Content Include="Scripts\jtable\themes\basic\close.png" />
+    <Content Include="Scripts\jtable\themes\basic\column-asc.png" />
+    <Content Include="Scripts\jtable\themes\basic\column-desc.png" />
+    <Content Include="Scripts\jtable\themes\basic\column-sortable.png" />
+    <Content Include="Scripts\jtable\themes\basic\delete.png" />
+    <Content Include="Scripts\jtable\themes\basic\edit.png" />
+    <Content Include="Scripts\jtable\themes\basic\jtable_basic.css" />
+    <Content Include="Scripts\jtable\themes\basic\jtable_basic.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\bg-thead.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\blue\jtable.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\blue\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\blue\loading.gif" />
+    <Content Include="Scripts\jtable\themes\lightcolor\close.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\column-asc.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\column-desc.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\column-sortable.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\delete.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\edit.png" />
+    <Content Include="Scripts\jtable\themes\lightcolor\gray\jtable.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\gray\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\gray\loading.gif" />
+    <Content Include="Scripts\jtable\themes\lightcolor\green\jtable.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\green\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\green\loading.gif" />
+    <Content Include="Scripts\jtable\themes\lightcolor\orange\jtable.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\orange\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\orange\loading.gif" />
+    <Content Include="Scripts\jtable\themes\lightcolor\red\jtable.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\red\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\lightcolor\red\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\blue\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\blue\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\blue\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\brown\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\brown\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\brown\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\close.png" />
+    <Content Include="Scripts\jtable\themes\metro\column-asc.png" />
+    <Content Include="Scripts\jtable\themes\metro\column-desc.png" />
+    <Content Include="Scripts\jtable\themes\metro\column-sortable.png" />
+    <Content Include="Scripts\jtable\themes\metro\crimson\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\crimson\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\crimson\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\darkgray\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\darkgray\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\darkgray\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\darkorange\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\darkorange\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\darkorange\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\delete.png" />
+    <Content Include="Scripts\jtable\themes\metro\edit.png" />
+    <Content Include="Scripts\jtable\themes\metro\green\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\green\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\green\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\lightgray\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\lightgray\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\lightgray\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\pink\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\pink\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\pink\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\purple\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\purple\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\purple\loading.gif" />
+    <Content Include="Scripts\jtable\themes\metro\red\jtable.css" />
+    <Content Include="Scripts\jtable\themes\metro\red\jtable.min.css" />
+    <Content Include="Scripts\jtable\themes\metro\red\loading.gif" />
+    <Content Include="Scripts\megamenu.js" />
+    <Content Include="Scripts\modernizr.min.js" />
+    <Content Include="Scripts\themes\default\d.gif" />
+    <Content Include="Scripts\themes\default\d.png" />
+    <Content Include="Scripts\themes\default\style.css" />
+    <Content Include="Scripts\themes\default\throbber.gif" />
+    <Content Include="Services\Customer.asmx" />
+    <Content Include="Services\Opicinf.asmx" />
+    <Content Include="Services\Opics.asmx" />
+    <Content Include="Theme\classic\d.gif" />
+    <Content Include="Theme\classic\d.png" />
+    <Content Include="Theme\classic\dot_for_ie.gif" />
+    <Content Include="Theme\classic\style.css" />
+    <Content Include="Theme\classic\throbber.gif" />
+    <Content Include="Theme\Default\Css\aspnet.css" />
+    <Content Include="Theme\Default\Images\logokkb.png" />
+    <Content Include="Theme\Default\Javascript\jquery-1.11.1.min.js" />
+    <Content Include="Theme\icon\actions-delete.png" />
+    <Content Include="Theme\icon\icon-tracking.png" />
+    <Content Include="Theme\icon\icon-transaction.png" />
+    <Content Include="Theme\icon\actions-redo.png" />
+    <Content Include="Theme\icon\actions-edit.png" />
+    <Content Include="Theme\icon\icon-home.png" />
+    <Content Include="Theme\icon\icon-maintain.png" />
+    <Content Include="Theme\icon\icon-report.png" />
+    <Content Include="Theme\icon\icon-search.png" />
+    <Content Include="Theme\icon\icon-user.png" />
+    <Content Include="Theme\icon\icon_delete.png" />
+    <Content Include="Theme\icon\logout.gif" />
+    <Content Include="Theme\icon\mini_save.png" />
+    <Content Include="Theme\icon\printfile.png" />
+    <Content Include="Theme\icon\savefile.png" />
+    <Content Include="Theme\megamenu\megastyle.css" />
+    <Content Include="Theme\megamenu\menu.css" />
+    <Content Include="Theme\megamenu\normalize.min.css" />
+    <Content Include="TreePermission.aspx" />
+    <Content Include="View\ReportViewer.aspx" />
+    <Content Include="View\Viewer.aspx" />
+    <Content Include="Xml\config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\treasury.conf" />
+    <Content Include="Content2.Master" />
+    <None Include="Form\Files\089\ASSETPLUSF_20140715165303.xls" />
+    <None Include="Form\Files\089\BBLAMF_20140715165311.xls" />
+    <None Include="Form\Files\089\CIMBAMF_20140715165320.xls" />
+    <None Include="Form\Files\089\KASSETF_20140715165344.xls" />
+    <None Include="Form\Files\089\KSAMF01_20140715165353.xls" />
+    <None Include="Form\Files\089\KSAMF02_20140715165402.xls" />
+    <None Include="Form\Files\089\KTAMF01_20140715165410.xls" />
+    <None Include="Form\Files\089\KTAMF02_20140715165419.xls" />
+    <None Include="Form\Files\089\ONEASSETF_20140715165428.xls" />
+    <None Include="Form\Files\089\PASSETF_20140715165437.xls" />
+    <None Include="Form\Files\089\SCBAMF_20140715165447.xls" />
+    <None Include="Form\Files\089\SCBSFFPLUS_20140715170047.xls" />
+    <None Include="Form\Files\089\SOLARISF_20140715165458.xls" />
+    <None Include="Form\Files\089\TFUNDF01_20140715165506.xls" />
+    <None Include="Form\Files\089\TFUNDF02_20140715165515.xls" />
+    <None Include="Form\Files\089\TMBAMF_20140715165336.xls" />
+    <None Include="Scripts\jtable\themes\basic\jtable_basic.less" />
+    <None Include="Scripts\jtable\themes\jtable_theme_base.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\blue\jtable.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\gray\jtable.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\green\jtable.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\jtable_lightcolor_base.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\orange\jtable.less" />
+    <None Include="Scripts\jtable\themes\lightcolor\red\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\blue\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\brown\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\crimson\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\darkgray\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\darkorange\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\green\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\jtable_metro_base.less" />
+    <None Include="Scripts\jtable\themes\metro\lightgray\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\pink\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\purple\jtable.less" />
+    <None Include="Scripts\jtable\themes\metro\red\jtable.less" />
+    <Content Include="adminws.asmx" />
+    <Content Include="ALR\ViewTranALR.aspx" />
+    <Content Include="ALR\UploadTranALR.aspx" />
+    <Content Include="Api\apiBOTExchangeRate.aspx" />
+    <Content Include="Api\apiBOTInterestRate.aspx" />
+    <Content Include="Batch\frm_BatchSchedule.aspx" />
+    <Content Include="CBS\frmCBSAddress.aspx" />
+    <Content Include="CBS\frmCBSContact.aspx" />
+    <Content Include="CBS\frmCBSCustomer.aspx" />
+    <Content Include="Collateral\CtrBalance.aspx" />
+    <Content Include="Collateral\CtrCashFlow.aspx" />
+    <Content Include="Collateral\CtrDailyExposure.aspx" />
+    <Content Include="Collateral\CtrMaster.aspx" />
+    <Content Include="Collateral\CtrRate.aspx" />
+    <Content Include="Collateral\CtrRateGroup.aspx" />
+    <Content Include="Collateral\CtrReport.aspx" />
+    <Content Include="Collateral\CtrSetting.aspx" />
+    <Content Include="Collateral\Default.aspx" />
+    <Content Include="Debenture\frm_DebentureBE.aspx" />
+    <Content Include="Debenture\frm_DebentureImport.aspx" />
+    <Content Include="Debenture\frm_DebentureManagement.aspx" />
+    <Content Include="Debenture\frm_DebentureCloseBook.aspx" />
+    <Content Include="Encrypt\frm_EncryptUpload.aspx" />
+    <Content Include="ForeignExchange\frm_PositionView.aspx" />
+    <Content Include="Form\frm_TR0142SWIFTREC.aspx" />
+    <Content Include="Form\frm_TR051GENPTI.aspx" />
+    <Content Include="Form\frm_TR094FXPAYMAINTAIN.aspx" />
+    <Content Include="Form\frm_TR138PTBE.aspx" />
+    <Content Include="Form\frm_TR139PAYS.aspx" />
+    <Content Include="Form\frm_TR140NTFXCF.aspx" />
+    <Content Include="Form\frm_TR141FIXRATE.aspx" />
+    <Content Include="Form\frm_TR143PCONF.aspx" />
+    <Content Include="Form\frm_TR143PCONFIG.aspx" />
+    <Content Include="Form\frm_TR143PCONFREC.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Lib\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Lib\NPOI.OOXML.dll" />
+    <Content Include="Lib\NPOI.OpenXml4Net.dll" />
+    <Content Include="Lib\NPOI.OpenXmlFormats.dll" />
+    <Content Include="Lib\system.text.encoding.dll" />
+    <Content Include="Maintain\frm_CurrentPosition.aspx" />
+    <Content Include="Maintain\frm_CustomerMapping.aspx" />
+    <Content Include="MarkToMarket\frm_MarkToMarketPoint.aspx" />
+    <Content Include="Nostro\frm_NTADJUST.aspx" />
+    <Content Include="Nostro\frm_NTDAILY.aspx" />
+    <Content Include="Nostro\frm_NUPDCHECK.aspx" />
+    <Content Include="Repo\frm_RepoYieldImport.aspx" />
+    <Content Include="Sanction\frm_BatchList.aspx" />
+    <Content Include="Sanction\frm_Message.aspx" />
+    <Content Include="Sanction\frm_MessageBatch.aspx" />
+    <Content Include="Sanction\frm_MessageMoneyTransfer.aspx" />
+    <Content Include="Sanction\frm_MoneyTransferDownload.aspx" />
+    <Content Include="Sanction\frm_MoneyTransferList.aspx" />
+    <Content Include="Sanction\frm_ReportSwiftList.aspx" />
+    <Content Include="Sanction\frm_SanctionBatch.aspx" />
+    <Content Include="Sanction\frm_SanctionList.aspx" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Site.Master" />
+    <Content Include="STN\ConfigSTN.aspx" />
+    <Content Include="STN\MasterSTN.aspx" />
+    <Content Include="STN\UploadSTN.aspx" />
+    <Content Include="Swift\frm_ImportSwift.aspx" />
+    <Content Include="Template\SanctionMail.html" />
+    <Content Include="Temporary\MoneyTransfer\20190329023615.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329024800.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329024808.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329024814.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329122907.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329123602.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329123608.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190329123735.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190418051450.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190418101528.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190510044324.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190510101822.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521061236.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521061257.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063450.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063552.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063730.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063739.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063748.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063842.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063905.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063918.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521063930.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521064254.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521064305.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521064312.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521064319.txt" />
+    <Content Include="Temporary\MoneyTransfer\20190521064326.txt" />
+    <Content Include="Theme\Default\Images\logokkp.png" />
+    <Content Include="TR145BORATEAVG\frm_AdjNostro.aspx" />
+    <Content Include="TR145BORATEAVG\frm_FXNostroAvg.aspx" />
+    <Content Include="TR145BORATEAVG\frm_FXNostroAvgCancel.aspx" />
+    <Content Include="TR145BORATEAVG\frm_FXNostroUpload.aspx" />
+    <Content Include="TR146OBOPFXCF\frm_PreConfirm.aspx" />
+    <Content Include="TR149OBOFCDOUT\frm_TR149OBOFCDOUT.aspx" />
+    <Content Include="TR152OBOSWIFT\frm_TR152OBOSWIFT.aspx" />
+    <Content Include="TR154TRSSFTLN\frm_TR154IMPTFILE.aspx" />
+    <Content Include="TR154TRSSFTLN\frm_TR154LSTDT.aspx" />
+    <Content Include="TR155OBOACKNAK\frm_TR155OBOACKNAK.aspx" />
+    <Content Include="TR155OBOACKNAK\frm_TR155OBOBOFA.aspx" />
+    <Content Include="Xml\excel.xml" />
+    <None Include="Template\SECDebenture.xls" />
+    <None Include="Template\SwiftFile.xls" />
+    <None Include="Template\Template.xls" />
+    <None Include="Xml\config.xsc">
+      <DependentUpon>config.xsd</DependentUpon>
+    </None>
+    <None Include="Xml\config.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Xml\config.xss">
+      <DependentUpon>config.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Log\" />
+    <Folder Include="obj\" />
+    <Folder Include="Temporary\Mark-To-Market\Monday\" />
+    <Folder Include="Temporary\Mark-To-Market\Wednesday\" />
+    <Folder Include="Temporary\MarkToMarket\" />
+    <Folder Include="Temporary\PTIDownload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>49290</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/TreasurySupportSystem</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

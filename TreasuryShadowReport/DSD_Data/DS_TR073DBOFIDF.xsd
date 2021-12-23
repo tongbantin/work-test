@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR073DBOFIDF" targetNamespace="http://tempuri.org/DS_TR073DBOFIDF.xsd" xmlns:mstns="http://tempuri.org/DS_TR073DBOFIDF.xsd" xmlns="http://tempuri.org/DS_TR073DBOFIDF.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR073DBOFIDF" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR073DBOFIDF" msprop:Generator_DataSetName="DS_TR073DBOFIDF" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR073DBOFIDF" msprop:Generator_UserTableName="TB_TR073DBOFIDF" msprop:Generator_RowDeletedName="TB_TR073DBOFIDFRowDeleted" msprop:Generator_RowChangedName="TB_TR073DBOFIDFRowChanged" msprop:Generator_RowClassName="TB_TR073DBOFIDFRow" msprop:Generator_RowChangingName="TB_TR073DBOFIDFRowChanging" msprop:Generator_RowEvArgName="TB_TR073DBOFIDFRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR073DBOFIDFRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR073DBOFIDFDataTable" msprop:Generator_TableVarName="tableTB_TR073DBOFIDF" msprop:Generator_RowDeletingName="TB_TR073DBOFIDFRowDeleting" msprop:Generator_TablePropName="TB_TR073DBOFIDF">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PROCESSDATE" msprop:Generator_UserColumnName="PROCESSDATE" msprop:Generator_ColumnPropNameInRow="PROCESSDATE" msprop:Generator_ColumnVarNameInTable="columnPROCESSDATE" msprop:Generator_ColumnPropNameInTable="PROCESSDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DATADATE" msprop:Generator_UserColumnName="DATADATE" msprop:Generator_ColumnVarNameInTable="columnDATADATE" msprop:Generator_ColumnPropNameInRow="DATADATE" msprop:Generator_ColumnPropNameInTable="DATADATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ISSUEBEF" msprop:Generator_UserColumnName="ISSUEBEF" msprop:Generator_ColumnVarNameInTable="columnISSUEBEF" msprop:Generator_ColumnPropNameInRow="ISSUEBEF" msprop:Generator_ColumnPropNameInTable="ISSUEBEFColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISSUEAFTNOEXCP" msprop:Generator_UserColumnName="ISSUEAFTNOEXCP" msprop:Generator_ColumnVarNameInTable="columnISSUEAFTNOEXCP" msprop:Generator_ColumnPropNameInRow="ISSUEAFTNOEXCP" msprop:Generator_ColumnPropNameInTable="ISSUEAFTNOEXCPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISSUEAFTEXCP" msprop:Generator_UserColumnName="ISSUEAFTEXCP" msprop:Generator_ColumnVarNameInTable="columnISSUEAFTEXCP" msprop:Generator_ColumnPropNameInRow="ISSUEAFTEXCP" msprop:Generator_ColumnPropNameInTable="ISSUEAFTEXCPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GRANDTOTAL" msprop:Generator_UserColumnName="GRANDTOTAL" msprop:Generator_ColumnVarNameInTable="columnGRANDTOTAL" msprop:Generator_ColumnPropNameInRow="GRANDTOTAL" msprop:Generator_ColumnPropNameInTable="GRANDTOTALColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

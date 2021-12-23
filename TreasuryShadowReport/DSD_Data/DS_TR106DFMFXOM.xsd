@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR106DFMFXOM" targetNamespace="http://tempuri.org/DS_TR106DFMFXOM.xsd" xmlns:mstns="http://tempuri.org/DS_TR106DFMFXOM.xsd" xmlns="http://tempuri.org/DS_TR106DFMFXOM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR106DFMFXOM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_TR106DFMFXOM" msprop:Generator_UserDSName="DS_TR106DFMFXOM" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR106DFMFXOM" msprop:Generator_UserTableName="TB_TR106DFMFXOM" msprop:Generator_RowDeletedName="TB_TR106DFMFXOMRowDeleted" msprop:Generator_TableClassName="TB_TR106DFMFXOMDataTable" msprop:Generator_RowChangedName="TB_TR106DFMFXOMRowChanged" msprop:Generator_RowClassName="TB_TR106DFMFXOMRow" msprop:Generator_RowChangingName="TB_TR106DFMFXOMRowChanging" msprop:Generator_RowEvArgName="TB_TR106DFMFXOMRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR106DFMFXOMRowChangeEventHandler" msprop:Generator_TablePropName="TB_TR106DFMFXOM" msprop:Generator_TableVarName="tableTB_TR106DFMFXOM" msprop:Generator_RowDeletingName="TB_TR106DFMFXOMRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BR" msprop:Generator_UserColumnName="BR" msprop:Generator_ColumnPropNameInRow="BR" msprop:Generator_ColumnVarNameInTable="columnBR" msprop:Generator_ColumnPropNameInTable="BRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CTR" msprop:Generator_UserColumnName="CTR" msprop:Generator_ColumnPropNameInRow="CTR" msprop:Generator_ColumnVarNameInTable="columnCTR" msprop:Generator_ColumnPropNameInTable="CTRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER" msprop:Generator_UserColumnName="CUSTOMER" msprop:Generator_ColumnPropNameInRow="CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER" msprop:Generator_ColumnPropNameInTable="CUSTOMERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRADEDATE" msprop:Generator_UserColumnName="TRADEDATE" msprop:Generator_ColumnPropNameInRow="TRADEDATE" msprop:Generator_ColumnVarNameInTable="columnTRADEDATE" msprop:Generator_ColumnPropNameInTable="TRADEDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCYAMOUNT" msprop:Generator_UserColumnName="CCYAMOUNT" msprop:Generator_ColumnPropNameInRow="CCYAMOUNT" msprop:Generator_ColumnVarNameInTable="columnCCYAMOUNT" msprop:Generator_ColumnPropNameInTable="CCYAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTRAMOUNT" msprop:Generator_UserColumnName="CTRAMOUNT" msprop:Generator_ColumnPropNameInRow="CTRAMOUNT" msprop:Generator_ColumnVarNameInTable="columnCTRAMOUNT" msprop:Generator_ColumnPropNameInTable="CTRAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RATE" msprop:Generator_UserColumnName="RATE" msprop:Generator_ColumnPropNameInRow="RATE" msprop:Generator_ColumnVarNameInTable="columnRATE" msprop:Generator_ColumnPropNameInTable="RATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MTM" msprop:Generator_UserColumnName="MTM" msprop:Generator_ColumnPropNameInRow="MTM" msprop:Generator_ColumnVarNameInTable="columnMTM" msprop:Generator_ColumnPropNameInTable="MTMColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MTM_RATE" msprop:Generator_UserColumnName="MTM_RATE" msprop:Generator_ColumnPropNameInRow="MTM_RATE" msprop:Generator_ColumnVarNameInTable="columnMTM_RATE" msprop:Generator_ColumnPropNameInTable="MTM_RATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALESMARGIN" msprop:Generator_UserColumnName="SALESMARGIN" msprop:Generator_ColumnPropNameInRow="SALESMARGIN" msprop:Generator_ColumnVarNameInTable="columnSALESMARGIN" msprop:Generator_ColumnPropNameInTable="SALESMARGINColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OFFMARKET" msprop:Generator_UserColumnName="OFFMARKET" msprop:Generator_ColumnPropNameInRow="OFFMARKET" msprop:Generator_ColumnVarNameInTable="columnOFFMARKET" msprop:Generator_ColumnPropNameInTable="OFFMARKETColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

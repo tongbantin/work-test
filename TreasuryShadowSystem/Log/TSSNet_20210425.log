@@ -1,0 +1,35 @@
+2021-04-25 00:01:15,238 [9] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425000115upload_file_test.csv
+2021-04-25 00:07:41,324 [9] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425000741test_upload_csv.csv
+2021-04-25 00:09:20,188 [9] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425000920test_upload_csv.csv
+2021-04-25 00:18:57,415 [10] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425001857test_csv.csv
+2021-04-25 00:26:24,115 [10] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425002624test_csv.csv
+2021-04-25 00:29:04,822 [15] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425002904test_csv.csv
+2021-04-25 00:48:20,363 [14] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210425004820test_csv.csv
+2021-04-25 13:20:54,859 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-25 13:20:55,134 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :25/04/2021 01:20:55
+2021-04-25 13:20:55,272 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-25 13:55:02,697 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-04-25 13:55:02,698 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection request timed out
+2021-04-25 13:55:02,833 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-04-25 13:55:02,833 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-04-25 13:55:03,102 [9] ERROR TreasuryShadowSystem.STN.MasterSTN [(null)] - Object reference not set to an instance of an object.
+2021-04-25 13:55:09,004 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-04-25 13:55:09,004 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-04-25 13:55:09,097 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-04-25 13:55:09,097 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-04-25 13:55:09,326 [4] ERROR TreasuryShadowSystem.STN.MasterSTN [(null)] - Object reference not set to an instance of an object.
+2021-04-25 14:26:46,079 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-25 14:26:46,131 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-25 14:34:28,119 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-25 14:34:28,545 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-25 14:35:20,005 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-25 14:35:20,064 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-25 14:35:29,011 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-25 14:35:29,080 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-25 14:41:55,018 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-25 14:41:55,309 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :25/04/2021 02:41:55
+2021-04-25 14:41:55,394 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-25 15:01:16,303 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-25 15:01:25,677 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-25 15:04:28,755 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-25 15:04:37,049 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----

@@ -1,0 +1,95 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Content2.master.cs" Inherits="TreasuryShadowSystem.Content2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <%--<meta charset="utf-8">--%>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <title>Treasury Support System(TSS) -- Kiatnakin Bank Public Co., Ltd.</title>
+	<meta http-equiv="description" content="Treasury Support System(TSS) -- Kiatnakin Bank Public Co., Ltd." />
+    <meta http-equiv="content-type" content="text/html; charset=windows-874" />
+    <!--<link rel="stylesheet" href="Theme/Default/Css/style.css" type="text/css" />-->
+    <!--<link rel="stylesheet" href="Theme/Default/Css/bootstrap.css" type="text/css" />-->
+    
+    
+    <%--<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Theme/Default/Javascript/jquery-1.8.2.js") %>"></script>--%>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery-1.9.1.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Theme/Default/Javascript/jquery.html5-placeholder.js") %>"></script>
+
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.jqGrid-4.5.2/js/i18n/grid.locale-en.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.jqGrid-4.5.2/js/jquery.jqGrid.min.js") %>"></script>
+    
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.cookie.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.hotkeys.js") %>"></script>
+    
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.blockUI.js") %>" ></script>
+    
+    <!-- Optimize for mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $("div.content-module-heading.cf").click(function() {
+                if ($('#criteria-content').is(':visible') == true)
+                    $('#criteria-content').animate({ height: 'hide' });
+                else
+                    $('#criteria-content').animate({ height: 'show' });
+            });
+
+            $("div.content-module-heading-result.cf").click(function() {
+                if ($('#result-content').is(':visible') == true)
+                    $('#result-content').animate({ height: 'hide' });
+                else
+                    $('#result-content').animate({ height: 'show' });
+            });          
+        });
+        
+        function blockPage() {
+            $.blockUI({
+                css: {
+                    border: 'none',
+                    padding: '15px',
+                    backgroundColor: '#000',
+                    'border-radius': '10px',
+                    opacity: .5,
+                    color: '#fff'
+                }
+            });
+        }
+
+        function unblockPage() {
+            $.unblockUI();
+        }
+
+        function autoResize(id) {
+            var newheight;
+            var newwidth;
+
+            if (document.getElementById) {
+                newheight = document.getElementById(id).contentWindow.document.body.scrollHeight;
+                newwidth = document.getElementById(id).contentWindow.document.body.scrollWidth;
+            }
+
+            document.getElementById(id).height = (newheight) + "px";
+            document.getElementById(id).width = (newwidth) + "px";
+
+        }
+
+        function getAbsolutePath() {
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+            return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
+        }
+    </script>
+    
+    <asp:ContentPlaceHolder ID="headContent" runat="server" />
+    
+</head>
+<body>
+
+    <asp:ContentPlaceHolder ID="bodyContent" runat="server" />
+	
+</body>
+</html>

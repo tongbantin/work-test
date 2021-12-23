@@ -1,0 +1,31 @@
+2021-07-19 21:03:35,319 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-19 21:03:35,338 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-07-19 21:03:35,432 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-19 21:03:35,432 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-19 21:03:54,170 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-19 21:03:54,170 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-07-19 21:03:54,171 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-19 21:03:54,260 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-19 21:03:54,260 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-19 21:03:54,261 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :19/07/2021 09:03:54
+2021-07-19 21:03:54,353 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-19 21:03:54,929 [4] ERROR TreasuryShadowSystem.Site [(null)] - Cannot find table 0.
+2021-07-19 21:23:28,703 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-19 21:23:28,797 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :19/07/2021 09:23:28
+2021-07-19 21:23:28,886 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-19 21:27:37,034 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-07-19 21:27:37,034 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-07-19 21:27:37,117 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-07-19 21:32:15,794 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-19 21:32:15,849 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :19/07/2021 09:32:15
+2021-07-19 21:32:15,938 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-19 21:37:40,514 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-19 21:37:40,551 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :19/07/2021 09:37:40
+2021-07-19 21:37:40,651 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-19 21:50:49,212 [12] INFO  TreasuryModel.Data.Custodian [(null)] - ----- Custodian Finish-----
+2021-07-19 21:50:49,226 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - -----KKB_TB_CUSTTYPEMAPPING Start-----
+2021-07-19 21:50:49,226 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - SQL Statement : SELECT * FROM OPICINF.KKB_TB_CUSTTYPE_MAPPING
+2021-07-19 21:50:49,258 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - -----KKB_TB_CUSTTYPEMAPPING Finish-----
+2021-07-19 21:50:49,269 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - -----KKB_TB_CUSTTYPEMAPPING Start-----
+2021-07-19 21:50:49,269 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - SQL Statement : SELECT INPUTDATE || ' No.' || NVL(INPUTROUND,1) as InputDateDisplay, INPUTDATE || ' ' || INPUTROUND as InputDateValue FROM (SELECT TO_CHAR(INPUTDATE,'DD/MM/YYYY') as INPUTDATE, INPUTROUND FROM OPICINF.KKB_TB_DEBENTURE GROUP BY TO_CHAR(INPUTDATE,'DD/MM/YYYY'), INPUTROUND) ORDER BY TO_DATE(INPUTDATE,'DD/MM/YYYY') DESC, INPUTROUND DESC 
+2021-07-19 21:50:49,305 [12] INFO  TreasuryModel.Data.Model_MS_Debenture [(null)] - -----KKB_TB_CUSTTYPEMAPPING Finish-----

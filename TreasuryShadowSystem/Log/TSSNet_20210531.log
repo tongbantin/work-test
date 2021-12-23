@@ -1,0 +1,941 @@
+2021-05-31 00:20:09,656 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 00:20:10,230 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 12:20:10
+2021-05-31 00:20:10,368 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 00:20:18,545 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 00:20:18,818 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 00:20:18,826 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 00:20:18,826 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 00:20:18,826 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 00:20:18,826 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 00:20:18,834 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 00:20:18,834 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 00:20:18,834 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 00:20:18,834 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 00:20:18,865 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:18,967 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,068 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,185 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,287 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,404 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,521 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:20:19,631 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:47,968 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 00:27:48,695 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 12:27:48
+2021-05-31 00:27:48,835 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 00:27:57,671 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 00:27:58,296 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 00:27:58,304 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 00:27:58,312 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 00:27:58,312 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 00:27:58,335 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:58,640 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:58,851 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:59,054 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:59,273 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:59,491 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:59,687 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:27:59,905 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:53,911 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 00:42:54,154 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 00:42:54,154 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 00:42:54,154 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 00:42:54,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 00:42:54,193 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:54,458 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:54,669 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:54,880 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:55,099 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:55,318 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:55,544 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:42:55,763 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 00:51:08,521 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ViewPassword
+2021-05-31 00:51:08,529 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-05-31 00:51:08,529 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 00:51:08,529 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - symbol:KKP21O04Zproducttype:BODN
+2021-05-31 00:51:09,076 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-31 00:51:09,099 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'KKB_SP_TSS_STNCONF'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-05-31 00:51:09,099 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Finish-----
+2021-05-31 00:51:43,052 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ViewPassword
+2021-05-31 00:51:43,302 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-05-31 00:51:43,310 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 00:51:43,310 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - symbol:KKP21O04Zproducttype:BODN
+2021-05-31 00:51:43,591 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-31 00:51:43,607 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'KKB_SP_TSS_STNCONF'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-05-31 00:51:43,607 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Finish-----
+2021-05-31 00:52:13,912 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-05-31 00:52:14,677 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 00:52:15,435 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - symbol:KKP21O04Zproducttype:BODN
+2021-05-31 00:52:26,716 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-31 00:52:26,747 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'KKB_SP_TSS_STNCONF'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-05-31 01:00:20,710 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 01:00:21,182 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 01:00:21
+2021-05-31 01:00:21,329 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 01:00:30,877 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 01:00:31,243 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 01:00:31,251 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 01:00:31,260 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 01:00:31,285 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:31,549 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:31,702 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:31,847 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:32,017 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:32,187 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:32,357 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:00:32,519 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:48,129 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 01:06:48,434 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 01:06:48
+2021-05-31 01:06:48,653 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 01:06:56,473 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 01:06:56,583 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 01:06:56,583 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:56,708 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:56,848 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:56,997 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:57,137 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:57,262 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:57,403 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:06:57,543 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:40,779 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 01:12:41,365 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 01:12:41
+2021-05-31 01:12:41,498 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 01:12:51,264 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 01:12:51,599 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 01:12:51,607 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 01:12:51,615 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 01:12:51,639 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:51,818 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:51,974 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:52,107 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:52,248 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:52,381 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:52,521 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:12:52,662 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 01:15:44,615 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-05-31 01:15:44,631 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 01:15:49,248 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>262</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600013</ORDER_NO>
+    <ACCT_NO>20135498</ACCT_NO>
+    <SYMBOL>KKBODN21O04Z</SYMBOL>
+    <KKSYMBOL>KKP21O04Z</KKSYMBOL>
+    <UNIT>10</UNIT>
+    <AMOUNT>10000000</AMOUNT>
+    <FULLNAME>??? ???????? ????</FULLNAME>
+    <TAXID>3100215478963</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>32548741</CUST_BANK_ACCT>
+    <TEL>081-111-1112</TEL>
+    <EMAIL>Eknarong@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>BODN</STN_TYPE>
+    <NOTE_SERIES>1/2564</NOTE_SERIES>
+    <UNDERLYING1>PTT</UNDERLYING1>
+    <UNDERLYING2>LH</UNDERLYING2>
+    <UNDERLYING3>CPALL</UNDERLYING3>
+    <STRIKE_PRICE1>40</STRIKE_PRICE1>
+    <STRIKE_PRICE2>8</STRIKE_PRICE2>
+    <STRIKE_PRICE3>69</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>10000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>1</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>0</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>1</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>1</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>1</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0.25</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>0.15</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.6232</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>1</UNWIND_PRICE>
+    <UNWIND_DEALDATE>06/05/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>13/05/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ???????????????????????????????????????????? KTC, OSP, VGI ????????? ?????????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Bonus Digital Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? ??? Rebate</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+??????? 1 ??????????????????????? ? ?????????????????????????????????? (Fixing Price) ?????????????????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)
+(?) ??????????????? ??????????????????????? × Rebate
+??????? 2 ???????????????????????????????????????? ? ?????????????????????????????????? (Fixing Price) ??????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>39</SETTLE_PRICE1>
+    <SETTLE_PRICE2>9</SETTLE_PRICE2>
+    <SETTLE_PRICE3>70</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>0</SETTLE_DAYS>
+  </TB_STNCONF>
+</NewDataSet>
+2021-05-31 01:15:49,256 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-05-31 01:15:56,318 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-05-31 01:15:56,381 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 01:15:56,724 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>261</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600012</ORDER_NO>
+    <ACCT_NO>78451263</ACCT_NO>
+    <SYMBOL>KKBODN21O04Z</SYMBOL>
+    <KKSYMBOL>KKP21O04Z</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ??????? ??????????</FULLNAME>
+    <TAXID>3165874542047</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>31587499</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Punlapat@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>BODN</STN_TYPE>
+    <NOTE_SERIES>1/2564</NOTE_SERIES>
+    <UNDERLYING1>PTT</UNDERLYING1>
+    <UNDERLYING2>LH</UNDERLYING2>
+    <UNDERLYING3>CPALL</UNDERLYING3>
+    <STRIKE_PRICE1>40</STRIKE_PRICE1>
+    <STRIKE_PRICE2>8</STRIKE_PRICE2>
+    <STRIKE_PRICE3>69</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>1</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>0</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>1</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>1</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>1</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0.25</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>0.15</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.6232</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>99</UNWIND_PRICE>
+    <UNWIND_DEALDATE>21/07/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>23/07/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ???????????????????????????????????????????? KTC, OSP, VGI ????????? ?????????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Bonus Digital Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? ??? Rebate</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+??????? 1 ??????????????????????? ? ?????????????????????????????????? (Fixing Price) ?????????????????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)
+(?) ??????????????? ??????????????????????? × Rebate
+??????? 2 ???????????????????????????????????????? ? ?????????????????????????????????? (Fixing Price) ??????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>39</SETTLE_PRICE1>
+    <SETTLE_PRICE2>9</SETTLE_PRICE2>
+    <SETTLE_PRICE3>70</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>0</SETTLE_DAYS>
+  </TB_STNCONF>
+</NewDataSet>
+2021-05-31 01:15:56,779 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-05-31 01:15:58,842 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-05-31 01:15:58,920 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 01:15:59,217 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>261</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600012</ORDER_NO>
+    <ACCT_NO>78451263</ACCT_NO>
+    <SYMBOL>KKBODN21O04Z</SYMBOL>
+    <KKSYMBOL>KKP21O04Z</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ??????? ??????????</FULLNAME>
+    <TAXID>3165874542047</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>31587499</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Punlapat@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>BODN</STN_TYPE>
+    <NOTE_SERIES>1/2564</NOTE_SERIES>
+    <UNDERLYING1>PTT</UNDERLYING1>
+    <UNDERLYING2>LH</UNDERLYING2>
+    <UNDERLYING3>CPALL</UNDERLYING3>
+    <STRIKE_PRICE1>40</STRIKE_PRICE1>
+    <STRIKE_PRICE2>8</STRIKE_PRICE2>
+    <STRIKE_PRICE3>69</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>1</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>0</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>1</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>1</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>1</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0.25</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>0.15</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.6232</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>99</UNWIND_PRICE>
+    <UNWIND_DEALDATE>21/07/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>23/07/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ???????????????????????????????????????????? KTC, OSP, VGI ????????? ?????????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Bonus Digital Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? ??? Rebate</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+??????? 1 ??????????????????????? ? ?????????????????????????????????? (Fixing Price) ?????????????????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)
+(?) ??????????????? ??????????????????????? × Rebate
+??????? 2 ???????????????????????????????????????? ? ?????????????????????????????????? (Fixing Price) ??????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>39</SETTLE_PRICE1>
+    <SETTLE_PRICE2>9</SETTLE_PRICE2>
+    <SETTLE_PRICE3>70</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>0</SETTLE_DAYS>
+  </TB_STNCONF>
+</NewDataSet>
+2021-05-31 01:15:59,264 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-05-31 01:16:02,342 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-05-31 01:16:02,420 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 01:16:02,748 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>262</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600013</ORDER_NO>
+    <ACCT_NO>20135498</ACCT_NO>
+    <SYMBOL>KKBODN21O04Z</SYMBOL>
+    <KKSYMBOL>KKP21O04Z</KKSYMBOL>
+    <UNIT>10</UNIT>
+    <AMOUNT>10000000</AMOUNT>
+    <FULLNAME>??? ???????? ????</FULLNAME>
+    <TAXID>3100215478963</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>32548741</CUST_BANK_ACCT>
+    <TEL>081-111-1112</TEL>
+    <EMAIL>Eknarong@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>BODN</STN_TYPE>
+    <NOTE_SERIES>1/2564</NOTE_SERIES>
+    <UNDERLYING1>PTT</UNDERLYING1>
+    <UNDERLYING2>LH</UNDERLYING2>
+    <UNDERLYING3>CPALL</UNDERLYING3>
+    <STRIKE_PRICE1>40</STRIKE_PRICE1>
+    <STRIKE_PRICE2>8</STRIKE_PRICE2>
+    <STRIKE_PRICE3>69</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>10000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>1</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>0</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>1</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>1</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>1</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0.25</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>0.15</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.6232</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>1</UNWIND_PRICE>
+    <UNWIND_DEALDATE>06/05/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>13/05/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ???????????????????????????????????????????? KTC, OSP, VGI ????????? ?????????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Bonus Digital Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? ??? Rebate</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+??????? 1 ??????????????????????? ? ?????????????????????????????????? (Fixing Price) ?????????????????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)
+(?) ??????????????? ??????????????????????? × Rebate
+??????? 2 ???????????????????????????????????????? ? ?????????????????????????????????? (Fixing Price) ??????????????????? (Strike Price)
+(?) ?????????????? ??????????????????????? × ??????????????????????? 
+(?) ??????????????? ??????????????????????? × Min Yield × (??????????/365)</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>39</SETTLE_PRICE1>
+    <SETTLE_PRICE2>9</SETTLE_PRICE2>
+    <SETTLE_PRICE3>70</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>0</SETTLE_DAYS>
+  </TB_STNCONF>
+</NewDataSet>
+2021-05-31 01:16:02,810 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-05-31 02:34:18,576 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 02:34:19,193 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 02:34:19
+2021-05-31 02:34:19,334 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 02:34:26,959 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 02:34:27,295 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 02:34:27,303 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 02:34:27,311 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 02:34:27,334 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:27,537 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:27,717 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:27,873 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:28,045 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:28,178 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:28,357 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:34:28,498 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:43,673 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Get Report Settlement
+2021-05-31 02:50:43,690 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 02:50:43,869 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 02:50:43,877 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 02:50:43,877 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 02:50:43,877 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 02:50:43,877 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 02:50:43,877 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 02:50:43,886 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 02:50:43,886 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 02:50:43,886 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 02:50:43,886 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,056 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,252 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,405 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,566 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,720 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:44,932 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:45,102 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:50:51,690 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-05-31 02:50:51,698 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 02:50:52,042 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-31 02:50:52,073 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'KKB_SP_TSS_STNCONF'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-05-31 02:50:52,073 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Finish-----
+2021-05-31 02:51:56,021 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Get Report Settlement
+2021-05-31 02:51:56,037 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 02:51:56,146 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 02:51:56,146 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 02:51:56,154 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 02:51:56,162 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:56,310 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:56,475 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:56,639 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:56,787 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:56,928 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:57,123 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:51:57,279 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 02:52:20,232 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-05-31 02:52:21,232 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-05-31 09:20:40,966 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 09:20:41,160 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 09:20:41
+2021-05-31 09:20:41,263 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 09:24:23,874 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 09:24:23,966 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 09:24:23
+2021-05-31 09:24:24,042 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 09:24:28,717 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 09:24:28,913 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 09:24:28,915 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 09:24:28,916 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 09:24:28,917 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 09:24:28,917 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 09:24:28,917 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 09:24:28,917 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 09:24:28,917 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 09:24:28,918 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 09:24:28,932 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:30,060 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:30,115 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:30,150 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:31,689 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:31,730 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:31,773 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 09:24:31,817 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:28:42,773 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 10:28:44,748 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 10:28:44,749 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 10:29:15,762 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-05-31 10:29:17,129 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY,STN_SEQ = :STN_SEQ,STN_SEQDATE = :STN_SEQDATE   WHERE MASSTNID = :MASSTNID 
+2021-05-31 10:29:27,135 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-05-31 10:29:31,578 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:29:31,641 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:29:31,641 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:29:31,641 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:29:31,641 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:29:31,642 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:29:31,684 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:29:31,685 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:29:31,685 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:29:31,685 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:29:31,686 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,717 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,748 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,779 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,811 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,841 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,870 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:29:31,902 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,167 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-05-31 10:33:15,221 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY,STN_SEQ = :STN_SEQ,STN_SEQDATE = :STN_SEQDATE   WHERE MASSTNID = :MASSTNID 
+2021-05-31 10:33:15,276 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-05-31 10:33:15,289 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:33:15,315 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:33:15,315 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:33:15,316 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:33:15,316 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:33:15,316 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:33:15,316 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:33:15,316 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:33:15,317 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:33:15,317 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:33:15,318 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,368 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,409 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,452 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,488 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,540 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,577 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:15,616 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:30,792 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-05-31 10:33:30,852 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY,STN_SEQ = :STN_SEQ,STN_SEQDATE = :STN_SEQDATE   WHERE MASSTNID = :MASSTNID 
+2021-05-31 10:33:30,893 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-05-31 10:33:30,910 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:33:30,938 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:33:30,939 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:33:30,939 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:33:30,939 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:33:30,939 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:33:30,939 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:33:30,940 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:33:30,940 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:33:30,940 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:33:30,941 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:30,986 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,030 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,074 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,120 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,162 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,200 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:33:31,240 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,531 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:34:12,588 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:34:12,588 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:34:12,588 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:34:12,589 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:34:12,589 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:34:12,589 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:34:12,589 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:34:12,590 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:34:12,590 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:34:12,590 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-05-31 10:34:12,591 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,670 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,733 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,773 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,820 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,855 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,888 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,926 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:34:12,965 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:30,663 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = '?????????') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = '?????????')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 10:45:30,927 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 10:45:30
+2021-05-31 10:45:31,032 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 10:45:44,883 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 10:45:45,010 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 10:45:45
+2021-05-31 10:45:45,117 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 10:45:50,729 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:45:50,955 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:45:50,963 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:45:50,971 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-05-31 10:45:51,002 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,072 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,205 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,275 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,330 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,369 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,416 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,463 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:45:51,510 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,291 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-05-31 10:46:10,299 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY,STN_SEQ = :STN_SEQ,STN_SEQDATE = :STN_SEQDATE   WHERE MASSTNID = :MASSTNID 
+2021-05-31 10:46:10,368 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-05-31 10:46:10,385 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:46:10,428 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-05-31 10:46:10,437 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,488 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,548 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,609 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,694 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:10,763 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:11,089 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:11,158 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:11,261 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:18,657 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Delete-----
+2021-05-31 10:46:18,657 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : DELETE FROM OPICINF.KKB_TB_STN_MASTER WHERE MASSTNID ='261'
+2021-05-31 10:46:18,742 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish-----
+2021-05-31 10:46:18,752 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:46:18,799 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:46:18,799 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:18,856 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:18,912 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:18,997 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:19,044 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:19,111 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:19,177 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:19,233 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:46:31,433 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 10:46:31,467 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 10:46:31,467 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 10:53:05,424 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 10:53:05,464 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 10:53:05,486 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,520 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,560 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,594 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,629 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,657 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,685 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 10:53:05,725 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:43,080 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 11:39:43,453 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 11:39:43
+2021-05-31 11:39:43,547 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 11:39:49,700 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 11:39:49,893 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 11:39:49,899 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 11:39:49,899 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 11:39:49,912 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:49,968 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,005 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,049 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,086 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,123 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,172 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:39:50,206 [7] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:44:01,337 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 11:44:01,381 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 11:44:01,381 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 11:44:19,489 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 11:44:19,525 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 11:44:19,525 [7] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 11:50:02,884 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 11:50:03,348 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 11:50:03
+2021-05-31 11:50:03,464 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 11:50:14,610 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 11:50:14,890 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 11:50:14,890 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 11:50:14,899 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 11:50:14,933 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,027 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,078 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,129 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,188 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,231 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,273 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:15,316 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 11:50:22,557 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 11:50:22,620 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 11:50:22,620 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 11:50:33,774 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 11:50:33,802 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 11:50:33,802 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 11:51:00,381 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-31 11:51:00,423 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-31 11:51:00,423 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-31 14:48:36,595 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-31 14:48:37,382 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :31/05/2021 02:48:37
+2021-05-31 14:48:37,509 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-31 14:50:02,732 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-31 14:50:02,982 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-31 14:50:02,982 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-31 14:50:02,982 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-31 14:50:02,982 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-31 14:50:02,982 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-31 14:50:02,990 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-31 14:50:02,990 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-31 14:50:02,990 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-31 14:50:02,990 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-31 14:50:03,037 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,123 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,169 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,216 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,263 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,302 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,357 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:50:03,396 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-31 14:54:56,731 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-05-31 15:02:38,251 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----

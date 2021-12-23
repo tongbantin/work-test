@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR101OBOCOLS" targetNamespace="http://tempuri.org/DS_TR101OBOCOLS.xsd" xmlns:mstns="http://tempuri.org/DS_TR101OBOCOLS.xsd" xmlns="http://tempuri.org/DS_TR101OBOCOLS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR101OBOCOLS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR101OBOCOLS" msprop:Generator_DataSetName="DS_TR101OBOCOLS" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR101OBOCOLS" msprop:Generator_UserTableName="TB_TR101OBOCOLS" msprop:Generator_RowDeletedName="TB_TR101OBOCOLSRowDeleted" msprop:Generator_RowChangedName="TB_TR101OBOCOLSRowChanged" msprop:Generator_RowClassName="TB_TR101OBOCOLSRow" msprop:Generator_RowChangingName="TB_TR101OBOCOLSRowChanging" msprop:Generator_RowEvArgName="TB_TR101OBOCOLSRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR101OBOCOLSRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR101OBOCOLSDataTable" msprop:Generator_TableVarName="tableTB_TR101OBOCOLS" msprop:Generator_RowDeletingName="TB_TR101OBOCOLSRowDeleting" msprop:Generator_TablePropName="TB_TR101OBOCOLS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUST" msprop:Generator_UserColumnName="CUST" msprop:Generator_ColumnVarNameInTable="columnCUST" msprop:Generator_ColumnPropNameInRow="CUST" msprop:Generator_ColumnPropNameInTable="CUSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INDAMOUNT" msprop:Generator_UserColumnName="INDAMOUNT" msprop:Generator_ColumnPropNameInRow="INDAMOUNT" msprop:Generator_ColumnVarNameInTable="columnINDAMOUNT" msprop:Generator_ColumnPropNameInTable="INDAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INITMARGIN" msprop:Generator_UserColumnName="INITMARGIN" msprop:Generator_ColumnPropNameInRow="INITMARGIN" msprop:Generator_ColumnVarNameInTable="columnINITMARGIN" msprop:Generator_ColumnPropNameInTable="INITMARGINColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTPY_THRESHOLD" msprop:Generator_UserColumnName="CTPY_THRESHOLD" msprop:Generator_ColumnVarNameInTable="columnCTPY_THRESHOLD" msprop:Generator_ColumnPropNameInRow="CTPY_THRESHOLD" msprop:Generator_ColumnPropNameInTable="CTPY_THRESHOLDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KK_THRESHOLD" msprop:Generator_UserColumnName="KK_THRESHOLD" msprop:Generator_ColumnVarNameInTable="columnKK_THRESHOLD" msprop:Generator_ColumnPropNameInRow="KK_THRESHOLD" msprop:Generator_ColumnPropNameInTable="KK_THRESHOLDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MIN_TRANSFER" msprop:Generator_UserColumnName="MIN_TRANSFER" msprop:Generator_ColumnVarNameInTable="columnMIN_TRANSFER" msprop:Generator_ColumnPropNameInRow="MIN_TRANSFER" msprop:Generator_ColumnPropNameInTable="MIN_TRANSFERColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ROUNDING_AMT" msprop:Generator_UserColumnName="ROUNDING_AMT" msprop:Generator_ColumnVarNameInTable="columnROUNDING_AMT" msprop:Generator_ColumnPropNameInRow="ROUNDING_AMT" msprop:Generator_ColumnPropNameInTable="ROUNDING_AMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SETTLED_AMT" msprop:Generator_UserColumnName="SETTLED_AMT" msprop:Generator_ColumnVarNameInTable="columnSETTLED_AMT" msprop:Generator_ColumnPropNameInRow="SETTLED_AMT" msprop:Generator_ColumnPropNameInTable="SETTLED_AMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PENDING_AMT" msprop:Generator_UserColumnName="PENDING_AMT" msprop:Generator_ColumnVarNameInTable="columnPENDING_AMT" msprop:Generator_ColumnPropNameInRow="PENDING_AMT" msprop:Generator_ColumnPropNameInTable="PENDING_AMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EXPOSURE" msprop:Generator_UserColumnName="EXPOSURE" msprop:Generator_ColumnVarNameInTable="columnEXPOSURE" msprop:Generator_ColumnPropNameInRow="EXPOSURE" msprop:Generator_ColumnPropNameInTable="EXPOSUREColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LOCAL_CCY_EXP" msprop:Generator_UserColumnName="LOCAL_CCY_EXP" msprop:Generator_ColumnVarNameInTable="columnLOCAL_CCY_EXP" msprop:Generator_ColumnPropNameInRow="LOCAL_CCY_EXP" msprop:Generator_ColumnPropNameInTable="LOCAL_CCY_EXPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="REPORT_DATE" msprop:Generator_UserColumnName="REPORT_DATE" msprop:Generator_ColumnPropNameInRow="REPORT_DATE" msprop:Generator_ColumnVarNameInTable="columnREPORT_DATE" msprop:Generator_ColumnPropNameInTable="REPORT_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EXP_RETURN" msprop:Generator_UserColumnName="EXP_RETURN" msprop:Generator_ColumnPropNameInRow="EXP_RETURN" msprop:Generator_ColumnVarNameInTable="columnEXP_RETURN" msprop:Generator_ColumnPropNameInTable="EXP_RETURNColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR155OBOACKNAK" targetNamespace="http://tempuri.org/DS_TR155OBOACKNAK.xsd" xmlns:mstns="http://tempuri.org/DS_TR155OBOACKNAK.xsd" xmlns="http://tempuri.org/DS_TR155OBOACKNAK.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR155OBOACKNAK" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_TR155OBOACKNAK" msprop:Generator_UserDSName="DS_TR155OBOACKNAK" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR155OBOACKNAK" msprop:Generator_UserTableName="TB_TR155OBOACKNAK" msprop:Generator_RowDeletedName="TB_TR155OBOACKNAKRowDeleted" msprop:Generator_TableClassName="TB_TR155OBOACKNAKDataTable" msprop:Generator_RowChangedName="TB_TR155OBOACKNAKRowChanged" msprop:Generator_RowClassName="TB_TR155OBOACKNAKRow" msprop:Generator_RowChangingName="TB_TR155OBOACKNAKRowChanging" msprop:Generator_RowEvArgName="TB_TR155OBOACKNAKRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR155OBOACKNAKRowChangeEventHandler" msprop:Generator_TablePropName="TB_TR155OBOACKNAK" msprop:Generator_TableVarName="tableTB_TR155OBOACKNAK" msprop:Generator_RowDeletingName="TB_TR155OBOACKNAKRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SWIFT_REFCODE" msprop:Generator_UserColumnName="SWIFT_REFCODE" msprop:Generator_ColumnPropNameInRow="SWIFT_REFCODE" msprop:Generator_ColumnVarNameInTable="columnSWIFT_REFCODE" msprop:Generator_ColumnPropNameInTable="SWIFT_REFCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWIFT_CCY" msprop:Generator_UserColumnName="SWIFT_CCY" msprop:Generator_ColumnPropNameInRow="SWIFT_CCY" msprop:Generator_ColumnVarNameInTable="columnSWIFT_CCY" msprop:Generator_ColumnPropNameInTable="SWIFT_CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWIFT_CCYAMT" msprop:Generator_UserColumnName="SWIFT_CCYAMT" msprop:Generator_ColumnPropNameInRow="SWIFT_CCYAMT" msprop:Generator_ColumnVarNameInTable="columnSWIFT_CCYAMT" msprop:Generator_ColumnPropNameInTable="SWIFT_CCYAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SWIFT_VDATE" msprop:Generator_UserColumnName="SWIFT_VDATE" msprop:Generator_ColumnPropNameInRow="SWIFT_VDATE" msprop:Generator_ColumnVarNameInTable="columnSWIFT_VDATE" msprop:Generator_ColumnPropNameInTable="SWIFT_VDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHPRO_CUST" msprop:Generator_UserColumnName="CASHPRO_CUST" msprop:Generator_ColumnPropNameInRow="CASHPRO_CUST" msprop:Generator_ColumnVarNameInTable="columnCASHPRO_CUST" msprop:Generator_ColumnPropNameInTable="CASHPRO_CUSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHPRO_CCY" msprop:Generator_UserColumnName="CASHPRO_CCY" msprop:Generator_ColumnPropNameInRow="CASHPRO_CCY" msprop:Generator_ColumnVarNameInTable="columnCASHPRO_CCY" msprop:Generator_ColumnPropNameInTable="CASHPRO_CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHPRO_CCYAMT" msprop:Generator_UserColumnName="CASHPRO_CCYAMT" msprop:Generator_ColumnPropNameInRow="CASHPRO_CCYAMT" msprop:Generator_ColumnVarNameInTable="columnCASHPRO_CCYAMT" msprop:Generator_ColumnPropNameInTable="CASHPRO_CCYAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CASHPRO_VDATE" msprop:Generator_UserColumnName="CASHPRO_VDATE" msprop:Generator_ColumnPropNameInRow="CASHPRO_VDATE" msprop:Generator_ColumnVarNameInTable="columnCASHPRO_VDATE" msprop:Generator_ColumnPropNameInTable="CASHPRO_VDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHPRO_TEXT" msprop:Generator_UserColumnName="CASHPRO_TEXT" msprop:Generator_ColumnPropNameInRow="CASHPRO_TEXT" msprop:Generator_ColumnVarNameInTable="columnCASHPRO_TEXT" msprop:Generator_ColumnPropNameInTable="CASHPRO_TEXTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_UserColumnName="STATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COND_FROMDATE" msprop:Generator_UserColumnName="COND_FROMDATE" msprop:Generator_ColumnPropNameInRow="COND_FROMDATE" msprop:Generator_ColumnVarNameInTable="columnCOND_FROMDATE" msprop:Generator_ColumnPropNameInTable="COND_FROMDATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

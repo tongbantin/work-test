@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR051TAXSUMMARY" targetNamespace="http://tempuri.org/DS_TR051TAXSUMMARY.xsd" xmlns:mstns="http://tempuri.org/DS_TR051TAXSUMMARY.xsd" xmlns="http://tempuri.org/DS_TR051TAXSUMMARY.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR051TAXSUMMARY" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR051TAXSUMMARY" msprop:Generator_DataSetName="DS_TR051TAXSUMMARY" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR051TAXSUMMARY" msprop:Generator_UserTableName="TB_TR051TAXSUMMARY" msprop:Generator_RowDeletedName="TB_TR051TAXSUMMARYRowDeleted" msprop:Generator_RowChangedName="TB_TR051TAXSUMMARYRowChanged" msprop:Generator_RowClassName="TB_TR051TAXSUMMARYRow" msprop:Generator_RowChangingName="TB_TR051TAXSUMMARYRowChanging" msprop:Generator_RowEvArgName="TB_TR051TAXSUMMARYRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR051TAXSUMMARYRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR051TAXSUMMARYDataTable" msprop:Generator_TableVarName="tableTB_TR051TAXSUMMARY" msprop:Generator_RowDeletingName="TB_TR051TAXSUMMARYRowDeleting" msprop:Generator_TablePropName="TB_TR051TAXSUMMARY">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STARTDATE" msprop:Generator_UserColumnName="STARTDATE" msprop:Generator_ColumnVarNameInTable="columnSTARTDATE" msprop:Generator_ColumnPropNameInRow="STARTDATE" msprop:Generator_ColumnPropNameInTable="STARTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ENDDATE" msprop:Generator_UserColumnName="ENDDATE" msprop:Generator_ColumnVarNameInTable="columnENDDATE" msprop:Generator_ColumnPropNameInRow="ENDDATE" msprop:Generator_ColumnPropNameInTable="ENDDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PREFIX" msprop:Generator_UserColumnName="PREFIX" msprop:Generator_ColumnPropNameInRow="PREFIX" msprop:Generator_ColumnVarNameInTable="columnPREFIX" msprop:Generator_ColumnPropNameInTable="PREFIXColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAMETH" msprop:Generator_UserColumnName="NAMETH" msprop:Generator_ColumnVarNameInTable="columnNAMETH" msprop:Generator_ColumnPropNameInRow="NAMETH" msprop:Generator_ColumnPropNameInTable="NAMETHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POSTNAME" msprop:Generator_UserColumnName="POSTNAME" msprop:Generator_ColumnPropNameInRow="POSTNAME" msprop:Generator_ColumnVarNameInTable="columnPOSTNAME" msprop:Generator_ColumnPropNameInTable="POSTNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TAXID" msprop:Generator_UserColumnName="TAXID" msprop:Generator_ColumnVarNameInTable="columnTAXID" msprop:Generator_ColumnPropNameInRow="TAXID" msprop:Generator_ColumnPropNameInTable="TAXIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDRESS" msprop:Generator_UserColumnName="ADDRESS" msprop:Generator_ColumnVarNameInTable="columnADDRESS" msprop:Generator_ColumnPropNameInRow="ADDRESS" msprop:Generator_ColumnPropNameInTable="ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMERTYPE" msprop:Generator_UserColumnName="CUSTOMERTYPE" msprop:Generator_ColumnVarNameInTable="columnCUSTOMERTYPE" msprop:Generator_ColumnPropNameInRow="CUSTOMERTYPE" msprop:Generator_ColumnPropNameInTable="CUSTOMERTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENTDATE" msprop:Generator_UserColumnName="PAYMENTDATE" msprop:Generator_ColumnVarNameInTable="columnPAYMENTDATE" msprop:Generator_ColumnPropNameInRow="PAYMENTDATE" msprop:Generator_ColumnPropNameInTable="PAYMENTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SETTAMT" msprop:Generator_UserColumnName="SETTAMT" msprop:Generator_ColumnVarNameInTable="columnSETTAMT" msprop:Generator_ColumnPropNameInRow="SETTAMT" msprop:Generator_ColumnPropNameInTable="SETTAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAT" msprop:Generator_UserColumnName="VAT" msprop:Generator_ColumnVarNameInTable="columnVAT" msprop:Generator_ColumnPropNameInRow="VAT" msprop:Generator_ColumnPropNameInTable="VATColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TAX" msprop:Generator_UserColumnName="TAX" msprop:Generator_ColumnVarNameInTable="columnTAX" msprop:Generator_ColumnPropNameInRow="TAX" msprop:Generator_ColumnPropNameInTable="TAXColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,106 @@
+2021-05-17 04:00:33,725 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITPrroject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITPrroject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 04:00:34,253 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 04:00:34
+2021-05-17 04:00:34,359 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 04:02:03,797 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 04:02:04,047 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 04:02:04
+2021-05-17 04:02:04,164 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 04:10:25,104 [4] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start update-----
+2021-05-17 04:10:25,104 [4] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Update OPICINF.KKB_TB_MS_LOOKUP Set Data_Type=:DataType, Data_Code=:DataCode, Data_Name_Th=:DataNameTh, Data_Name_Eng=:DataNameEng, ParentID=:ParentID, Path_URL=:PathURL, Seq=:Seq, Enabled=:Enabled, GroupID=:GroupID Where ID=:MenuID 
+2021-05-17 04:10:25,186 [4] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_WEBPARAM Finish-----
+2021-05-17 04:13:02,954 [10] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-05-17 04:13:02,954 [10] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-05-17 04:13:03,004 [10] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-05-17 04:13:20,367 [10] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start update-----
+2021-05-17 04:13:20,367 [10] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Update OPICINF.KKB_TB_MS_LOOKUP Set Data_Type=:DataType, Data_Code=:DataCode, Data_Name_Th=:DataNameTh, Data_Name_Eng=:DataNameEng, ParentID=:ParentID, Path_URL=:PathURL, Seq=:Seq, Enabled=:Enabled, GroupID=:GroupID Where ID=:MenuID 
+2021-05-17 04:13:20,398 [10] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_WEBPARAM Finish-----
+2021-05-17 04:13:35,072 [8] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start update-----
+2021-05-17 04:13:35,072 [8] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Update OPICINF.KKB_TB_MS_LOOKUP Set Data_Type=:DataType, Data_Code=:DataCode, Data_Name_Th=:DataNameTh, Data_Name_Eng=:DataNameEng, ParentID=:ParentID, Path_URL=:PathURL, Seq=:Seq, Enabled=:Enabled, GroupID=:GroupID Where ID=:MenuID 
+2021-05-17 04:13:35,134 [8] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_WEBPARAM Finish-----
+2021-05-17 04:23:03,715 [10] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 04:23:03,814 [10] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 04:23:03
+2021-05-17 04:23:03,933 [10] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 04:24:21,837 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 04:24:21,838 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 04:24:21,988 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_RPT_TR137BOCPTYPE Finish-----
+2021-05-17 04:24:22,094 [10] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - Object reference not set to an instance of an object.
+2021-05-17 05:27:38,620 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 05:27:39,220 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 05:27:39
+2021-05-17 05:27:39,313 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 05:28:01,340 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 05:28:02,348 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 05:29:52,453 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_RPT_TR137BOCPTYPE Finish-----
+2021-05-17 05:30:25,227 [4] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - Object reference not set to an instance of an object.
+2021-05-17 05:45:26,078 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 05:45:26,747 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 05:45:26
+2021-05-17 05:45:26,860 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 05:45:50,181 [7] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 05:45:50,958 [7] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 05:46:10,329 [7] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 05:57:39,431 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 05:57:40,080 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 05:57:40
+2021-05-17 05:57:40,189 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 05:57:55,534 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 05:57:55,553 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 05:57:55,594 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 09:40:27,441 [4] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - A field or property with the name 'REV_ACCT_NAME ' was not found on the selected data source.
+2021-05-17 09:46:30,973 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 09:46:30,995 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 09:46:31,095 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 09:47:07,809 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 09:47:08,787 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 09:49:14,874 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 10:37:05,705 [4] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - A field or property with the name 'REV_ACCT_NAME ' was not found on the selected data source.
+2021-05-17 10:37:13,980 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 10:37:14,000 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 10:37:14,087 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 10:38:05,195 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 10:38:05,217 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 10:38:05,312 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 10:38:33,756 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 10:38:34,441 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 10:40:19,831 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 10:40:36,226 [10] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 10:40:37,564 [10] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 10:40:37
+2021-05-17 10:40:37,665 [10] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 10:40:57,813 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 10:40:58,491 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 10:41:13,160 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 12:24:33,189 [4] ERROR TreasuryShadowSystem.Site [(null)] - Thread was being aborted.
+2021-05-17 12:24:40,080 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-17 12:24:40,081 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03135: connection lost contact
+2021-05-17 12:24:40,778 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 12:24:40,896 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 12:24:40
+2021-05-17 12:24:41,070 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 12:24:57,912 [12] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 12:24:57,936 [12] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 12:24:57,956 [12] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 15:10:40,402 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 15:10:40,424 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 15:10:40,504 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 15:11:32,272 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-17 15:11:32,272 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03135: connection lost contact
+2021-05-17 15:11:32,417 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 15:11:32,514 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-17 15:11:32,514 [9] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03135: connection lost contact
+2021-05-17 15:11:32,516 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 03:11:32
+2021-05-17 15:11:32,628 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 15:11:33,141 [9] ERROR TreasuryShadowSystem.Site [(null)] - Cannot find table 0.
+2021-05-17 15:11:50,041 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-17 15:11:50,043 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-03135: connection lost contact
+2021-05-17 15:11:50,899 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 15:11:51,003 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 03:11:51
+2021-05-17 15:11:51,167 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 15:12:10,135 [17] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 15:12:10,160 [17] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 15:12:10,199 [17] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 15:16:21,170 [17] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - Control 'GridExport_ctl04_ctl26' of type 'DataControlLinkButton' must be placed inside a form tag with runat=server.
+2021-05-17 16:04:56,743 [17] ERROR TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Error-----
+2021-05-17 16:04:56,743 [17] ERROR TreasuryShadowSystem.Configuration.Config [(null)] - Data provider internal error(-3001) [Oracle.DataAccess.Client.OracleCommand]
+2021-05-17 16:04:56,751 [17] INFO  TreasuryShadowSystem.Configuration.Config [(null)] - -----Model_MS_Customer Finish-----
+2021-05-17 17:15:43,085 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-17 17:15:43,851 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :17/05/2021 05:15:43
+2021-05-17 17:15:43,982 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-17 17:16:14,160 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-17 17:16:14,184 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-17 17:16:14,262 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-17 17:16:52,926 [11] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - Control 'ctl00_bodyContent_GridData' of type 'GridView' must be placed inside a form tag with runat=server.

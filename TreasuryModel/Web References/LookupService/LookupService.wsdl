@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://www.kiatnakin.co.th/services/sanction/" xmlns:tsl="http://www.kiatnakin.co.th/schema/lookup/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" targetNamespace="http://www.kiatnakin.co.th/services/sanction/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://www.kiatnakin.co.th/schema/lookup/" version="1.0">
+      <xs:element name="lookupResponse">
+        <xs:complexType>
+          <xs:complexContent mixed="false">
+            <xs:extension base="tsl:CommonResponseType">
+              <xs:sequence>
+                <xs:element minOccurs="0" name="lookupRecord" type="tsl:LookupRecordType" />
+              </xs:sequence>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="lookupRequest">
+        <xs:complexType>
+          <xs:complexContent mixed="false">
+            <xs:extension base="tsl:CommonRequestType">
+              <xs:sequence>
+                <xs:element name="uid" type="tsl:UIDType" />
+              </xs:sequence>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="LookupRecordType">
+        <xs:sequence>
+          <xs:element name="uid" type="xs:string" />
+          <xs:element name="lastName" nillable="true" type="xs:string" />
+          <xs:element name="firstName" nillable="true" type="xs:string" />
+          <xs:element name="title" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="types" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="entityType" nillable="true" type="xs:string" />
+          <xs:element name="updateCategorization" nillable="true" type="xs:string" />
+          <xs:element name="enteredDate" nillable="true" type="xs:string" />
+          <xs:element name="updatedDate" nillable="true" type="xs:string" />
+          <xs:element name="category" nillable="true" type="xs:string" />
+          <xs:element name="subCategory" nillable="true" type="xs:string" />
+          <xs:element name="ei" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="deceased" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="dob" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="datesOfBirth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="placeOfBirth" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="nationality" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="location" type="tsl:LocationType" />
+          <xs:element name="positions" nillable="true" type="xs:string" />
+          <xs:element name="age" nillable="true" type="xs:string" />
+          <xs:element name="ageAsOfDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="identification" type="tsl:IdentificationType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="alias" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="lowQaAlias" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="alternativeSpelling" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="foreignAlias" type="tsl:ForeignAliasType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="keyword" type="tsl:KeywordType" />
+          <xs:element minOccurs="0" maxOccurs="1" name="furtherInfo" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="externalSource" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KeywordType">
+        <xs:sequence>
+          <xs:element name="keyword" nillable="true" type="xs:string" />
+          <xs:element name="description" nillable="true" type="xs:string" />
+          <xs:element name="country" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ForeignAliasType">
+        <xs:sequence>
+          <xs:element name="foreignAlias" nillable="true" type="xs:string" />
+          <xs:element name="country" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="LocationType">
+        <xs:sequence>
+          <xs:element name="street" nillable="true" type="xs:string" />
+          <xs:element name="city" nillable="true" type="xs:string" />
+          <xs:element name="region" nillable="true" type="xs:string" />
+          <xs:element name="postcode" nillable="true" type="xs:string" />
+          <xs:element name="country" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="UIDType">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[0-9]{1,22}" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:complexType name="IdentificationType">
+        <xs:sequence>
+          <xs:element name="issuingState" nillable="true" type="xs:string" />
+          <xs:element name="idTypeName" nillable="true" type="xs:string" />
+          <xs:element name="idNumber" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CommonRequestType" abstract="true">
+        <xs:sequence>
+          <xs:element name="header" type="tsl:HeaderType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CommonResponseType" abstract="true">
+        <xs:sequence>
+          <xs:element name="header" type="tsl:HeaderType" />
+          <xs:element name="responseStatus" type="tsl:ResponseStatusType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="HeaderType">
+        <xs:sequence>
+          <xs:element name="referenceNo" type="tsl:ReferenceNoType" />
+          <xs:element name="transactionDateTime" type="tsl:TxnDateTimeType" />
+          <xs:element name="serviceName" type="tsl:ServiceNameType" />
+          <xs:element name="systemCode" type="tsl:SystemCodeType" />
+          <xs:element name="ChannelID" type="tsl:ChannelIDType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PagingRequestType">
+        <xs:sequence>
+          <xs:element default="1" name="pageNumber" type="xs:unsignedInt" />
+          <xs:element default="50" name="pageSize" type="xs:unsignedInt" />
+          <xs:element minOccurs="0" name="sortColumn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sortDirection" nillable="true" type="tsl:SortDirectionType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PagingResponseType">
+        <xs:sequence>
+          <xs:element default="1" name="pageNumber" type="xs:unsignedInt" />
+          <xs:element default="50" name="pageSize" type="xs:unsignedInt" />
+          <xs:element minOccurs="0" name="sortColumn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sortDirection" nillable="true" type="tsl:SortDirectionType" />
+          <xs:element minOccurs="0" default="0" name="totalRecord" nillable="true" type="xs:unsignedInt" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ResponseStatusType">
+        <xs:sequence>
+          <xs:element name="responseCode" type="xs:string" />
+          <xs:element name="responseMessage" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="SortDirectionType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="ASC" />
+          <xs:enumeration value="DESC" />
+          <xs:enumeration value="" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="StringTxtType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="250" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="StringAddrType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="1000" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ReferenceNoType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="40" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="TxnDateTimeType">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([0-9]{4}[\-]?((0[13-9]|1[012])[\-]?(0[1-9]|[12][0-9]|30)|(0[13578]|1[02])[\-]?31|02[\-]?(0[1-9]|1[0-9]|2[0-8]))|([0-9]{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0[0-9]|1[0-6])00)[\-]?02[\-]?29)(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9])$">
+            <xs:annotation>
+              <xs:documentation>Transaction Date String format yyyyMMddHHmmss
+							</xs:documentation>
+            </xs:annotation>
+          </xs:pattern>
+          <xs:maxLength value="14" />
+          <xs:minLength value="14" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ServiceNameType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="100" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="SystemCodeType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="10" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="ChannelIDType">
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="10" />
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="lookup">
+    <wsdl:part name="parameters1" element="tsl:lookupRequest" />
+  </wsdl:message>
+  <wsdl:message name="lookupResponse">
+    <wsdl:part name="parameters" element="tsl:lookupResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LookupService">
+    <wsdl:operation name="lookup">
+      <wsdl:input name="lookup" message="tns:lookup" />
+      <wsdl:output name="lookupResponse" message="tns:lookupResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LookupServiceSoapBinding" type="tns:LookupService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="lookup">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="lookup">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="lookupResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LookupService">
+    <wsdl:port name="LookupServicePort" binding="tns:LookupServiceSoapBinding">
+      <soap:address location="http://10.202.103.97:8080/sanction/services/LookupService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

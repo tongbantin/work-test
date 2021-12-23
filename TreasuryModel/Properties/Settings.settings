@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TreasuryModel.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TreasuryModel_CBSCustomerService_CBSCustomerService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.202.104.14/ws/CBSCustomerService</Value>
+    </Setting>
+    <Setting Name="TreasuryModel_SanctionService_SearchService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.202.103.97:8080/sanction/services/SearchService/</Value>
+    </Setting>
+    <Setting Name="TreasuryModel_LookupService_LookupService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.202.103.97:8080/sanction/services/LookupService/</Value>
+    </Setting>
+    <Setting Name="TreasuryModel_LookupCDDService_LookupCDDService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.202.103.97:8080/sanction/services/LookupCDDService/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

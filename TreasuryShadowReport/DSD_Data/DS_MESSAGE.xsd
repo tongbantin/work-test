@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_MESSAGE" targetNamespace="http://tempuri.org/DS_MESSAGE.xsd" xmlns:mstns="http://tempuri.org/DS_MESSAGE.xsd" xmlns="http://tempuri.org/DS_MESSAGE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_MESSAGE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_MESSAGE" msprop:Generator_UserDSName="DS_MESSAGE" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_MESSAGE" msprop:Generator_UserTableName="TB_MESSAGE" msprop:Generator_RowDeletedName="TB_MESSAGERowDeleted" msprop:Generator_TableClassName="TB_MESSAGEDataTable" msprop:Generator_RowChangedName="TB_MESSAGERowChanged" msprop:Generator_RowClassName="TB_MESSAGERow" msprop:Generator_RowChangingName="TB_MESSAGERowChanging" msprop:Generator_RowEvArgName="TB_MESSAGERowChangeEvent" msprop:Generator_RowEvHandlerName="TB_MESSAGERowChangeEventHandler" msprop:Generator_TablePropName="TB_MESSAGE" msprop:Generator_TableVarName="tableTB_MESSAGE" msprop:Generator_RowDeletingName="TB_MESSAGERowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REPORT" msprop:Generator_UserColumnName="REPORT" msprop:Generator_ColumnPropNameInRow="REPORT" msprop:Generator_ColumnVarNameInTable="columnREPORT" msprop:Generator_ColumnPropNameInTable="REPORTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MESSAGE" msprop:Generator_UserColumnName="MESSAGE" msprop:Generator_ColumnPropNameInRow="MESSAGE" msprop:Generator_ColumnVarNameInTable="columnMESSAGE" msprop:Generator_ColumnPropNameInTable="MESSAGEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

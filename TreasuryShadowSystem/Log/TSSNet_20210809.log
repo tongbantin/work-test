@@ -1,0 +1,101 @@
+2021-08-09 16:41:43,656 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-08-09 16:41:44,515 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :09/08/2021 04:41:44
+2021-08-09 16:41:44,906 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-08-09 16:41:54,868 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-09 16:41:55,059 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-09 16:41:55,062 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-09 16:41:55,065 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-09 16:41:55,066 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-09 16:41:55,066 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-09 16:41:55,067 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-09 16:41:55,067 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-09 16:41:55,067 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-09 16:41:55,067 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-09 16:41:55,141 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,198 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,229 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,253 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,273 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,307 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,337 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:41:55,382 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:42:31,432 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210809164230Testfile.csv
+2021-08-09 16:45:31,379 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-09 16:45:31,426 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-09 16:45:31,427 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-09 16:45:31,428 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-09 16:45:31,428 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-09 16:45:31,428 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-09 16:45:31,429 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-09 16:45:31,429 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-09 16:45:31,431 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-09 16:45:31,431 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-09 16:45:31,433 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,480 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,519 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,546 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,588 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,618 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,656 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:45:31,685 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:43,592 [4] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start delete-----
+2021-08-09 16:50:43,620 [4] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Finish-----
+2021-08-09 16:50:46,954 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-09 16:50:46,979 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-09 16:50:46,994 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-09 16:50:46,995 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-09 16:50:46,995 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-09 16:50:46,995 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-09 16:50:46,996 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-09 16:50:46,996 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-09 16:50:46,996 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-09 16:50:46,996 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-09 16:50:46,999 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,067 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,103 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,144 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,225 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,311 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,347 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:50:47,465 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:51:05,036 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210809165105Testfiles.csv
+2021-08-09 16:52:00,225 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-09 16:52:00,276 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-09 16:52:00,276 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-09 16:52:00,277 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-09 16:52:00,277 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-09 16:52:00,278 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-09 16:52:00,278 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-09 16:52:00,278 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-09 16:52:00,279 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-09 16:52:00,279 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-09 16:52:00,286 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,323 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,357 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,403 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,446 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,487 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,519 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:52:00,555 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 16:58:50,843 [12] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210809165850Testfiles.csv
+2021-08-09 16:59:51,240 [12] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-09 16:59:52,742 [12] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-09 17:00:08,485 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-09 17:00:08,565 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-09 17:00:08,566 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-09 17:00:08,567 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-09 17:00:08,567 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-09 17:00:08,567 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-09 17:00:08,568 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-09 17:00:08,568 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-09 17:00:08,569 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-09 17:00:08,569 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-09 17:00:08,570 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:08,736 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:08,863 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:09,021 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:09,141 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:09,345 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:09,403 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:00:09,509 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-09 17:11:54,325 [12] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210809171154Confirm_2 FO UL.csv

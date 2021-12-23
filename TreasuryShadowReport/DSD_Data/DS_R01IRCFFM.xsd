@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_R01IRCFFM" targetNamespace="http://tempuri.org/DS_R01IRCFFM.xsd" xmlns:mstns="http://tempuri.org/DS_R01IRCFFM.xsd" xmlns="http://tempuri.org/DS_R01IRCFFM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_R01IRCFFM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_R01IRCFFM" msprop:Generator_DataSetName="DS_R01IRCFFM" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_R01IRCFFM" msprop:Generator_UserTableName="TB_R01IRCFFM" msprop:Generator_RowDeletedName="TB_R01IRCFFMRowDeleted" msprop:Generator_RowChangedName="TB_R01IRCFFMRowChanged" msprop:Generator_RowClassName="TB_R01IRCFFMRow" msprop:Generator_RowChangingName="TB_R01IRCFFMRowChanging" msprop:Generator_RowEvArgName="TB_R01IRCFFMRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_R01IRCFFMRowChangeEventHandler" msprop:Generator_TableClassName="TB_R01IRCFFMDataTable" msprop:Generator_TableVarName="tableTB_R01IRCFFM" msprop:Generator_RowDeletingName="TB_R01IRCFFMRowDeleting" msprop:Generator_TablePropName="TB_R01IRCFFM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BU" msprop:Generator_UserColumnName="BU" msprop:Generator_ColumnVarNameInTable="columnBU" msprop:Generator_ColumnPropNameInRow="BU" msprop:Generator_ColumnPropNameInTable="BUColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PORTFOLIO" msprop:Generator_UserColumnName="PORTFOLIO" msprop:Generator_ColumnVarNameInTable="columnPORTFOLIO" msprop:Generator_ColumnPropNameInRow="PORTFOLIO" msprop:Generator_ColumnPropNameInTable="PORTFOLIOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PROD" msprop:Generator_UserColumnName="PROD" msprop:Generator_ColumnVarNameInTable="columnPROD" msprop:Generator_ColumnPropNameInRow="PROD" msprop:Generator_ColumnPropNameInTable="PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPE" msprop:Generator_UserColumnName="TYPE" msprop:Generator_ColumnVarNameInTable="columnTYPE" msprop:Generator_ColumnPropNameInRow="TYPE" msprop:Generator_ColumnPropNameInTable="TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CPTY" msprop:Generator_UserColumnName="CPTY" msprop:Generator_ColumnVarNameInTable="columnCPTY" msprop:Generator_ColumnPropNameInRow="CPTY" msprop:Generator_ColumnPropNameInTable="CPTYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LEG" msprop:Generator_UserColumnName="LEG" msprop:Generator_ColumnVarNameInTable="columnLEG" msprop:Generator_ColumnPropNameInRow="LEG" msprop:Generator_ColumnPropNameInTable="LEGColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SCHDSEQ" msprop:Generator_UserColumnName="SCHDSEQ" msprop:Generator_ColumnVarNameInTable="columnSCHDSEQ" msprop:Generator_ColumnPropNameInRow="SCHDSEQ" msprop:Generator_ColumnPropNameInTable="SCHDSEQColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EVENT" msprop:Generator_UserColumnName="EVENT" msprop:Generator_ColumnVarNameInTable="columnEVENT" msprop:Generator_ColumnPropNameInRow="EVENT" msprop:Generator_ColumnPropNameInTable="EVENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RATECODE" msprop:Generator_UserColumnName="RATECODE" msprop:Generator_ColumnVarNameInTable="columnRATECODE" msprop:Generator_ColumnPropNameInRow="RATECODE" msprop:Generator_ColumnPropNameInTable="RATECODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INTRATE" msprop:Generator_UserColumnName="INTRATE" msprop:Generator_ColumnVarNameInTable="columnINTRATE" msprop:Generator_ColumnPropNameInRow="INTRATE" msprop:Generator_ColumnPropNameInTable="INTRATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SPREAD" msprop:Generator_UserColumnName="SPREAD" msprop:Generator_ColumnVarNameInTable="columnSPREAD" msprop:Generator_ColumnPropNameInRow="SPREAD" msprop:Generator_ColumnPropNameInTable="SPREADColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VALUEDATE" msprop:Generator_UserColumnName="VALUEDATE" msprop:Generator_ColumnVarNameInTable="columnVALUEDATE" msprop:Generator_ColumnPropNameInRow="VALUEDATE" msprop:Generator_ColumnPropNameInTable="VALUEDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRINCCY" msprop:Generator_UserColumnName="PRINCCY" msprop:Generator_ColumnVarNameInTable="columnPRINCCY" msprop:Generator_ColumnPropNameInRow="PRINCCY" msprop:Generator_ColumnPropNameInTable="PRINCCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHFLOW" msprop:Generator_UserColumnName="CASHFLOW" msprop:Generator_ColumnVarNameInTable="columnCASHFLOW" msprop:Generator_ColumnPropNameInRow="CASHFLOW" msprop:Generator_ColumnPropNameInTable="CASHFLOWColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

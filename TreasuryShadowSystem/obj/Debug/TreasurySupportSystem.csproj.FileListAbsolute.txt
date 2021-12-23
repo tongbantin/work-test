@@ -1,0 +1,142 @@
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.tlb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Microsoft.Vbe.Interop.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Newtonsoft.Json.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\NPOI.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryBusiness.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryCommon.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryModel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\ICSharpCode.SharpZipLib.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Oracle.DataAccess.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\KKB.Treasury.ThirdParty.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Quartz.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\office.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\DealTicketModel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Common.Logging.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Common.Logging.Core.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\DealTicketReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryModel.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\KKB.Treasury.ThirdParty.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Quartz.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\Quartz.xml
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryCommon.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\DealTicketModel.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryBusiness.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\DealTicketReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\itextsharp.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryShadowSystem\bin\itextsharp.xml
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.tlb
+C:\TRO\Production\TreasuryShadowSystem\bin\Ionic.Zip.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\itextsharp.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\log4net.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\Microsoft.Vbe.Interop.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\NPOI.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryBusiness.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryCommon.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryJob.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryModel.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryReport.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\ICSharpCode.SharpZipLib.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\KKB.Treasury.ThirdParty.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\Quartz.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\office.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\DealTicketModel.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\DealTicketReport.dll
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryModel.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryReport.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\office.xml
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryCommon.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\DealTicketModel.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.xml
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryBusiness.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\TreasuryJob.pdb
+C:\TRO\Production\TreasuryShadowSystem\bin\DealTicketReport.pdb
+C:\TRO\Production\TreasuryShadowSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.dll
+C:\TRO\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.tlb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Ionic.Zip.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\itextsharp.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\log4net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Microsoft.Vbe.Interop.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\NPOI.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryBusiness.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryCommon.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryJob.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryModel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Oracle.DataAccess.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\NPOI.OpenXml4Net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\KKB.Treasury.ThirdParty.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\NPOI.OOXML.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Quartz.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\office.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\DealTicketModel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\NPOI.OpenXmlFormats.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\DealTicketReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryModel.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\office.xml
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryCommon.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\DealTicketModel.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.xml
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryBusiness.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\TreasuryJob.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\bin\DealTicketReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryShadowSystem.tlb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Ionic.Zip.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\itextsharp.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\log4net.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Microsoft.Vbe.Interop.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Newtonsoft.Json.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\NPOI.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryBusiness.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryCommon.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryJob.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryModel.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryReport.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\ICSharpCode.SharpZipLib.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Oracle.DataAccess.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\NPOI.OpenXml4Net.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\KKB.Treasury.ThirdParty.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\NPOI.OOXML.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Quartz.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\office.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\DealTicketModel.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\NPOI.OpenXmlFormats.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\DealTicketReport.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryModel.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\office.xml
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryCommon.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\DealTicketModel.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\Microsoft.Office.Interop.Excel.xml
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryBusiness.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\TreasuryJob.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\bin\DealTicketReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.dll
+D:\Project\KKP\Production3\Production\TreasuryShadowSystem\obj\Debug\TreasuryShadowSystem.pdb

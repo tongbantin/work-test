@@ -1,0 +1,185 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="TreasuryShadowSystem.Site2" %>
+
+<%@ Register src="UserControl/Footer.ascx" tagname="Footer" tagprefix="uc1" %>
+<%@ Register src="UserControl/SideMenu.ascx" tagname="SideMenu" tagprefix="ucsm" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <title>Treasury Support System(TSS) -- Kiatnakin Bank Public Co., Ltd.</title>
+	<meta http-equiv="description" content="Treasury Support System(TSS) -- Kiatnakin Bank Public Co., Ltd." />
+    <meta http-equiv="content-type" content="text/html; charset=windows-874" />
+    <!--<link rel="stylesheet" href="Theme/Default/Css/style.css" type="text/css" />-->
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/Theme/Default/Css/ss_style.css") %>" type="text/css" />
+    <!--<link rel="stylesheet" href="Theme/Default/Css/bootstrap.css" type="text/css" />-->
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/Theme/cupertino/jquery-ui-1.10.0.custom.css") %>" type="text/css" />
+    
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Theme/Default/Javascript/jquery-1.8.2.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Theme/Default/Javascript/jquery.html5-placeholder.js") %>"></script>
+
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery-ui-1.10.0.custom.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery.blockUI.js") %>" ></script>
+    
+    
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/date.format.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Theme/Default/Javascript/bootstrap.js") %>"></script>
+    
+    <!-- Optimize for mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $("#accordion").accordion({
+                active: false, collapsible: true, autoheight: false    //, navigation: true, event: 'mouseover', fillSpace: true, animated: 'easeslide'
+            });
+
+            $('#ifMain').attr('src', 'Blank.aspx');
+        });
+        
+        function blockPage() {
+            $.blockUI({
+                css: {
+                    border: 'none',
+                    padding: '15px',
+                    backgroundColor: '#000',
+                    'border-radius': '10px',
+                    opacity: .5,
+                    color: '#fff'
+                }
+            });
+        }
+
+        function unblockPage() {
+            $.unblockUI();
+        }
+
+        function autoResize(id) {
+            var newheight;
+            var newwidth;
+
+            if (document.getElementById) {
+                newheight = document.getElementById(id).contentWindow.document.body.scrollHeight;
+                newwidth = document.getElementById(id).contentWindow.document.body.scrollWidth;
+            }
+
+            document.getElementById(id).height = (newheight) + "px";
+            document.getElementById(id).width = (newwidth) + "px";
+
+        }
+
+        
+        function loadIframe(iframeName, url) {
+            var $iframe = $('#' + iframeName);
+            if ($iframe.length) {
+                //var iurl = window.location.href.replace(window.location.pathname, url.replace('..', ''));
+                //var iurl = window.location.href.replace(window.location.pathname, '/' + window.location.pathname.split('/')[1] + url.replace('..', ''));
+                //var iurl = window.location.href.replace(window.location.pathname, window.location.pathname.split('/')[1] == "Main.aspx" ? "" : '/' + window.location.pathname.split('/')[1] + url.replace('..', ''))
+                var iurl = window.location.href.replace(window.location.pathname, window.location.pathname.split('/')[1] == "Main.aspx" ? url.replace('..', '') : '/' + window.location.pathname.split('/')[1] + url.replace('..', ''));
+                $iframe.attr('src', iurl);
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <!-- TOP BAR -->
+	<div id="top-bar">
+		
+		<div class="page-full-width cf">
+            <nobr>
+			<ul id="nav" class="fl">
+	
+				<!--
+				<li class="v-sep"><a href="#" class="round button dark ic-left-arrow image-left">Go to website</a></li>
+				-->
+				
+				<li class="v-sep"><a href="#" class="round button dark menu-user image-left">Logged in as <strong><%# TheProfile %></strong></a>
+					<!--<ul>
+						<li><a href="#">My Profile</a></li>
+						<li><a href="#">User Settings</a></li>
+						<li><a href="#">Change Password</a></li>
+						<li><a href="#">Log out</a></li>
+					</ul> -->
+				<!--</li>-->
+			
+				<li><a href="<%= Page.ResolveClientUrl("~/logout.aspx") %>" class="round button dark menu-logoff image-left">Log out</a></li>
+				
+			</ul> <!-- end nav -->
+			<!--	
+			<fieldset class="fr">
+				<input type="text" id="search-keyword" class="round button dark ic-search image-right" placeholder="Search..." />
+				<input type="hidden" value="SUBMIT" />
+			</fieldset>-->
+
+		</div> <!-- end full-width -->	
+	
+	</div> <!-- end top-bar -->
+	
+	<!-- HEADER -->
+	<div id="header-with-tabs">
+		
+		<div class="page-full-width cf">
+	
+			<ul id="tabs" class="fl">
+				<li><a href="<%= Page.ResolveClientUrl("Main.aspx") %>"  class="active-tab dashboard-tab" >Treasury Reports</a></li>
+				<li><a href="<%= Page.ResolveClientUrl("DealTicket.aspx") %>">Deal Ticket</a></li>
+				<li><a href="<%= Page.ResolveClientUrl("Management.aspx") %>">Management</a></li>
+			</ul> <!-- end tabs -->
+			
+			<!-- Change this image to your own company's logo -->
+			<!-- The logo will automatically be resized to 30px height. -->
+			<a href="#" id="company-branding-small" class="fr"><img src="<%= Page.ResolveClientUrl("~/Theme/Default/Images/kklogo.jpg") %>" alt="Kiatnakin Bank" /></a>
+			
+		</div> <!-- end full-width -->	
+
+	</div> <!-- end header -->
+	
+	<!-- MAIN CONTENT -->
+	
+	<div id="content-inner">
+		
+		<div class="page-full-width cf">
+
+			<div class="side-menu fl">
+				
+				<!--Sliding menu -->
+				
+				<h3>Side Menu</h3>  
+				
+	            <div id="accordion">
+	                <%# TheProfileMenu %>
+	                <!--<h1>BO : Back Office</h1>
+	                <div>
+	                    <p><a href="#" onclick="return loadIframe('ifMain', '../Form/frm_TROREPO01.aspx')">REPO Report</a> </p>
+	                    <p><a href="#" onclick="return loadIframe('ifMain', '../Form/frm_TROREPOOUT.aspx')">REPO Outstanding Report</a> </p>
+	                    <p><a href="#" onclick="return loadIframe('ifMain', '../Form/frm_TC021OBOBE.aspx')">Confirmation_DL (Deposit)</a> </p>
+	                </div>-->
+                </div>
+                
+			</div> <!-- end side-menu -->
+			
+			<div class="side-content fr">
+			
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                
+                </asp:ContentPlaceHolder>
+                            
+				
+			</div> 	
+			<!-- end side-content fr -->
+			
+		</div> <!-- end full-width -->
+			
+	</div> <!-- end content -->
+    
+   	
+	</form>
+</body>
+</html>

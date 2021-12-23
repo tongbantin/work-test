@@ -1,0 +1,13 @@
+2021-05-18 14:48:49,890 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-18 14:48:50,485 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :18/05/2021 02:48:50
+2021-05-18 14:48:50,580 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-18 14:49:39,312 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-18 14:49:39,346 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-18 14:49:39,475 [8] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----
+2021-05-18 17:27:55,455 [4] ERROR TreasuryShadowSystem.ALR.ViewTranALR [(null)] - Control 'ctl00_bodyContent_GridData' of type 'GridView' must be placed inside a form tag with runat=server.
+2021-05-18 23:07:00,454 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-18 23:07:04,285 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :18/05/2021 11:07:04
+2021-05-18 23:07:04,405 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-18 23:07:21,158 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Start-----
+2021-05-18 23:07:21,159 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - getViewTrans =17/05/2021
+2021-05-18 23:07:21,271 [4] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Model_TransToALR Finish-----

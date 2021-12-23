@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TF048OBOBE" targetNamespace="http://tempuri.org/DS_TF048OBOBE.xsd" xmlns:mstns="http://tempuri.org/DS_TF048OBOBE.xsd" xmlns="http://tempuri.org/DS_TF048OBOBE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TF048OBOBE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TF048OBOBE" msprop:Generator_DataSetName="DS_TF048OBOBE" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TF048OBOBE" msprop:Generator_UserTableName="TB_TF048OBOBE" msprop:Generator_RowDeletedName="TB_TF048OBOBERowDeleted" msprop:Generator_RowChangedName="TB_TF048OBOBERowChanged" msprop:Generator_RowClassName="TB_TF048OBOBERow" msprop:Generator_RowChangingName="TB_TF048OBOBERowChanging" msprop:Generator_RowEvArgName="TB_TF048OBOBERowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TF048OBOBERowChangeEventHandler" msprop:Generator_TableClassName="TB_TF048OBOBEDataTable" msprop:Generator_TableVarName="tableTB_TF048OBOBE" msprop:Generator_RowDeletingName="TB_TF048OBOBERowDeleting" msprop:Generator_TablePropName="TB_TF048OBOBE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REFNO" msprop:Generator_UserColumnName="REFNO" msprop:Generator_ColumnVarNameInTable="columnREFNO" msprop:Generator_ColumnPropNameInRow="REFNO" msprop:Generator_ColumnPropNameInTable="REFNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PLACE_OF_ISSUE" msprop:Generator_UserColumnName="PLACE_OF_ISSUE" msprop:Generator_ColumnVarNameInTable="columnPLACE_OF_ISSUE" msprop:Generator_ColumnPropNameInRow="PLACE_OF_ISSUE" msprop:Generator_ColumnPropNameInTable="PLACE_OF_ISSUEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PNNO" msprop:Generator_UserColumnName="PNNO" msprop:Generator_ColumnVarNameInTable="columnPNNO" msprop:Generator_ColumnPropNameInRow="PNNO" msprop:Generator_ColumnPropNameInTable="PNNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ISSUE_DATE" msprop:Generator_UserColumnName="ISSUE_DATE" msprop:Generator_ColumnVarNameInTable="columnISSUE_DATE" msprop:Generator_ColumnPropNameInRow="ISSUE_DATE" msprop:Generator_ColumnPropNameInTable="ISSUE_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MATURITY_DATE" msprop:Generator_UserColumnName="MATURITY_DATE" msprop:Generator_ColumnVarNameInTable="columnMATURITY_DATE" msprop:Generator_ColumnPropNameInRow="MATURITY_DATE" msprop:Generator_ColumnPropNameInTable="MATURITY_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCHNAME_TH" msprop:Generator_UserColumnName="BRANCHNAME_TH" msprop:Generator_ColumnVarNameInTable="columnBRANCHNAME_TH" msprop:Generator_ColumnPropNameInRow="BRANCHNAME_TH" msprop:Generator_ColumnPropNameInTable="BRANCHNAME_THColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COUNTERPARTY" msprop:Generator_UserColumnName="COUNTERPARTY" msprop:Generator_ColumnVarNameInTable="columnCOUNTERPARTY" msprop:Generator_ColumnPropNameInRow="COUNTERPARTY" msprop:Generator_ColumnPropNameInTable="COUNTERPARTYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRINCIPALAMOUNT" msprop:Generator_UserColumnName="PRINCIPALAMOUNT" msprop:Generator_ColumnVarNameInTable="columnPRINCIPALAMOUNT" msprop:Generator_ColumnPropNameInRow="PRINCIPALAMOUNT" msprop:Generator_ColumnPropNameInTable="PRINCIPALAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COUPON" msprop:Generator_UserColumnName="COUPON" msprop:Generator_ColumnVarNameInTable="columnCOUPON" msprop:Generator_ColumnPropNameInRow="COUPON" msprop:Generator_ColumnPropNameInTable="COUPONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AT_BRANCHNAME_TH" msprop:Generator_UserColumnName="AT_BRANCHNAME_TH" msprop:Generator_ColumnVarNameInTable="columnAT_BRANCHNAME_TH" msprop:Generator_ColumnPropNameInRow="AT_BRANCHNAME_TH" msprop:Generator_ColumnPropNameInTable="AT_BRANCHNAME_THColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

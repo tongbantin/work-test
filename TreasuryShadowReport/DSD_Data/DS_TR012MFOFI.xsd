@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR012MFOFI" targetNamespace="http://tempuri.org/DS_TR012MFOFI.xsd" xmlns:mstns="http://tempuri.org/DS_TR012MFOFI.xsd" xmlns="http://tempuri.org/DS_TR012MFOFI.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR012MFOFI" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_TR012MFOFI" msprop:Generator_UserDSName="DS_TR012MFOFI" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR012MFOFI" msprop:Generator_UserTableName="TB_TR012MFOFI" msprop:Generator_RowDeletedName="TB_TR012MFOFIRowDeleted" msprop:Generator_TableClassName="TB_TR012MFOFIDataTable" msprop:Generator_RowChangedName="TB_TR012MFOFIRowChanged" msprop:Generator_RowClassName="TB_TR012MFOFIRow" msprop:Generator_RowChangingName="TB_TR012MFOFIRowChanging" msprop:Generator_RowEvArgName="TB_TR012MFOFIRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR012MFOFIRowChangeEventHandler" msprop:Generator_TablePropName="TB_TR012MFOFI" msprop:Generator_TableVarName="tableTB_TR012MFOFI" msprop:Generator_RowDeletingName="TB_TR012MFOFIRowDeleting">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

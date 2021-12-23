@@ -1,0 +1,52 @@
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\DealTicketSystem.exe.config
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\DealTicketSystem.exe
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\DealTicketSystem.pdb
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\DealTicketModel.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\log4net.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Debug\DealTicketModel.pdb
+C:\TRO\Trunk\DealTicketSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Trunk\DealTicketSystem\obj\Debug\DealTicketSystem.exe
+C:\TRO\Trunk\DealTicketSystem\obj\Debug\DealTicketSystem.pdb
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\DealTicketSystem.exe.config
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\DealTicketSystem.exe
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\DealTicketSystem.pdb
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\DealTicketModel.dll
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\log4net.dll
+C:\TRO\Trunk_coll\DealTicketSystem\bin\Debug\DealTicketModel.pdb
+C:\TRO\Trunk_coll\DealTicketSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Trunk_coll\DealTicketSystem\obj\Debug\DealTicketSystem.exe
+C:\TRO\Trunk_coll\DealTicketSystem\obj\Debug\DealTicketSystem.pdb
+C:\TRO\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe.config
+C:\TRO\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe
+C:\TRO\Production\DealTicketSystem\bin\Debug\DealTicketSystem.pdb
+C:\TRO\Production\DealTicketSystem\bin\Debug\DealTicketModel.dll
+C:\TRO\Production\DealTicketSystem\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\TRO\Production\DealTicketSystem\bin\Debug\log4net.dll
+C:\TRO\Production\DealTicketSystem\bin\Debug\DealTicketModel.pdb
+C:\TRO\Production\DealTicketSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\DealTicketSystem\obj\Debug\DealTicketSystem.exe
+C:\TRO\Production\DealTicketSystem\obj\Debug\DealTicketSystem.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe.config
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\DealTicketSystem.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\DealTicketModel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\log4net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\Oracle.DataAccess.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\bin\Debug\DealTicketModel.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\obj\Debug\DealTicketSystem.exe
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketSystem\obj\Debug\DealTicketSystem.pdb
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe.config
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\DealTicketSystem.exe
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\DealTicketSystem.pdb
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\DealTicketModel.dll
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\KKB.Treasury.ThirdParty.dll
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\log4net.dll
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\Oracle.DataAccess.dll
+D:\Project\KKP\Production3\Production\DealTicketSystem\bin\Debug\DealTicketModel.pdb
+D:\Project\KKP\Production3\Production\DealTicketSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\DealTicketSystem\obj\Debug\DealTicketSystem.exe
+D:\Project\KKP\Production3\Production\DealTicketSystem\obj\Debug\DealTicketSystem.pdb

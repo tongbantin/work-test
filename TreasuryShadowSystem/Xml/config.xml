@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KiatnakinBank>
+  <ForeignExchange Capital="B32">
+    <Currency Name="USD">
+      <Mapping Column="BaseSpot">C10</Mapping>
+      <!--<Mapping Column="USDSpot">C11</Mapping>-->
+      <Mapping Column="BaseForward">C15</Mapping>
+      <!--<Mapping Column="USDForward">C13</Mapping>-->
+    </Currency>
+    <Currency Name="EUR">
+      <Mapping Column="BaseSpot">D10</Mapping>
+      <!--<Mapping Column="USDSpot">D11</Mapping>-->
+      <Mapping Column="BaseForward">D15</Mapping>
+      <!--<Mapping Column="USDForward">D13</Mapping>-->
+    </Currency>
+    <Currency Name="JPY">
+      <Mapping Column="BaseSpot">E10</Mapping>
+      <!--<Mapping Column="USDSpot">E11</Mapping>-->
+      <Mapping Column="BaseForward">E15</Mapping>
+      <!--<Mapping Column="USDForward">E13</Mapping>-->
+    </Currency>
+    <Currency Name="CNH">
+      <Mapping Column="BaseSpot">F10</Mapping>
+      <!--<Mapping Column="USDSpot">F11</Mapping>-->
+      <Mapping Column="BaseForward">F15</Mapping>
+      <!--<Mapping Column="USDForward">F13</Mapping>-->
+    </Currency>
+    <Currency Name="GBP">
+      <Mapping Column="BaseSpot">G10</Mapping>
+      <!--<Mapping Column="USDSpot">G11</Mapping>-->
+      <Mapping Column="BaseForward">G15</Mapping>
+      <!--<Mapping Column="USDForward">G13</Mapping>-->
+    </Currency>
+    <Currency Name="CHF">
+      <Mapping Column="BaseSpot">H10</Mapping>
+      <!--<Mapping Column="USDSpot">H11</Mapping>-->
+      <Mapping Column="BaseForward">H15</Mapping>
+      <!--<Mapping Column="USDForward">H13</Mapping>-->
+    </Currency>
+    <Currency Name="HKD">
+      <Mapping Column="BaseSpot">I10</Mapping>
+      <!--<Mapping Column="USDSpot">I11</Mapping>-->
+      <Mapping Column="BaseForward">I15</Mapping>
+      <!--<Mapping Column="USDForward">I13</Mapping>-->
+    </Currency>
+    <Currency Name="SGD">
+      <Mapping Column="BaseSpot">J10</Mapping>
+      <!--<Mapping Column="USDSpot">J11</Mapping>-->
+      <Mapping Column="BaseForward">J12</Mapping>
+      <!--<Mapping Column="USDForward">J13</Mapping>-->
+    </Currency>
+    <Currency Name="CAD">
+      <Mapping Column="BaseSpot">K10</Mapping>
+      <!--<Mapping Column="USDSpot">K11</Mapping>-->
+      <Mapping Column="BaseForward">K15</Mapping>
+      <!--<Mapping Column="USDForward">K13</Mapping>-->
+    </Currency>
+    <Currency Name="AUD">
+      <Mapping Column="BaseSpot">L10</Mapping>
+      <!--<Mapping Column="USDSpot">K11</Mapping>-->
+      <Mapping Column="BaseForward">L15</Mapping>
+      <!--<Mapping Column="USDForward">K13</Mapping>-->
+    </Currency>
+  </ForeignExchange>
+  <SheetDay> <!--Fix Daily, Weekly-->
+    <Frequency Value="Daily">
+      <Sheet Date="Monday" Day="H12" Month="J12" Year="L12">1</Sheet>
+      <Sheet Date="Tuesday" Day="H12" Month="J12" Year="L12">1</Sheet>
+      <Sheet Date="Wednesday" Day="H12" Month="J12" Year="L12">1</Sheet>
+      <Sheet Date="Thursday" Day="H12" Month="J12" Year="L12">1</Sheet>
+      <Sheet Date="Friday" Day="H12" Month="J12" Year="L12">1</Sheet>
+    </Frequency>
+    <Frequency Value="Weekly">
+      <Sheet Date="Monday" Day="H14" Month="J14" Year="L14">2</Sheet>
+      <Sheet Date="Tuesday" Day="H16" Month="J16" Year="L16">3</Sheet>
+      <Sheet Date="Wednesday" Day="H18" Month="J18" Year="L18">4</Sheet>
+      <Sheet Date="Thursday" Day="H20" Month="J20" Year="L20">5</Sheet>
+      <Sheet Date="Friday" Day="H12" Month="J12" Year="L12">1</Sheet>
+    </Frequency>
+  </SheetDay>
+</KiatnakinBank>

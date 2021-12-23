@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR145BORATEAVG" targetNamespace="http://tempuri.org/DS_TR145BORATEAVG.xsd" xmlns:mstns="http://tempuri.org/DS_TR145BORATEAVG.xsd" xmlns="http://tempuri.org/DS_TR145BORATEAVG.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR145BORATEAVG" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR145BORATEAVG" msprop:Generator_DataSetName="DS_TR145BORATEAVG" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR145BORATEAVG" msprop:Generator_UserTableName="TB_TR145BORATEAVG" msprop:Generator_RowDeletedName="TB_TR145BORATEAVGRowDeleted" msprop:Generator_RowChangedName="TB_TR145BORATEAVGRowChanged" msprop:Generator_RowClassName="TB_TR145BORATEAVGRow" msprop:Generator_RowChangingName="TB_TR145BORATEAVGRowChanging" msprop:Generator_RowEvArgName="TB_TR145BORATEAVGRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR145BORATEAVGRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR145BORATEAVGDataTable" msprop:Generator_TableVarName="tableTB_TR145BORATEAVG" msprop:Generator_RowDeletingName="TB_TR145BORATEAVGRowDeleting" msprop:Generator_TablePropName="TB_TR145BORATEAVG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="POSTDATE" msprop:Generator_UserColumnName="POSTDATE" msprop:Generator_ColumnPropNameInRow="POSTDATE" msprop:Generator_ColumnVarNameInTable="columnPOSTDATE" msprop:Generator_ColumnPropNameInTable="POSTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DRACCTCODE" msprop:Generator_UserColumnName="DRACCTCODE" msprop:Generator_ColumnPropNameInRow="DRACCTCODE" msprop:Generator_ColumnVarNameInTable="columnDRACCTCODE" msprop:Generator_ColumnPropNameInTable="DRACCTCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DRACCTDESC" msprop:Generator_UserColumnName="DRACCTDESC" msprop:Generator_ColumnPropNameInRow="DRACCTDESC" msprop:Generator_ColumnVarNameInTable="columnDRACCTDESC" msprop:Generator_ColumnPropNameInTable="DRACCTDESCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DRAMOUNT" msprop:Generator_UserColumnName="DRAMOUNT" msprop:Generator_ColumnPropNameInRow="DRAMOUNT" msprop:Generator_ColumnVarNameInTable="columnDRAMOUNT" msprop:Generator_ColumnPropNameInTable="DRAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CRACCTCODE" msprop:Generator_UserColumnName="CRACCTCODE" msprop:Generator_ColumnPropNameInRow="CRACCTCODE" msprop:Generator_ColumnVarNameInTable="columnCRACCTCODE" msprop:Generator_ColumnPropNameInTable="CRACCTCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CRACCTDESC" msprop:Generator_UserColumnName="CRACCTDESC" msprop:Generator_ColumnPropNameInRow="CRACCTDESC" msprop:Generator_ColumnVarNameInTable="columnCRACCTDESC" msprop:Generator_ColumnPropNameInTable="CRACCTDESCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CRAMOUNT" msprop:Generator_UserColumnName="CRAMOUNT" msprop:Generator_ColumnPropNameInRow="CRAMOUNT" msprop:Generator_ColumnVarNameInTable="columnCRAMOUNT" msprop:Generator_ColumnPropNameInTable="CRAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATEBY" msprop:Generator_UserColumnName="CREATEBY" msprop:Generator_ColumnVarNameInTable="columnCREATEBY" msprop:Generator_ColumnPropNameInRow="CREATEBY" msprop:Generator_ColumnPropNameInTable="CREATEBYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="REVIEWBY" msprop:Generator_UserColumnName="REVIEWBY" msprop:Generator_ColumnVarNameInTable="columnREVIEWBY" msprop:Generator_ColumnPropNameInRow="REVIEWBY" msprop:Generator_ColumnPropNameInTable="REVIEWBYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AUTHORIZEBY" msprop:Generator_UserColumnName="AUTHORIZEBY" msprop:Generator_ColumnVarNameInTable="columnAUTHORIZEBY" msprop:Generator_ColumnPropNameInRow="AUTHORIZEBY" msprop:Generator_ColumnPropNameInTable="AUTHORIZEBYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CANCEL" msprop:Generator_UserColumnName="CANCEL" msprop:Generator_ColumnPropNameInRow="CANCEL" msprop:Generator_ColumnVarNameInTable="columnCANCEL" msprop:Generator_ColumnPropNameInTable="CANCELColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,184 @@
+2021-07-20 03:28:14,809 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 03:28:15,083 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 03:28:15
+2021-07-20 03:28:15,182 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 03:29:54,260 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Start-----
+2021-07-20 03:29:54,882 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR096CLOSEBOOK
+2021-07-20 03:29:55,648 [15] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Data : Branch=01, Execute Date=202111, Cost=340, Term=STDP
+2021-07-20 03:30:18,911 [15] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 03:30:18,930 [15] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00201: identifier 'OPICINF.KKB_SP_TSS_TR096CLOSEBOOK' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-07-20 12:13:50,868 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 12:13:51,032 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 12:13:51
+2021-07-20 12:13:51,164 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 12:14:59,450 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Start-----
+2021-07-20 12:14:59,465 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR096CLOSEBOOK
+2021-07-20 12:14:59,465 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Data : Branch=01, Execute Date=202111, Cost=340, Term=STDP
+2021-07-20 12:15:31,971 [12] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 12:15:31,994 [12] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-06550: line 1, column 7:
+PLS-00201: identifier 'OPICINF.KKB_SP_TSS_TR096CLOSEBOOK' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+2021-07-20 12:30:42,369 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-20 12:30:42,420 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12545: Connect failed because target host or object does not exist
+2021-07-20 12:30:42,607 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 12:30:42,607 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-20 12:30:50,298 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-20 12:30:50,298 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12545: Connect failed because target host or object does not exist
+2021-07-20 12:30:50,298 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 12:30:50,443 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 12:30:50,443 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-20 12:30:50,443 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 12:30:50
+2021-07-20 12:30:50,579 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 12:30:51,064 [7] ERROR TreasuryShadowSystem.Site [(null)] - Cannot find table 0.
+2021-07-20 12:38:54,195 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 12:38:54,297 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 12:38:54
+2021-07-20 12:38:54,430 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 12:39:43,656 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 12:39:43,741 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 12:39:43
+2021-07-20 12:39:43,898 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 12:42:39,190 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 12:42:39,246 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 12:42:39
+2021-07-20 12:42:39,366 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 12:43:44,607 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Start-----
+2021-07-20 12:43:44,623 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR096CLOSEBOOK
+2021-07-20 12:43:44,623 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Data : Branch=01, Execute Date=202111, Cost=340, Term=STDP
+2021-07-20 12:43:49,076 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 12:43:49,099 [11] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-01843: not a valid month
+ORA-06512: at "OPICINF.KKB_SP_TSS_TR096CLOSEBOOK", line 13
+ORA-06512: at line 1
+2021-07-20 13:52:48,152 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Finish-----
+2021-07-20 13:56:33,917 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-20 13:56:34,206 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-07-20 13:56:34,558 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 13:56:34,574 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-20 13:56:55,964 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-07-20 13:56:55,964 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-07-20 13:56:55,964 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 13:56:56,081 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 13:56:56,081 [7] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-07-20 13:56:56,081 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 01:56:56
+2021-07-20 13:56:56,191 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 13:56:56,878 [7] ERROR TreasuryShadowSystem.Site [(null)] - Cannot find table 0.
+2021-07-20 13:57:49,659 [9] ERROR TreasuryShadowSystem.Site [(null)] - Thread was being aborted.
+2021-07-20 13:58:26,236 [14] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'TSS_BO_WRITE')) ) p Order By p.GroupID, p.SEQ 
+2021-07-20 13:58:26,347 [14] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :20/07/2021 01:58:26
+2021-07-20 13:58:26,483 [14] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-07-20 14:01:54,195 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Start-----
+2021-07-20 14:01:54,216 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR096CLOSEBOOK
+2021-07-20 14:01:54,216 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Data : Branch=01, Execute Date=202111, Cost=340, Term=STDP
+2021-07-20 14:04:09,213 [12] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-07-20 14:04:09,228 [12] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-01843: not a valid month
+ORA-06512: at "OPICINF.KKB_SP_TSS_TR096CLOSEBOOK", line 13
+ORA-06512: at line 1
+2021-07-20 14:10:15,596 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Finish-----
+2021-07-20 14:10:32,361 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Start-----
+2021-07-20 14:10:32,377 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR096CLOSEBOOK
+2021-07-20 14:10:32,377 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Data : Branch=01, Execute Date=202111, Cost=340, Term=STDP
+2021-07-20 14:11:13,619 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - Total Records : 3 Record(s)
+2021-07-20 14:11:16,846 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - <NewDataSet>
+  <TB_TR096CLOSEBOOK>
+    <PORT>STDP</PORT>
+    <INVTYPE>I</INVTYPE>
+    <SECID>KKP21D02A           </SECID>
+    <TYPE_1>Straight</TYPE_1>
+    <TYPE_2>Fixed</TYPE_2>
+    <ACCOUNT_TYPE>DBISFX-N  </ACCOUNT_TYPE>
+    <TERM>Long</TERM>
+    <DEAL_DATE>11/03/2021</DEAL_DATE>
+    <VALUE_DATE>11/03/2021</VALUE_DATE>
+    <MATURITY_DATE>02/12/2021</MATURITY_DATE>
+    <COUPON>  -0.1300000</COUPON>
+    <UNITS>15000</UNITS>
+    <FACE_VALUE>575516940</FACE_VALUE>
+    <COST_VALUE>575516940</COST_VALUE>
+    <AI>160025.55459068</AI>
+    <MKT_YTM>0.1313</MKT_YTM>
+    <MTMVALUE>575512784.76769320</MTMVALUE>
+    <UNREALIZED>-4155.23230680</UNREALIZED>
+    <PCTUNREALIZEDTOCOST>-0.000722</PCTUNREALIZEDTOCOST>
+    <BR>01</BR>
+    <BRPROCDATE>19/11/2020</BRPROCDATE>
+    <CCY>EUR</CCY>
+    <EXCHANGERATE>  38.3677960</EXCHANGERATE>
+    <CUSTODIAN>KK   </CUSTODIAN>
+    <CUSTODIAN_NAME>ACCTTITLE129818</CUSTODIAN_NAME>
+    <CURRENCY_TYPE>FOREIGN</CURRENCY_TYPE>
+    <FACE_VALUE_FCY>15000000</FACE_VALUE_FCY>
+    <COST_VALUE_FCY>15000000</COST_VALUE_FCY>
+    <AI_FCY>4170.83</AI_FCY>
+    <MTMVALUE_FCY>14999891.70</MTMVALUE_FCY>
+    <EXDIVDATE>02/12/2021</EXDIVDATE>
+    <CLOSEDATE>19/11/2021</CLOSEDATE>
+  </TB_TR096CLOSEBOOK>
+  <TB_TR096CLOSEBOOK>
+    <PORT>STDP</PORT>
+    <INVTYPE>I</INVTYPE>
+    <SECID>KKP21D09A           </SECID>
+    <TYPE_1>Straight</TYPE_1>
+    <TYPE_2>Fixed</TYPE_2>
+    <ACCOUNT_TYPE>DBISFX-N  </ACCOUNT_TYPE>
+    <TERM>Long</TERM>
+    <DEAL_DATE>17/03/2021</DEAL_DATE>
+    <VALUE_DATE>17/03/2021</VALUE_DATE>
+    <MATURITY_DATE>09/12/2021</MATURITY_DATE>
+    <COUPON>  -0.1300000</COUPON>
+    <UNITS>40000</UNITS>
+    <FACE_VALUE>1534711840</FACE_VALUE>
+    <COST_VALUE>1534711840</COST_VALUE>
+    <AI>393483.23394576</AI>
+    <MKT_YTM>0.125498</MKT_YTM>
+    <MTMVALUE>1534750330.57294720</MTMVALUE>
+    <UNREALIZED>38490.57294720</UNREALIZED>
+    <PCTUNREALIZEDTOCOST>0.002508</PCTUNREALIZEDTOCOST>
+    <BR>01</BR>
+    <BRPROCDATE>19/11/2020</BRPROCDATE>
+    <CCY>EUR</CCY>
+    <EXCHANGERATE>  38.3677960</EXCHANGERATE>
+    <CUSTODIAN>KK   </CUSTODIAN>
+    <CUSTODIAN_NAME>ACCTTITLE129818</CUSTODIAN_NAME>
+    <CURRENCY_TYPE>FOREIGN</CURRENCY_TYPE>
+    <FACE_VALUE_FCY>40000000</FACE_VALUE_FCY>
+    <COST_VALUE_FCY>40000000</COST_VALUE_FCY>
+    <AI_FCY>10255.56</AI_FCY>
+    <MTMVALUE_FCY>40001003.20</MTMVALUE_FCY>
+    <EXDIVDATE>09/12/2021</EXDIVDATE>
+    <CLOSEDATE>26/11/2021</CLOSEDATE>
+  </TB_TR096CLOSEBOOK>
+  <TB_TR096CLOSEBOOK>
+    <PORT>STDP</PORT>
+    <INVTYPE>I</INVTYPE>
+    <SECID>KKP21D16A           </SECID>
+    <TYPE_1>Straight</TYPE_1>
+    <TYPE_2>Fixed</TYPE_2>
+    <ACCOUNT_TYPE>DBISFX-N  </ACCOUNT_TYPE>
+    <TERM>Long</TERM>
+    <DEAL_DATE>24/03/2021</DEAL_DATE>
+    <VALUE_DATE>24/03/2021</VALUE_DATE>
+    <MATURITY_DATE>16/12/2021</MATURITY_DATE>
+    <COUPON>  -0.1300000</COUPON>
+    <UNITS>40000</UNITS>
+    <FACE_VALUE>1534711840</FACE_VALUE>
+    <COST_VALUE>1534711840</COST_VALUE>
+    <AI>354688.78805424</AI>
+    <MKT_YTM>0.140972</MKT_YTM>
+    <MTMVALUE>1534613894.69037120</MTMVALUE>
+    <UNREALIZED>-97945.30962880</UNREALIZED>
+    <PCTUNREALIZEDTOCOST>-0.006382</PCTUNREALIZEDTOCOST>
+    <BR>01</BR>
+    <BRPROCDATE>19/11/2020</BRPROCDATE>
+    <CCY>EUR</CCY>
+    <EXCHANGERATE>  38.3677960</EXCHANGERATE>
+    <CUSTODIAN>KK   </CUSTODIAN>
+    <CUSTODIAN_NAME>ACCTTITLE129818</CUSTODIAN_NAME>
+    <CURRENCY_TYPE>FOREIGN</CURRENCY_TYPE>
+    <FACE_VALUE_FCY>40000000</FACE_VALUE_FCY>
+    <COST_VALUE_FCY>40000000</COST_VALUE_FCY>
+    <AI_FCY>9244.44</AI_FCY>
+    <MTMVALUE_FCY>39997447.20</MTMVALUE_FCY>
+    <EXDIVDATE>16/12/2021</EXDIVDATE>
+    <CLOSEDATE>03/12/2021</CLOSEDATE>
+  </TB_TR096CLOSEBOOK>
+</NewDataSet>
+2021-07-20 14:42:34,886 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR096CLOSEBOOK [(null)] - -----Model_RPT_TR096CLOSEBOOK Finish-----

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR149OBOFCDOUT" targetNamespace="http://tempuri.org/DS_TR149OBOFCDOUT.xsd" xmlns:mstns="http://tempuri.org/DS_TR149OBOFCDOUT.xsd" xmlns="http://tempuri.org/DS_TR149OBOFCDOUT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR149OBOFCDOUT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR149OBOFCDOUT" msprop:Generator_DataSetName="DS_TR149OBOFCDOUT" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR149OBOFCDOUT" msprop:Generator_UserTableName="TB_TR149OBOFCDOUT" msprop:Generator_RowDeletedName="TB_TR149OBOFCDOUTRowDeleted" msprop:Generator_RowChangedName="TB_TR149OBOFCDOUTRowChanged" msprop:Generator_RowClassName="TB_TR149OBOFCDOUTRow" msprop:Generator_RowChangingName="TB_TR149OBOFCDOUTRowChanging" msprop:Generator_RowEvArgName="TB_TR149OBOFCDOUTRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR149OBOFCDOUTRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR149OBOFCDOUTDataTable" msprop:Generator_TableVarName="tableTB_TR149OBOFCDOUT" msprop:Generator_RowDeletingName="TB_TR149OBOFCDOUTRowDeleting" msprop:Generator_TablePropName="TB_TR149OBOFCDOUT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COST" msprop:Generator_UserColumnName="COST" msprop:Generator_ColumnPropNameInRow="COST" msprop:Generator_ColumnVarNameInTable="columnCOST" msprop:Generator_ColumnPropNameInTable="COSTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_UserColumnName="AMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DEALDATE" msprop:Generator_UserColumnName="DEALDATE" msprop:Generator_ColumnVarNameInTable="columnDEALDATE" msprop:Generator_ColumnPropNameInRow="DEALDATE" msprop:Generator_ColumnPropNameInTable="DEALDATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

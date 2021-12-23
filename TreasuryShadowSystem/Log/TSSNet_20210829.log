@@ -1,0 +1,685 @@
+2021-08-29 21:48:48,595 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-08-29 21:48:51,933 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :29/08/2021 09:48:51
+2021-08-29 21:48:52,099 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-08-29 21:51:51,261 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829215150bowtestupload.csv
+2021-08-29 21:53:41,811 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-29 21:53:41,861 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-29 21:55:06,052 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829215506bowtestupload.csv
+2021-08-29 22:02:18,796 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-29 22:02:18,839 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-29 22:02:47,019 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829220245fixtestupload.csv
+2021-08-29 22:06:10,577 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-29 22:06:10,616 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-29 22:06:20,023 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 22:06:20,049 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 22:06:20,054 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 22:06:20,058 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 22:06:20,059 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 22:06:20,059 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 22:06:20,060 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 22:06:20,061 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 22:06:20,061 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 22:06:20,061 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 22:06:20,062 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 22:06:20,062 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 22:06:20,131 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,220 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,266 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,305 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,335 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,360 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,390 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,422 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,451 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:20,488 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:33,676 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-08-29 22:06:35,128 [13] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-08-29 22:06:47,224 [13] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start UnwindPerson-----
+2021-08-29 22:06:47,327 [13] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Finish UnwindPerson-----
+2021-08-29 22:06:50,711 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 22:06:51,083 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 22:06:51,083 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 22:06:51,084 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 22:06:51,084 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 22:06:51,085 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 22:06:51,085 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 22:06:51,086 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 22:06:51,086 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 22:06:51,087 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 22:06:51,087 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 22:06:51,087 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 22:06:51,090 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,151 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,192 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,245 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,352 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,393 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,447 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,488 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,522 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:06:51,561 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:22,974 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 22:07:23,048 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 22:07:23,050 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 22:07:23,050 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 22:07:23,051 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 22:07:23,051 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 22:07:23,052 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 22:07:23,052 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 22:07:23,053 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 22:07:23,053 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 22:07:23,055 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 22:07:23,055 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 22:07:23,057 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:24,662 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:24,708 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:24,782 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:24,868 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:24,972 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:25,020 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:25,064 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:26,399 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:07:26,444 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:08:48,693 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-08-29 22:08:50,020 [13] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-08-29 22:09:01,596 [8] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start UnwindPerson-----
+2021-08-29 22:09:01,642 [8] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Finish UnwindPerson-----
+2021-08-29 22:11:58,406 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 22:11:58,599 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 22:11:58,715 [13] DEBUG TreasuryShadowSystem.STN.MasterSTN [(null)] - Object reference not set to an instance of an object.
+2021-08-29 22:12:06,344 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 22:12:06,414 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 22:12:06,414 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 22:12:06,415 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 22:12:06,416 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 22:12:06,416 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 22:12:06,417 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 22:12:06,417 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 22:12:06,418 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 22:12:06,419 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 22:12:06,419 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 22:12:06,419 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 22:12:06,420 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,517 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,594 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,663 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,719 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,808 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,894 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:06,967 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:07,022 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:07,085 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 22:12:27,483 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Url UnwindReport : ../View/ReportViewer2.aspx?report=UNWINDREPORT&symbol=BOW&stnid=623&producttype=DRAN&isreport=true&reportname=UnwindReport_BOW
+2021-08-29 22:12:40,635 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-08-29 22:12:40,665 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-08-29 22:12:51,889 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>623</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>11/06/2021</CURR_DATE>
+    <ORDER_NO>2021500082</ORDER_NO>
+    <ACCT_NO>20129282</ACCT_NO>
+    <SYMBOL>BOW</SYMBOL>
+    <KKSYMBOL>BOW</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FIRST_NAME_EN>BOONKLEE</FIRST_NAME_EN>
+    <FULLNAME>??? ?????? ?????????</FULLNAME>
+    <TAXID>3101700703319</TAXID>
+    <CUST_BANK_CODE>BBL</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>1270723438</CUST_BANK_ACCT>
+    <TEL>02-9545551</TEL>
+    <EMAIL>boonklee@gmail.com</EMAIL>
+    <FC_NAME>Suthana Tanpoonkiat</FC_NAME>
+    <FC_EMAIL>Suthana.Tanp@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>DRAN</STN_TYPE>
+    <NOTE_SERIES>106/2564</NOTE_SERIES>
+    <UNDERLYING1>PTTGC</UNDERLYING1>
+    <STRIKE_PRICE1>54.15</STRIKE_PRICE1>
+    <STRIKE_PRICE2>59.85</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0.00</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0.00</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0.00</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0.00</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0.00</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0.00</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0.00</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0.00</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0.00</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0.00</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>30</TTM>
+    <TRADING_DAY>24</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>57.00</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>95</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>105</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>3</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.25</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>11/06/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>11/06/2021</SUB_END_DATE>
+    <TRADE_DATE>11/06/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>15/06/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>15/06/2021</SETTLE_DATE>
+    <ISSUE_DATE>15/06/2021</ISSUE_DATE>
+    <FIXING_DATE>13/07/2021</FIXING_DATE>
+    <MATURITY_DATE>15/07/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>5</UNWIND_PRICE>
+    <UNWIND_DEALDATE>16/08/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>23/08/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ?????????????????????????????????????????????????????????????? ?????????????????? ?????(?????) ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Daily Range Accrual Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ???????????????????? ??????????????????????? ????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????????????????????? (?????) ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+(?) ??????? = ?????????????????????? x ???????????????????????
+(?) ???????? = ?????????????????????? x ???????????????????? (Rebate) x (????????????????????????????????????????????????????????????? / ????????????????????????????????????????????)</STN_RULE_REDEEM>
+    <STN_SEQ>1/2562</STN_SEQ>
+    <STN_SEQDATE>1 ??. 2540</STN_SEQDATE>
+    <BANKNAME>????????????? ????? (?????)</BANKNAME>
+  </TB_STNCONF>
+</NewDataSet>
+2021-08-29 22:12:51,890 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-08-29 22:13:28,600 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-08-29 22:13:28,629 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-08-29 22:13:29,522 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>623</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>11/06/2021</CURR_DATE>
+    <ORDER_NO>2021500082</ORDER_NO>
+    <ACCT_NO>20129282</ACCT_NO>
+    <SYMBOL>BOW</SYMBOL>
+    <KKSYMBOL>BOW</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FIRST_NAME_EN>BOONKLEE</FIRST_NAME_EN>
+    <FULLNAME>??? ?????? ?????????</FULLNAME>
+    <TAXID>3101700703319</TAXID>
+    <CUST_BANK_CODE>BBL</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>1270723438</CUST_BANK_ACCT>
+    <TEL>02-9545551</TEL>
+    <EMAIL>boonklee@gmail.com</EMAIL>
+    <FC_NAME>Suthana Tanpoonkiat</FC_NAME>
+    <FC_EMAIL>Suthana.Tanp@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>DRAN</STN_TYPE>
+    <NOTE_SERIES>106/2564</NOTE_SERIES>
+    <UNDERLYING1>PTTGC</UNDERLYING1>
+    <STRIKE_PRICE1>54.15</STRIKE_PRICE1>
+    <STRIKE_PRICE2>59.85</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0.00</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0.00</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0.00</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0.00</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0.00</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0.00</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0.00</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0.00</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0.00</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0.00</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>30</TTM>
+    <TRADING_DAY>24</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>57.00</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>95</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>105</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>3</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.25</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>11/06/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>11/06/2021</SUB_END_DATE>
+    <TRADE_DATE>11/06/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>15/06/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>15/06/2021</SETTLE_DATE>
+    <ISSUE_DATE>15/06/2021</ISSUE_DATE>
+    <FIXING_DATE>13/07/2021</FIXING_DATE>
+    <MATURITY_DATE>15/07/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>5</UNWIND_PRICE>
+    <UNWIND_DEALDATE>16/08/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>23/08/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ?????????????????????????????????????????????????????????????? ?????????????????? ?????(?????) ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Daily Range Accrual Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ???????????????????? ??????????????????????? ????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????????????????????? (?????) ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+(?) ??????? = ?????????????????????? x ???????????????????????
+(?) ???????? = ?????????????????????? x ???????????????????? (Rebate) x (????????????????????????????????????????????????????????????? / ????????????????????????????????????????????)</STN_RULE_REDEEM>
+    <STN_SEQ>1/2562</STN_SEQ>
+    <STN_SEQDATE>1 ??. 2540</STN_SEQDATE>
+    <BANKNAME>????????????? ????? (?????)</BANKNAME>
+  </TB_STNCONF>
+</NewDataSet>
+2021-08-29 22:13:29,789 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-08-29 23:17:50,654 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-08-29 23:17:53,128 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :29/08/2021 11:17:53
+2021-08-29 23:17:53,275 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-08-29 23:18:21,780 [10] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829231821bowtestupload.csv
+2021-08-29 23:20:13,335 [10] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-29 23:20:13,382 [10] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-29 23:20:22,821 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:20:22,861 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:20:22,865 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:20:22,869 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:20:22,869 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:20:22,870 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:20:22,870 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:20:22,871 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:20:22,871 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:20:22,872 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:20:22,872 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:20:22,872 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:20:22,932 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:22,974 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,004 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,035 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,071 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,107 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,134 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,161 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,191 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:23,217 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,407 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Delete-----
+2021-08-29 23:20:30,408 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : DELETE FROM OPICINF.KKB_TB_STN_MASTER WHERE MASSTNID ='461'
+2021-08-29 23:20:30,459 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish-----
+2021-08-29 23:20:30,477 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:20:30,492 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:20:30,493 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:20:30,493 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:20:30,493 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:20:30,494 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:20:30,494 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:20:30,495 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:20:30,495 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:20:30,496 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:20:30,496 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:20:30,499 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,535 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,567 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,607 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,640 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,661 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:30,693 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:32,186 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:20:32,248 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:02,498 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:21:02,525 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:21:02,526 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:21:02,526 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:21:02,526 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:21:02,527 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:21:02,527 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:21:02,528 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:21:02,528 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:21:02,529 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:21:02,529 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:21:02,529 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:21:02,532 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:02,598 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:02,657 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:02,694 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:02,726 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:03,767 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:03,801 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:03,865 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:03,974 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:04,005 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:21:18,912 [8] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829232118bowtestupload.csv
+2021-08-29 23:22:22,464 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:22:22,513 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:22:22,515 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:22:22,516 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:22:22,516 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:22:22,517 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:22:22,518 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:22:22,518 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:22:22,519 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:22:22,521 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:22:22,523 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:22:22,523 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:22:22,526 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:22,583 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:22,618 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:22,667 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,070 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,114 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,176 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,235 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,272 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:24,330 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:43,054 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-08-29 23:22:43,055 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY,STN_SEQ = :STN_SEQ,STN_SEQDATE = :STN_SEQDATE   WHERE MASSTNID = :MASSTNID 
+2021-08-29 23:22:43,094 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-08-29 23:22:43,107 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:22:44,199 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:22:44,200 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:22:44,200 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:22:44,201 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:22:44,201 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:22:44,202 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:22:44,202 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:22:44,203 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:22:44,203 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:22:44,203 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:22:44,204 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:22:44,206 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,234 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,274 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,319 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,344 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,376 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,404 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:44,437 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:45,398 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:45,434 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:22:59,191 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryShadowSystem\Temporary\STN\20210829232259bowtestupload.csv
+2021-08-29 23:23:08,624 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start removeRecordBykkSymbol-----
+2021-08-29 23:23:08,653 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----removeRecordBykkSymbol Finish-----
+2021-08-29 23:23:15,063 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:23:15,078 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:23:15,078 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:23:15,078 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:23:15,079 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:23:15,079 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:23:15,080 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:23:15,080 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:23:15,080 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:23:15,081 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:23:15,081 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:23:15,082 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:23:15,082 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,101 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,124 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,147 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,171 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,234 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,304 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,346 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,370 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:15,392 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:23:27,020 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-08-29 23:23:49,699 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-08-29 23:24:12,123 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start UnwindPerson-----
+2021-08-29 23:24:12,190 [11] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Finish UnwindPerson-----
+2021-08-29 23:24:16,950 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-08-29 23:24:17,023 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-08-29 23:24:17,024 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-08-29 23:24:17,024 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-08-29 23:24:17,026 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-08-29 23:24:17,027 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-08-29 23:24:17,027 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-08-29 23:24:17,027 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-08-29 23:24:17,027 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-08-29 23:24:17,028 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-08-29 23:24:17,028 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-08-29 23:24:17,029 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-08-29 23:24:17,031 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,082 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,133 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,190 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,236 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,275 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,309 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,345 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,382 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:17,416 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-08-29 23:24:44,834 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Url UnwindReport : ../View/ReportViewer2.aspx?report=UNWINDREPORT&symbol=BOW&stnid=625&producttype=DRAN&isreport=true&reportname=UnwindReport_BOW
+2021-08-29 23:28:31,425 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-08-29 23:28:31,448 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-08-29 23:28:36,014 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Start-----
+2021-08-29 23:28:36,038 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-08-29 23:28:54,345 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>625</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>11/06/2021</CURR_DATE>
+    <ORDER_NO>2021500082</ORDER_NO>
+    <ACCT_NO>20129282</ACCT_NO>
+    <SYMBOL>BOW</SYMBOL>
+    <KKSYMBOL>BOW</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FIRST_NAME_EN>BOONKLEE</FIRST_NAME_EN>
+    <FULLNAME>??? ?????? ?????????</FULLNAME>
+    <TAXID>3101700703319</TAXID>
+    <CUST_BANK_CODE>BBL</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>1270723438</CUST_BANK_ACCT>
+    <TEL>02-9545551</TEL>
+    <EMAIL>boonklee@gmail.com</EMAIL>
+    <FC_NAME>Suthana Tanpoonkiat</FC_NAME>
+    <FC_EMAIL>Suthana.Tanp@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>DRAN</STN_TYPE>
+    <NOTE_SERIES>106/2564</NOTE_SERIES>
+    <UNDERLYING1>PTTGC</UNDERLYING1>
+    <STRIKE_PRICE1>54.15</STRIKE_PRICE1>
+    <STRIKE_PRICE2>59.85</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0.00</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0.00</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0.00</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0.00</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0.00</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0.00</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0.00</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0.00</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0.00</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0.00</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>30</TTM>
+    <TRADING_DAY>24</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>57.00</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>95</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>105</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>3</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.25</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>11/06/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>11/06/2021</SUB_END_DATE>
+    <TRADE_DATE>11/06/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>15/06/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>15/06/2021</SETTLE_DATE>
+    <ISSUE_DATE>15/06/2021</ISSUE_DATE>
+    <FIXING_DATE>13/07/2021</FIXING_DATE>
+    <MATURITY_DATE>15/07/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>13</UNWIND_PRICE>
+    <UNWIND_DEALDATE>09/08/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>18/08/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ?????????????????????????????????????????????????????????????? ?????????????????? ?????(?????) ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Daily Range Accrual Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ???????????????????? ??????????????????????? ????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????????????????????? (?????) ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+(?) ??????? = ?????????????????????? x ???????????????????????
+(?) ???????? = ?????????????????????? x ???????????????????? (Rebate) x (????????????????????????????????????????????????????????????? / ????????????????????????????????????????????)</STN_RULE_REDEEM>
+    <STN_SEQ>1</STN_SEQ>
+    <STN_SEQDATE>1</STN_SEQDATE>
+    <BANKNAME>????????????? ????? (?????)</BANKNAME>
+  </TB_STNCONF>
+</NewDataSet>
+2021-08-29 23:28:54,367 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----
+2021-08-29 23:28:54,370 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>625</STNID>
+    <ACTION>UNWIND</ACTION>
+    <CURR_DATE>11/06/2021</CURR_DATE>
+    <ORDER_NO>2021500082</ORDER_NO>
+    <ACCT_NO>20129282</ACCT_NO>
+    <SYMBOL>BOW</SYMBOL>
+    <KKSYMBOL>BOW</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FIRST_NAME_EN>BOONKLEE</FIRST_NAME_EN>
+    <FULLNAME>??? ?????? ?????????</FULLNAME>
+    <TAXID>3101700703319</TAXID>
+    <CUST_BANK_CODE>BBL</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>1270723438</CUST_BANK_ACCT>
+    <TEL>02-9545551</TEL>
+    <EMAIL>boonklee@gmail.com</EMAIL>
+    <FC_NAME>Suthana Tanpoonkiat</FC_NAME>
+    <FC_EMAIL>Suthana.Tanp@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>DRAN</STN_TYPE>
+    <NOTE_SERIES>106/2564</NOTE_SERIES>
+    <UNDERLYING1>PTTGC</UNDERLYING1>
+    <STRIKE_PRICE1>54.15</STRIKE_PRICE1>
+    <STRIKE_PRICE2>59.85</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0.00</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0.00</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0.00</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0.00</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0.00</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0.00</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0.00</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0.00</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0.00</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0.00</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>100</PROTECT_LEVELP>
+    <TTM>30</TTM>
+    <TRADING_DAY>24</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>57.00</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>95</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>105</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>3</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.25</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>11/06/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>11/06/2021</SUB_END_DATE>
+    <TRADE_DATE>11/06/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>15/06/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>15/06/2021</SETTLE_DATE>
+    <ISSUE_DATE>15/06/2021</ISSUE_DATE>
+    <FIXING_DATE>13/07/2021</FIXING_DATE>
+    <MATURITY_DATE>15/07/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <UNWIND_PRICE>13</UNWIND_PRICE>
+    <UNWIND_DEALDATE>09/08/2021</UNWIND_DEALDATE>
+    <UNWIND_PAYDATE>18/08/2021</UNWIND_PAYDATE>
+    <STN_NAME>??????????????????????? ?????????????????????????????????????????????????????????????? ?????????????????? ?????(?????) ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Daily Range Accrual Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ???????????????????? ??????????????????????? ????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????????????????????? (?????) ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+(?) ??????? = ?????????????????????? x ???????????????????????
+(?) ???????? = ?????????????????????? x ???????????????????? (Rebate) x (????????????????????????????????????????????????????????????? / ????????????????????????????????????????????)</STN_RULE_REDEEM>
+    <STN_SEQ>1</STN_SEQ>
+    <STN_SEQDATE>1</STN_SEQDATE>
+    <BANKNAME>????????????? ????? (?????)</BANKNAME>
+  </TB_STNCONF>
+</NewDataSet>
+2021-08-29 23:28:54,372 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_UNWINDREPORT [(null)] - -----Model_RPT_UNWINDREPORT Finish-----

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR081ACSWPR" targetNamespace="http://tempuri.org/DS_TR081ACSWPR.xsd" xmlns:mstns="http://tempuri.org/DS_TR081ACSWPR.xsd" xmlns="http://tempuri.org/DS_TR081ACSWPR.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR081ACSWPR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR081ACSWPR" msprop:Generator_DataSetName="DS_TR081ACSWPR" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR081ACSWPR" msprop:Generator_UserTableName="TB_TR081ACSWPR" msprop:Generator_RowDeletedName="TB_TR081ACSWPRRowDeleted" msprop:Generator_RowChangedName="TB_TR081ACSWPRRowChanged" msprop:Generator_RowClassName="TB_TR081ACSWPRRow" msprop:Generator_RowChangingName="TB_TR081ACSWPRRowChanging" msprop:Generator_RowEvArgName="TB_TR081ACSWPRRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR081ACSWPRRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR081ACSWPRDataTable" msprop:Generator_TableVarName="tableTB_TR081ACSWPR" msprop:Generator_RowDeletingName="TB_TR081ACSWPRRowDeleting" msprop:Generator_TablePropName="TB_TR081ACSWPR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BR" msprop:Generator_UserColumnName="BR" msprop:Generator_ColumnPropNameInRow="BR" msprop:Generator_ColumnVarNameInTable="columnBR" msprop:Generator_ColumnPropNameInTable="BRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CODE" msprop:Generator_UserColumnName="CODE" msprop:Generator_ColumnVarNameInTable="columnCODE" msprop:Generator_ColumnPropNameInRow="CODE" msprop:Generator_ColumnPropNameInTable="CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CMNE" msprop:Generator_UserColumnName="CMNE" msprop:Generator_ColumnPropNameInRow="CMNE" msprop:Generator_ColumnVarNameInTable="columnCMNE" msprop:Generator_ColumnPropNameInTable="CMNEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EFFDATE" msprop:Generator_UserColumnName="EFFDATE" msprop:Generator_ColumnPropNameInRow="EFFDATE" msprop:Generator_ColumnVarNameInTable="columnEFFDATE" msprop:Generator_ColumnPropNameInTable="EFFDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_CCY" msprop:Generator_UserColumnName="PAY_CCY" msprop:Generator_ColumnPropNameInRow="PAY_CCY" msprop:Generator_ColumnVarNameInTable="columnPAY_CCY" msprop:Generator_ColumnPropNameInTable="PAY_CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_AMOUNT" msprop:Generator_UserColumnName="PAY_AMOUNT" msprop:Generator_ColumnPropNameInRow="PAY_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnPAY_AMOUNT" msprop:Generator_ColumnPropNameInTable="PAY_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAY_RATE" msprop:Generator_UserColumnName="PAY_RATE" msprop:Generator_ColumnPropNameInRow="PAY_RATE" msprop:Generator_ColumnVarNameInTable="columnPAY_RATE" msprop:Generator_ColumnPropNameInTable="PAY_RATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RECEIVE_CCY" msprop:Generator_UserColumnName="RECEIVE_CCY" msprop:Generator_ColumnPropNameInRow="RECEIVE_CCY" msprop:Generator_ColumnVarNameInTable="columnRECEIVE_CCY" msprop:Generator_ColumnPropNameInTable="RECEIVE_CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RECEIVE_AMOUNT" msprop:Generator_UserColumnName="RECEIVE_AMOUNT" msprop:Generator_ColumnPropNameInRow="RECEIVE_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnRECEIVE_AMOUNT" msprop:Generator_ColumnPropNameInTable="RECEIVE_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RECEIVE_RATE" msprop:Generator_UserColumnName="RECEIVE_RATE" msprop:Generator_ColumnPropNameInRow="RECEIVE_RATE" msprop:Generator_ColumnVarNameInTable="columnRECEIVE_RATE" msprop:Generator_ColumnPropNameInTable="RECEIVE_RATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NETINTEREST" msprop:Generator_UserColumnName="NETINTEREST" msprop:Generator_ColumnPropNameInRow="NETINTEREST" msprop:Generator_ColumnVarNameInTable="columnNETINTEREST" msprop:Generator_ColumnPropNameInTable="NETINTERESTColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

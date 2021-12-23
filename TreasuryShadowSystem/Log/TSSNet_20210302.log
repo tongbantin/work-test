@@ -1,0 +1,424 @@
+2021-03-02 11:21:28,833 [4] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-02 11:21:43,451 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 11:21:43,510 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 11:21:43
+2021-03-02 11:21:43,599 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 11:22:26,061 [4] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:23:14,231 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:25:20,061 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 11:25:20,072 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:25:20,073 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 11:25:20,073 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 11:25:20,073 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245535
+2021-03-02 11:25:20,074 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:25:20,074 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 11:25:20,075 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 11:25:20,159 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 1
+2021-03-02 11:25:20,160 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:25:20,176 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:25:34,599 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:25:47,275 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:26:44,517 [11] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:26:46,110 [11] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:27:28,188 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 11:27:28,399 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:27:28,607 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 11:27:28,829 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 11:27:29,035 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243575
+2021-03-02 11:27:29,291 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:27:29,928 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 11:27:31,229 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 11:27:52,745 [11] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19603
+2021-03-02 11:28:00,893 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:28:06,296 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:28:21,062 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:29:06,483 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:29:06,485 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:39:26,764 [4] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-02 11:40:06,213 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 11:40:06,254 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 11:40:06
+2021-03-02 11:40:06,314 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 11:40:26,789 [4] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:40:27,997 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:40:49,520 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 11:40:49,526 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:40:49,527 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 11:40:49,527 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 11:40:49,527 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243575
+2021-03-02 11:40:49,527 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:40:49,527 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 11:40:49,528 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 11:40:49,551 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19605
+2021-03-02 11:40:49,552 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:40:51,324 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:41:07,626 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:41:50,346 [4] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:41:55,583 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:42:09,263 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 11:42:09,275 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:42:09,276 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 11:42:09,276 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 11:42:09,276 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245465
+2021-03-02 11:42:09,276 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:42:09,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 11:42:09,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 11:42:09,298 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19607
+2021-03-02 11:42:09,298 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:42:09,304 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:42:26,236 [10] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:42:48,230 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245465
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040699.69
+2021-03-02 11:42:48,238 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005296.99
+2021-03-02 11:42:48,239 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 11:42:48,239 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040699.69
+2021-03-02 11:42:48,239 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005296.99
+2021-03-02 11:42:48,239 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 11:42:48,239 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 35402.70
+2021-03-02 11:42:48,240 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 11:42:48,240 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 1.7
+2021-03-02 11:42:48,257 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19607
+2021-03-02 11:42:48,258 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:42:48,265 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:43:22,759 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogBySettleDate SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(SETTDATE)='20190108'  ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:43:30,589 [9] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI Select All : 
+2021-03-02 11:43:30,731 [9] INFO  TreasuryShadowSystem.Form.frm_TR051GENPTI [(null)] - PTI records : 2
+2021-03-02 11:43:30,869 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Execute : Update OPICINF.KKB_TB_MS_PTITRANS_LOG Set GenXML='1' Where RelateRef='20190108' 
+2021-03-02 11:43:38,800 [10] ERROR TreasuryJob.ExecuteJob [(null)] - The type initializer for 'Quartz.Impl.StdSchedulerFactory' threw an exception.
+2021-03-02 11:45:17,813 [6] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:17,843 [11] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:17,874 [9] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:17,874 [14] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:17,904 [13] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:17,904 [12] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:18,145 [12] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:30,299 [13] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:44,308 [13] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:45:46,532 [13] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 11:46:10,631 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 11:46:10,638 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245815
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 11:46:10,639 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 11:46:10,657 [6] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19609
+2021-03-02 11:46:10,657 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 11:46:10,665 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 11:46:32,153 [6] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 12:23:38,320 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 12:23:38,375 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 12:23:38
+2021-03-02 12:23:38,454 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 12:23:47,522 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921346' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 12:23:59,368 [9] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 12:24:05,357 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 12:24:05,359 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921346' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 12:24:09,677 [4] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 12:24:11,570 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 12:36:53,158 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 12:36:53,175 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 12:36:53,176 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1921346
+2021-03-02 12:36:53,176 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 12:36:53,176 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243715
+2021-03-02 12:36:53,177 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 50
+2021-03-02 12:36:53,177 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 12:36:53,177 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 12:36:53,203 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19633
+2021-03-02 12:36:53,203 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 12:36:53,207 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921346' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 12:39:27,005 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 12:39:27,091 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 12:39:27
+2021-03-02 12:39:27,175 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 12:40:13,420 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 12:40:17,104 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 12:41:15,519 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 12:41:15,532 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 12:41:15,532 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 12:41:15,532 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 12:41:15,533 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 247075
+2021-03-02 12:41:15,533 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 12:41:15,533 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698.80
+2021-03-02 12:41:15,535 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005296.10
+2021-03-02 12:41:15,536 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 12:41:15,536 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698.80
+2021-03-02 12:41:15,536 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005296.10
+2021-03-02 12:41:15,537 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 12:41:15,537 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 35402.70
+2021-03-02 12:41:15,537 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 12:41:15,538 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 1.60
+2021-03-02 12:41:15,583 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19621
+2021-03-02 12:41:15,583 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 12:41:15,586 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 13:53:33,007 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 13:53:33,096 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 01:53:33
+2021-03-02 13:53:33,186 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 13:53:49,349 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 13:54:45,286 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 13:55:29,776 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 13:55:29,784 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 13:55:29,784 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 13:55:29,784 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : 543
+2021-03-02 13:55:29,785 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 248825
+2021-03-02 13:55:29,785 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 13:55:29,785 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698.00
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005295.30
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698.00
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005295.30
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 35402.70
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 13:55:29,786 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 1.65
+2021-03-02 13:55:29,823 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19649
+2021-03-02 13:55:29,824 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 13:55:29,827 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:07:15,660 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 14:07:15,750 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 02:07:15
+2021-03-02 14:07:15,845 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 14:07:28,385 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:07:34,754 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:07:58,693 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 14:07:58,701 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:07:58,701 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 14:07:58,701 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:07:58,702 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 248825
+2021-03-02 14:07:58,702 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:07:58,702 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698
+2021-03-02 14:07:58,702 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005295.30
+2021-03-02 14:07:58,702 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:07:58,703 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10040698
+2021-03-02 14:07:58,703 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10005295.30
+2021-03-02 14:07:58,703 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:07:58,703 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 35402.70
+2021-03-02 14:07:58,703 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 14:07:58,704 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 1.60
+2021-03-02 14:07:58,750 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19649
+2021-03-02 14:07:58,751 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:07:58,755 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:08:21,390 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:08:21,395 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:08:26,705 [12] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:08:27,327 [12] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:08:50,062 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 14:08:50,073 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:08:50,073 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 14:08:50,073 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:08:50,073 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243225
+2021-03-02 14:08:50,073 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:08:50,074 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 14:08:50,074 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 14:08:50,120 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 1
+2021-03-02 14:08:50,120 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:08:50,131 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:08:55,672 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:09:35,125 [12] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:10:03,386 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:10:12,559 [12] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:10:14,443 [12] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:10:21,747 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 14:10:21,757 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:10:21,757 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920035
+2021-03-02 14:10:21,757 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:10:21,758 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 242455
+2021-03-02 14:10:21,758 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:10:21,759 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 14:10:21,759 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 14:10:21,774 [12] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19663
+2021-03-02 14:10:21,774 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:10:21,778 [12] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920035' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:11:23,737 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:12:06,111 [10] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:12:30,107 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 14:12:30,115 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:12:30,115 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040
+2021-03-02 14:12:30,115 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 14:12:30,116 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 248825
+2021-03-02 14:12:30,116 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 0.5
+2021-03-02 14:12:30,116 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 520917.00
+2021-03-02 14:12:30,116 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 517993.16
+2021-03-02 14:12:30,117 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:12:30,117 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 520917.00
+2021-03-02 14:12:30,117 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 517993.16
+2021-03-02 14:12:30,117 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:12:30,118 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 2923.84
+2021-03-02 14:12:30,118 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 14:12:30,118 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 2.69
+2021-03-02 14:12:30,135 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19643
+2021-03-02 14:12:30,135 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:12:30,142 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:12:36,303 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:12:36,309 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:12:41,402 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:12:41,412 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:12:47,422 [10] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:12:49,909 [10] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:13:15,516 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 14:13:15,526 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:13:15,526 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040
+2021-03-02 14:13:15,526 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:13:15,526 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243645
+2021-03-02 14:13:15,527 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 2.5
+2021-03-02 14:13:15,527 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 14:13:15,527 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 14:13:15,546 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19665
+2021-03-02 14:13:15,546 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:13:15,551 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:13:40,629 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:14:04,267 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 14:14:04,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:14:04,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040
+2021-03-02 14:14:04,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:14:04,277 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243645
+2021-03-02 14:14:04,278 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 2.5
+2021-03-02 14:14:04,278 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 2604587.53
+2021-03-02 14:14:04,278 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 2589968.35
+2021-03-02 14:14:04,278 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:14:04,279 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 2604587.53
+2021-03-02 14:14:04,279 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 2589968.35
+2021-03-02 14:14:04,279 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:14:04,279 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 14619.18
+2021-03-02 14:14:04,279 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 14:14:04,280 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 2.00
+2021-03-02 14:14:04,294 [10] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19665
+2021-03-02 14:14:04,294 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:14:04,298 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:15:09,935 [9] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:16:53,346 [9] DEBUG TreasuryShadowSystem.Form.frm_TR051GENERATE [(null)] - Start Read Data Allot PTI From Excel
+2021-03-02 14:16:53,720 [9] DEBUG TreasuryShadowSystem.Form.frm_TR051GENERATE [(null)] - Start Add Data To Object
+2021-03-02 14:16:53,752 [9] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:16:53,818 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:16:53,821 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 14:16:53,821 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040 
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245535
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 14:16:53,822 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 3900000
+2021-03-02 14:16:53,836 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19667
+2021-03-02 14:16:53,836 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:16:53,887 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:16:53,890 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 14:16:53,890 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:16:53,890 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040 
+2021-03-02 14:16:53,891 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:16:53,892 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245955
+2021-03-02 14:16:53,892 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 20
+2021-03-02 14:16:53,892 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 14:16:53,892 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 3900000
+2021-03-02 14:16:53,904 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19669
+2021-03-02 14:16:53,904 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:16:56,816 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:17:10,472 [8] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:17:19,777 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 14:17:19,785 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:17:19,785 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1920040
+2021-03-02 14:17:19,785 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 14:17:19,786 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 245535
+2021-03-02 14:17:19,786 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:17:19,786 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10418349.51
+2021-03-02 14:17:19,786 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10359873.40
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 3900000
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10418349.51
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 10359873.40
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 3900000
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 58476.11
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 14:17:19,787 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 2.69
+2021-03-02 14:17:19,796 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19667
+2021-03-02 14:17:19,796 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:17:19,798 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1920040' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:17:40,851 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 14:18:18,691 [8] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 14:18:40,108 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 14:18:40,117 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 14:18:40,117 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1921288
+2021-03-02 14:18:40,118 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 14:18:40,118 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 247075
+2021-03-02 14:18:40,118 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 14:18:40,118 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10045981.09
+2021-03-02 14:18:40,119 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 9988192.09
+2021-03-02 14:18:40,119 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:18:40,119 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 10045981.09
+2021-03-02 14:18:40,119 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 9988192.09
+2021-03-02 14:18:40,119 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 14:18:40,120 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 57789
+2021-03-02 14:18:40,120 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 0
+2021-03-02 14:18:40,120 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 2.34
+2021-03-02 14:18:40,135 [8] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19631
+2021-03-02 14:18:40,135 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 14:18:40,139 [8] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:38:31,934 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-03-02 15:38:32,013 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/03/2021 03:38:32
+2021-03-02 15:38:32,109 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-03-02 15:38:59,055 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:38:59,058 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:39:06,202 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:39:16,021 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:39:56,338 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 15:39:56,342 [11] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:40:16,030 [11] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:40:21,288 [11] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:41:48,149 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:41:48,153 [10] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:41:52,787 [10] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:41:54,552 [10] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:43:46,779 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:43:48,833 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 15:43:48,845 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 15:43:48,845 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1921288
+2021-03-02 15:43:48,846 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 15:43:48,846 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243435
+2021-03-02 15:43:48,846 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 15:43:48,846 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 15:43:48,847 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 15:43:48,865 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19701
+2021-03-02 15:43:48,865 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 15:43:51,601 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:43:51,612 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:44:04,860 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:44:17,170 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 15:44:17,173 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:44:28,215 [9] INFO  TreasuryModel.Master.Model_MS_BOND [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:44:31,824 [4] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:44:56,631 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:44:58,153 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : insert
+2021-03-02 15:44:58,164 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 15:44:58,164 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1921288
+2021-03-02 15:44:58,164 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : CHEQUE
+2021-03-02 15:44:58,164 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 244135
+2021-03-02 15:44:58,164 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 15:44:58,165 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 15:44:58,165 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 
+2021-03-02 15:44:58,180 [4] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19703
+2021-03-02 15:44:58,180 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 15:44:58,195 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:44:58,197 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:45:06,960 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:45:06,963 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:45:09,589 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:45:14,518 [9] INFO  TreasuryModel.Data.Customer [(null)] - -----Model_MS_Customer Finish-----
+2021-03-02 15:45:26,677 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Action : update
+2021-03-02 15:45:26,687 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - TransLog : 
+2021-03-02 15:45:26,687 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealNo : 1921288
+2021-03-02 15:45:26,687 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - MsgType : BAHTNET
+2021-03-02 15:45:26,688 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Attn : 243575
+2021-03-02 15:45:26,688 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - FaceAmt : 10
+2021-03-02 15:45:26,689 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 15:45:26,690 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 
+2021-03-02 15:45:26,690 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 15:45:26,690 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - SettAmt : 0
+2021-03-02 15:45:26,691 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - PrinAmt : 
+2021-03-02 15:45:26,691 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - CostAmt : 0
+2021-03-02 15:45:26,691 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - IntAmt : 
+2021-03-02 15:45:26,691 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - VatAmt : 
+2021-03-02 15:45:26,692 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - DealPriceAmt : 
+2021-03-02 15:45:26,709 [9] DEBUG TreasuryModel.Master.Model_MS_PTITRANS [(null)] - Result : 19703
+2021-03-02 15:45:26,709 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----KKB_TB_MS_PTITRANS_LOG Finish-----
+2021-03-02 15:45:34,046 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - -----Model_MS_COUNTERPARTY Finish-----
+2021-03-02 15:45:34,056 [9] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 
+2021-03-02 15:45:56,530 [4] INFO  TreasuryModel.Master.Model_MS_PTITRANS [(null)] - getTransLogByDealNo SQL :Select *, (Select NameEn From OPICINF.KKB_TB_CUSTOMER WHERE CustomerID=KKB_TB_MS_PTITRANS_LOG.AttnID) AttnName From OPICINF.KKB_TB_MS_PTITRANS_LOG Where TRIM(RelateRef)='1921288' ORDER BY RELATEREF , TRANSLOGID ASC 

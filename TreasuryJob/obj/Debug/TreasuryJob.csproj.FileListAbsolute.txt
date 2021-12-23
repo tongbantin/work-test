@@ -1,0 +1,94 @@
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\log4net.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Common.Logging.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Common.Logging.Core.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.xml
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\TreasuryJob.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\TreasuryJob.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryModel.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Newtonsoft.Json.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\DealTicketReport.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Renci.SshNet.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\RestSharp.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\DealTicketModel.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryCommon.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\DealTicketReport.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\KKB.Treasury.ThirdParty.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryModel.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\DealTicketModel.pdb
+C:\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Common.Logging.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Common.Logging.Core.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\bin\Debug\Quartz.xml
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem\TreasuryJob\obj\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\Quartz.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\Common.Logging.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\Common.Logging.Core.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\Quartz.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\bin\Debug\Quartz.xml
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\obj\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-PreProduction\TreasuryJob\obj\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Quartz.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Common.Logging.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Common.Logging.Core.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Quartz.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Quartz.xml
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\obj\Debug\TreasuryJob.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\obj\Debug\TreasuryJob.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\itextsharp.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\itextsharp.xml
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryJob\bin\Debug\Oracle.DataAccess.dll
+C:\TRO\Production\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+C:\TRO\Production\TreasuryJob\bin\Debug\TreasuryJob.dll
+C:\TRO\Production\TreasuryJob\bin\Debug\TreasuryJob.pdb
+C:\TRO\Production\TreasuryJob\bin\Debug\itextsharp.dll
+C:\TRO\Production\TreasuryJob\bin\Debug\log4net.dll
+C:\TRO\Production\TreasuryJob\bin\Debug\Quartz.dll
+C:\TRO\Production\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\TreasuryJob\obj\Debug\TreasuryJob.dll
+C:\TRO\Production\TreasuryJob\obj\Debug\TreasuryJob.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\TreasuryJob.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\TreasuryJob.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\itextsharp.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\log4net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\bin\Debug\Quartz.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\obj\Debug\TreasuryJob.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryJob\obj\Debug\TreasuryJob.pdb
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\TreasuryJob.dll.config
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\TreasuryJob.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\TreasuryJob.pdb
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\itextsharp.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\log4net.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\Oracle.DataAccess.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\bin\Debug\Quartz.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\TreasuryJob\obj\Debug\TreasuryJob.dll
+D:\Project\KKP\Production3\Production\TreasuryJob\obj\Debug\TreasuryJob.pdb

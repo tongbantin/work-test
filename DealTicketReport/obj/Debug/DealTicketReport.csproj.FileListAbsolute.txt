@@ -1,0 +1,25 @@
+C:\TRO\Trunk\DealTicketReport\bin\Debug\DealTicketReport.dll
+C:\TRO\Trunk\DealTicketReport\bin\Debug\DealTicketReport.pdb
+C:\TRO\Trunk\DealTicketReport\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Trunk\DealTicketReport\obj\Debug\DealTicketReport.dll
+C:\TRO\Trunk\DealTicketReport\obj\Debug\DealTicketReport.pdb
+C:\TRO\Trunk_coll\DealTicketReport\bin\Debug\DealTicketReport.dll
+C:\TRO\Trunk_coll\DealTicketReport\bin\Debug\DealTicketReport.pdb
+C:\TRO\Trunk_coll\DealTicketReport\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Trunk_coll\DealTicketReport\obj\Debug\DealTicketReport.dll
+C:\TRO\Trunk_coll\DealTicketReport\obj\Debug\DealTicketReport.pdb
+C:\TRO\Production\DealTicketReport\bin\Debug\DealTicketReport.dll
+C:\TRO\Production\DealTicketReport\bin\Debug\DealTicketReport.pdb
+C:\TRO\Production\DealTicketReport\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\DealTicketReport\obj\Debug\DealTicketReport.dll
+C:\TRO\Production\DealTicketReport\obj\Debug\DealTicketReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketReport\bin\Debug\DealTicketReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketReport\bin\Debug\DealTicketReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketReport\obj\Debug\DealTicketReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\DealTicketReport\obj\Debug\DealTicketReport.pdb
+D:\Project\KKP\Production3\Production\DealTicketReport\bin\Debug\DealTicketReport.dll
+D:\Project\KKP\Production3\Production\DealTicketReport\bin\Debug\DealTicketReport.pdb
+D:\Project\KKP\Production3\Production\DealTicketReport\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\DealTicketReport\obj\Debug\DealTicketReport.dll
+D:\Project\KKP\Production3\Production\DealTicketReport\obj\Debug\DealTicketReport.pdb

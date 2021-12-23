@@ -1,0 +1,10 @@
+C:\TRO\Trunk\DealTicketSystem\bin\Release\DealTicketSystem.exe.config
+C:\TRO\Trunk\DealTicketSystem\bin\Release\DealTicketSystem.exe
+C:\TRO\Trunk\DealTicketSystem\bin\Release\DealTicketSystem.pdb
+C:\TRO\Trunk\DealTicketSystem\bin\Release\DealTicketModel.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Release\KKB.Treasury.ThirdParty.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Release\log4net.dll
+C:\TRO\Trunk\DealTicketSystem\bin\Release\DealTicketModel.pdb
+C:\TRO\Trunk\DealTicketSystem\obj\Release\ResolveAssemblyReference.cache
+C:\TRO\Trunk\DealTicketSystem\obj\Release\DealTicketSystem.exe
+C:\TRO\Trunk\DealTicketSystem\obj\Release\DealTicketSystem.pdb

@@ -1,0 +1,165 @@
+2021-04-01 17:32:06,404 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 17:32:06,487 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 05:32:06
+2021-04-01 17:32:06,591 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 17:58:25,984 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-04-01 17:58:25,985 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-04-01 17:58:52,644 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start update-----
+2021-04-01 17:58:52,645 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Update OPICINF.KKB_TB_MS_LOOKUP Set Data_Type=:DataType, Data_Code=:DataCode, Data_Name_Th=:DataNameTh, Data_Name_Eng=:DataNameEng, ParentID=:ParentID, Path_URL=:PathURL, Seq=:Seq, Enabled=:Enabled, GroupID=:GroupID Where ID=:MenuID 
+2021-04-01 17:58:52,687 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_WEBPARAM Finish-----
+2021-04-01 18:00:01,833 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-04-01 18:00:01,834 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-04-01 18:00:01,888 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-04-01 18:01:04,617 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-04-01 18:01:04,617 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-04-01 18:01:04,631 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-04-01 18:01:15,174 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 18:01:15,216 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 06:01:15
+2021-04-01 18:01:15,298 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 18:01:33,596 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start update-----
+2021-04-01 18:01:33,597 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Update OPICINF.KKB_TB_MS_LOOKUP Set Data_Type=:DataType, Data_Code=:DataCode, Data_Name_Th=:DataNameTh, Data_Name_Eng=:DataNameEng, ParentID=:ParentID, Path_URL=:PathURL, Seq=:Seq, Enabled=:Enabled, GroupID=:GroupID Where ID=:MenuID 
+2021-04-01 18:01:33,611 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_WEBPARAM Finish-----
+2021-04-01 18:02:32,150 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-04-01 18:02:32,151 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-04-01 18:02:32,160 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-04-01 18:03:01,973 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKB_TB_MS_LOOKUP Start insert-----
+2021-04-01 18:03:01,973 [9] INFO  TreasuryModel.Data.Menu [(null)] - SQL Statement : Insert Into OPICINF.KKB_TB_MS_LOOKUP(Data_Type, Data_Code, Data_Name_Th, Data_Name_Eng, ParentID, Path_URL, Seq, Enabled, GroupID)  Values( :DataType, :DataCode, :DataNameTh, :DataNameEng, :ParentID, :PathURL, :Seq, :Enabled, :GroupID)
+2021-04-01 18:03:01,978 [9] INFO  TreasuryModel.Data.Menu [(null)] - -----KKTB_TB_MS_LOOKUP Finish-----
+2021-04-01 18:08:33,093 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 18:08:33,126 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 06:08:33
+2021-04-01 18:08:33,222 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 18:10:45,695 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 18:10:45,728 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 06:10:45
+2021-04-01 18:10:45,824 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 18:29:09,727 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401182909Confirmation Format_BODN.xlsx
+2021-04-01 18:35:30,759 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401183530Confirmation Format_BODN.xlsx
+2021-04-01 18:45:04,715 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401184504Confirmation Format_SFIN.xlsx
+2021-04-01 18:45:27,888 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-04-01 18:45:27,888 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY   WHERE MASSTNID = :MASSTNID 
+2021-04-01 18:45:27,901 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-04-01 18:45:41,343 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401184541Confirmation Format_SFIN.xlsx
+2021-04-01 18:46:42,087 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401184642Confirmation Format_SFIN.xlsx
+2021-04-01 18:48:17,160 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start Update-----
+2021-04-01 18:48:17,161 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - SQL Statement : UPDATE OPICINF.KKB_TB_STN_MASTER SET KKSYMBOL = :KKSYMBOL,STN_TYPE = :STN_TYPE,SUM_RECORD = :SUM_RECORD,SUM_AMOUNT = :SUM_AMOUNT,UPDATE_DATE = sysdate,UPDATE_BY = :UPDATE_BY   WHERE MASSTNID = :MASSTNID 
+2021-04-01 18:48:17,171 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----Update KKB_TB_STN_MASTER Finish-----
+2021-04-01 18:48:28,330 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401184828Confirmation Format_SFIN.xlsx
+2021-04-01 18:48:40,841 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401184840Confirmation Format_SFIN.xlsx
+2021-04-01 18:50:20,805 [11] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\20210401185020Confirmation Format_SFIN.xlsx
+2021-04-01 19:40:56,120 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 19:40:56,155 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 07:40:56
+2021-04-01 19:40:56,246 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 19:59:36,802 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 19:59:36,894 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 07:59:36
+2021-04-01 19:59:36,984 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 19:59:46,632 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-04-01 19:59:46,632 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-01 19:59:46,667 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Finish-----
+2021-04-01 19:59:53,488 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-04-01 19:59:53,488 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-01 19:59:53,504 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Finish-----
+2021-04-01 20:00:47,076 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-04-01 20:00:48,434 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-01 20:06:32,956 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-01 20:06:33,048 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :01/04/2021 08:06:33
+2021-04-01 20:06:33,143 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-01 20:06:58,139 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Start-----
+2021-04-01 20:06:58,430 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-01 20:07:23,225 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - Total Records : 1 Record(s)
+2021-04-01 20:07:23,861 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>101</STNID>
+    <ACTION>New Trade</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2020500032</ORDER_NO>
+    <ACCT_NO>56268472</ACCT_NO>
+    <SYMBOL>KKSFIN21O04W</SYMBOL>
+    <KKSYMBOL>KKP21O04W</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ????????? ?????????</FULLNAME>
+    <TAXID>1234567891234</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>123456789</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Kajornsak.pro@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>SFIN</STN_TYPE>
+    <NOTE_SERIES>6/2564</NOTE_SERIES>
+    <UNDERLYING1>GLD</UNDERLYING1>
+    <STRIKE_PRICE1>170</STRIKE_PRICE1>
+    <STRIKE_PRICE2>0</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>195.5</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>0.95000000000000007</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>1</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>1</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>0</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>1</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>0</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>1.1500000000000001</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>1</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>0.36100000000000004</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>0.05</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>USD</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>3</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>NYSE</EXCHANGE1>
+    <STN_NAME>??????????????????????? ???????????????????????????????????????????????????????? SPDR Gold Shares ???????? ETF ?????????? ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Shark-Fin Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? Rebate ???????????????????????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+
+??????? 1 ? ????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????? (Barrier Price) ? ?????????????????????????? (????????????? Knock-Out) ?????????????????????????????????????? 
+(?) ?????????????? ??????????????? x ??????????????????????? ??? 
+(?) ??????????????? ??????????????? x Rebate x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ??????????????)
+
+??????? 2 ????????????????? Knock-Out ?????????????????????????????????????????????? ??????
+
+(2.1) ??????????????????? ? ?????????????????????????????????? ??????? Strike Price ??????????????????????????????????????
+(?) ????????????????????????????? x ??????????????????????? ???
+(?) ??????????????? [??????????????? x ???????????????????????????? x ((???????????????? ? ?????????????????????????????????? - ????????????) / ????????????????? ? ????????????????) x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ?????????????????????????????????????????????)] 
+
+(2.2) ??????????????????? ? ?????????????????????????????????? ?????????????????? Strike Price ????????????????????????????????????????????????????????????????????????????????????
+????????????????????????????? x ???????????????????????</STN_RULE_REDEEM>
+  </TB_STNCONF>
+</NewDataSet>
+2021-04-01 20:07:29,701 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_CONFIRMREPORT [(null)] - -----Model_RPT_CONFIRMREPORT Finish-----

@@ -1,0 +1,47 @@
+2021-05-12 08:12:11,666 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-12 08:12:11,956 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :12/05/2021 08:12:11
+2021-05-12 08:12:12,042 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-12 08:18:11,473 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512081811Worksheet in UAT_?????????????????????_Upload File_11052021.xls
+2021-05-12 08:18:19,417 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - 'Sheet1$' is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long.
+2021-05-12 08:18:29,650 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Object reference not set to an instance of an object.
+2021-05-12 08:18:37,715 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512081837Worksheet in UAT_?????????????????????_Upload File_11052021.xls
+2021-05-12 08:19:11,804 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - 'Sheet1$' is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long.
+2021-05-12 08:19:14,153 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Object reference not set to an instance of an object.
+2021-05-12 08:23:31,900 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512082331Worksheet in UAT_?????????????????????_Upload File_11052021_re.xls
+2021-05-12 08:29:29,147 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Column 'RECEIVING_BANK_CODE' does not belong to table Sheet1$.
+2021-05-12 08:29:43,999 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512082943Worksheet in UAT_?????????????????????_Upload File_11052021_re.xls
+2021-05-12 08:55:00,987 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512085500Worksheet in UAT_?????????????????????_Upload File_11052021_re.xls
+2021-05-12 08:57:12,179 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210512085712Worksheet in UAT_?????????????????????_Upload File_11052021_re.xls
+2021-05-12 16:14:32,307 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-05-12 16:14:32,519 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-05-12 16:14:32,645 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-05-12 16:14:32,645 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-05-12 16:14:33,469 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-05-12 16:14:33,633 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :12/05/2021 04:14:33
+2021-05-12 16:14:33,746 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-05-12 16:17:05,681 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-12 16:17:05,841 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-12 16:17:05,843 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-12 16:17:05,845 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-12 16:17:05,845 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 11
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 12
+2021-05-12 16:17:05,846 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 13
+2021-05-12 16:17:05,858 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:05,907 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:05,936 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:05,965 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,022 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,057 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,089 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,120 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,148 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:17:06,189 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-12 16:18:04,863 [4] INFO  TreasuryShadowSystem.STN.UploadSTN [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\STN\2021051216180420210512142339Confirmation Format_UAT.xls

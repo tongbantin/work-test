@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TF020OBOPN" targetNamespace="http://tempuri.org/DS_TF020OBOPN.xsd" xmlns:mstns="http://tempuri.org/DS_TF020OBOPN.xsd" xmlns="http://tempuri.org/DS_TF020OBOPN.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TF020OBOPN" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TF020OBOPN" msprop:Generator_DataSetName="DS_TF020OBOPN" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TF020OBOPN" msprop:Generator_UserTableName="TB_TF020OBOPN" msprop:Generator_RowDeletedName="TB_TF020OBOPNRowDeleted" msprop:Generator_RowChangedName="TB_TF020OBOPNRowChanged" msprop:Generator_RowClassName="TB_TF020OBOPNRow" msprop:Generator_RowChangingName="TB_TF020OBOPNRowChanging" msprop:Generator_RowEvArgName="TB_TF020OBOPNRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TF020OBOPNRowChangeEventHandler" msprop:Generator_TableClassName="TB_TF020OBOPNDataTable" msprop:Generator_TableVarName="tableTB_TF020OBOPN" msprop:Generator_RowDeletingName="TB_TF020OBOPNRowDeleting" msprop:Generator_TablePropName="TB_TF020OBOPN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PLACEOFISSUE" msprop:Generator_UserColumnName="PLACEOFISSUE" msprop:Generator_ColumnPropNameInRow="PLACEOFISSUE" msprop:Generator_ColumnVarNameInTable="columnPLACEOFISSUE" msprop:Generator_ColumnPropNameInTable="PLACEOFISSUEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PNNO" msprop:Generator_UserColumnName="PNNO" msprop:Generator_ColumnPropNameInRow="PNNO" msprop:Generator_ColumnVarNameInTable="columnPNNO" msprop:Generator_ColumnPropNameInTable="PNNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ISSUEDATE" msprop:Generator_UserColumnName="ISSUEDATE" msprop:Generator_ColumnPropNameInRow="ISSUEDATE" msprop:Generator_ColumnVarNameInTable="columnISSUEDATE" msprop:Generator_ColumnPropNameInTable="ISSUEDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRINCIPALAMOUNT" msprop:Generator_UserColumnName="PRINCIPALAMOUNT" msprop:Generator_ColumnPropNameInRow="PRINCIPALAMOUNT" msprop:Generator_ColumnVarNameInTable="columnPRINCIPALAMOUNT" msprop:Generator_ColumnPropNameInTable="PRINCIPALAMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COUNTERPARTY" msprop:Generator_UserColumnName="COUNTERPARTY" msprop:Generator_ColumnPropNameInRow="COUNTERPARTY" msprop:Generator_ColumnVarNameInTable="columnCOUNTERPARTY" msprop:Generator_ColumnPropNameInTable="COUNTERPARTYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CALLDATE" msprop:Generator_UserColumnName="CALLDATE" msprop:Generator_ColumnPropNameInRow="CALLDATE" msprop:Generator_ColumnVarNameInTable="columnCALLDATE" msprop:Generator_ColumnPropNameInTable="CALLDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INTERESTRATE" msprop:Generator_UserColumnName="INTERESTRATE" msprop:Generator_ColumnPropNameInRow="INTERESTRATE" msprop:Generator_ColumnVarNameInTable="columnINTERESTRATE" msprop:Generator_ColumnPropNameInTable="INTERESTRATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCHNAMETH" msprop:Generator_UserColumnName="BRANCHNAMETH" msprop:Generator_ColumnPropNameInRow="BRANCHNAMETH" msprop:Generator_ColumnVarNameInTable="columnBRANCHNAMETH" msprop:Generator_ColumnPropNameInTable="BRANCHNAMETHColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

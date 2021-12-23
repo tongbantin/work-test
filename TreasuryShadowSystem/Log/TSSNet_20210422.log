@@ -1,0 +1,88 @@
+2021-04-22 00:08:32,288 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle Open Connection Error----
+2021-04-22 00:08:32,453 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-12170: TNS:Connect timeout occurred
+2021-04-22 00:08:32,645 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-04-22 00:08:32,645 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - Connection must be open for this operation
+2021-04-22 00:08:33,902 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-22 00:08:34,410 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/04/2021 12:08:34
+2021-04-22 00:08:34,550 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-22 01:59:45,364 [10] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422015945test_upload.xlsx
+2021-04-22 01:59:46,705 [10] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 02:04:44,252 [9] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422020444test_upload.xlsx
+2021-04-22 02:08:42,726 [9] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 02:11:30,270 [9] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 02:50:18,713 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422025018test_upload.xlsx
+2021-04-22 02:51:43,635 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 03:17:59,596 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422031759test_upload.xlsx
+2021-04-22 03:32:36,548 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422033236test_upload.xlsx
+2021-04-22 03:41:40,025 [7] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422034140test_upload.xlsx
+2021-04-22 03:45:03,418 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422034503test_upload.xlsx
+2021-04-22 03:45:47,496 [4] ERROR TreasuryShadowSystem.ALR.UploadTranALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 03:49:28,708 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422034928test_upload.xlsx
+2021-04-22 03:50:07,646 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - ----Start Error-----
+2021-04-22 03:50:07,669 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 03:50:07,763 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - ----Start Error-----
+2021-04-22 03:50:07,787 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 03:50:07,880 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - ----Start Error-----
+2021-04-22 03:50:07,904 [4] ERROR TreasuryModel.Data.TransToALR [(null)] - String was not recognized as a valid DateTime.
+2021-04-22 03:50:57,419 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422035057test_upload.xlsx
+2021-04-22 03:59:00,526 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422035900test_upload.xlsx
+2021-04-22 04:01:02,667 [4] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422040102test_upload.xlsx
+2021-04-22 04:34:22,640 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\20210422043422test_upload.xlsx
+2021-04-22 04:48:11,058 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\202104220448113841E700.xlsx
+2021-04-22 04:51:50,604 [6] INFO  TreasuryShadowSystem.ALR.UploadTranALR [(null)] - Import Filename : C:\TRO\Production\TreasuryShadowSystem\Temporary\202104220451503841E700.xlsx
+2021-04-22 04:55:52,510 [15] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start delete-----
+2021-04-22 04:55:52,549 [15] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Finish-----
+2021-04-22 04:56:12,034 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start Update-----
+2021-04-22 04:56:12,034 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - SQL Statement : UPDATE OPICINF.TB_TRANS_TO_ALR SET TEAM = :TEAM  , DEALNO = :DEALNO , ID_NO_PART1 = :ID_NO_PART1 , ID_NO_PART2 = :ID_NO_PART2  , SENDER_CUST_TYPE = :SENDER_CUST_TYPE, SENDING_BANK_CODE = :SENDING_BANK_CODE, SENDING_TYPE = :SENDING_TYPE, SENDING_AC_NO = :SENDING_AC_NO  , SENDING_INFO = :SENDING_INFO, RECEIVER_CUST_TYPE = :RECEIVER_CUST_TYPE, RECEIVING_BANK_CODE = :RECEIVING_BANK_CODE, RECEIVING_TYPE = :RECEIVING_TYPE  , RECEIVING_AC_NO = :RECEIVING_AC_NO, RECEIVING_INFO = :RECEIVING_INFO  , TRANSFER_AMOUNT = :TRANSFER_AMOUNT , SETTLE_DATE = :SETTLE_DATE  WHERE TRANSID = :TRANSID 
+2021-04-22 04:56:12,190 [10] ERROR TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Error-----
+2021-04-22 04:56:12,190 [10] ERROR TreasuryModel.Data.TransToALR [(null)] - ORA-01843: not a valid month
+2021-04-22 04:56:12,190 [10] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Finish-----
+2021-04-22 04:56:20,858 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start Update-----
+2021-04-22 04:56:20,858 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - SQL Statement : UPDATE OPICINF.TB_TRANS_TO_ALR SET TEAM = :TEAM  , DEALNO = :DEALNO , ID_NO_PART1 = :ID_NO_PART1 , ID_NO_PART2 = :ID_NO_PART2  , SENDER_CUST_TYPE = :SENDER_CUST_TYPE, SENDING_BANK_CODE = :SENDING_BANK_CODE, SENDING_TYPE = :SENDING_TYPE, SENDING_AC_NO = :SENDING_AC_NO  , SENDING_INFO = :SENDING_INFO, RECEIVER_CUST_TYPE = :RECEIVER_CUST_TYPE, RECEIVING_BANK_CODE = :RECEIVING_BANK_CODE, RECEIVING_TYPE = :RECEIVING_TYPE  , RECEIVING_AC_NO = :RECEIVING_AC_NO, RECEIVING_INFO = :RECEIVING_INFO  , TRANSFER_AMOUNT = :TRANSFER_AMOUNT , SETTLE_DATE = :SETTLE_DATE  WHERE TRANSID = :TRANSID 
+2021-04-22 04:56:22,714 [9] ERROR TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Error-----
+2021-04-22 04:56:22,714 [9] ERROR TreasuryModel.Data.TransToALR [(null)] - ORA-01843: not a valid month
+2021-04-22 04:56:22,714 [9] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Finish-----
+2021-04-22 04:56:30,479 [11] INFO  TreasuryModel.Data.TransToALR [(null)] - -----TB_TRANS_TO_ALR Start Update-----
+2021-04-22 04:56:30,479 [11] INFO  TreasuryModel.Data.TransToALR [(null)] - SQL Statement : UPDATE OPICINF.TB_TRANS_TO_ALR SET TEAM = :TEAM  , DEALNO = :DEALNO , ID_NO_PART1 = :ID_NO_PART1 , ID_NO_PART2 = :ID_NO_PART2  , SENDER_CUST_TYPE = :SENDER_CUST_TYPE, SENDING_BANK_CODE = :SENDING_BANK_CODE, SENDING_TYPE = :SENDING_TYPE, SENDING_AC_NO = :SENDING_AC_NO  , SENDING_INFO = :SENDING_INFO, RECEIVER_CUST_TYPE = :RECEIVER_CUST_TYPE, RECEIVING_BANK_CODE = :RECEIVING_BANK_CODE, RECEIVING_TYPE = :RECEIVING_TYPE  , RECEIVING_AC_NO = :RECEIVING_AC_NO, RECEIVING_INFO = :RECEIVING_INFO  , TRANSFER_AMOUNT = :TRANSFER_AMOUNT , SETTLE_DATE = :SETTLE_DATE  WHERE TRANSID = :TRANSID 
+2021-04-22 04:56:31,469 [11] ERROR TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Error-----
+2021-04-22 04:56:31,469 [11] ERROR TreasuryModel.Data.TransToALR [(null)] - ORA-01843: not a valid month
+2021-04-22 04:56:31,469 [11] INFO  TreasuryModel.Data.TransToALR [(null)] - -----Update TB_TRANS_TO_ALR Finish-----
+2021-04-22 16:56:59,190 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-22 16:56:59,301 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/04/2021 04:56:59
+2021-04-22 16:56:59,398 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-22 16:58:00,547 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-04-22 16:58:00,548 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-04-22 16:58:00,548 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=1960058
+2021-04-22 16:58:02,260 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 16:58:02,260 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-04-22 17:00:30,605 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Start-----
+2021-04-22 17:00:30,605 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR091OBOFXCF
+2021-04-22 17:00:30,605 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Data : DealNo=2068263
+2021-04-22 17:00:30,891 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 17:00:30,892 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR091OBOFXCF [(null)] - -----Model_RPT_TR091OBOFXCF Finish-----
+2021-04-22 17:02:12,977 [13] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - -----Model_RPT_TR093OBOFXCF Start-----
+2021-04-22 17:02:12,978 [13] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR093OBOFXCF
+2021-04-22 17:02:12,978 [13] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Data : DealNo=2071490
+2021-04-22 17:02:13,285 [13] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 17:02:13,285 [13] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - -----Model_RPT_TR093OBOFXCF Finish-----
+2021-04-22 17:06:40,673 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-22 17:06:40,794 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/04/2021 05:06:40
+2021-04-22 17:06:40,910 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-22 17:07:00,239 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-04-22 17:07:00,239 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-04-22 17:07:00,240 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=2165680
+2021-04-22 17:07:01,706 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 17:07:01,706 [11] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-04-22 17:10:33,753 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-22 17:10:33,846 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :22/04/2021 05:10:33
+2021-04-22 17:10:33,937 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-22 17:10:50,675 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Start-----
+2021-04-22 17:10:50,675 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR092OBOFXCF
+2021-04-22 17:10:50,675 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Data : DealNo=2165680
+2021-04-22 17:10:52,106 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 17:10:52,106 [6] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR092OBOFXCF [(null)] - -----Model_RPT_TR092OBOFXCF Finish-----
+2021-04-22 17:12:38,696 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - -----Model_RPT_TR093OBOFXCF Start-----
+2021-04-22 17:12:38,697 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TR093OBOFXCF
+2021-04-22 17:12:38,697 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Data : DealNo=2071490
+2021-04-22 17:12:38,987 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - Total Records : 1 Record(s)
+2021-04-22 17:12:38,987 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TR093OBOFXCF [(null)] - -----Model_RPT_TR093OBOFXCF Finish-----

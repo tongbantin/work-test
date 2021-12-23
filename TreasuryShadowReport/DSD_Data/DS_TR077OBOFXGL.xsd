@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR077OBOFXGL" targetNamespace="http://tempuri.org/DS_TR077OBOFXGL.xsd" xmlns:mstns="http://tempuri.org/DS_TR077OBOFXGL.xsd" xmlns="http://tempuri.org/DS_TR077OBOFXGL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR077OBOFXGL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR077OBOFXGL" msprop:Generator_DataSetName="DS_TR077OBOFXGL" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR077OBOFXGL" msprop:Generator_UserTableName="TB_TR077OBOFXGL" msprop:Generator_RowDeletedName="TB_TR077OBOFXGLRowDeleted" msprop:Generator_RowChangedName="TB_TR077OBOFXGLRowChanged" msprop:Generator_RowClassName="TB_TR077OBOFXGLRow" msprop:Generator_RowChangingName="TB_TR077OBOFXGLRowChanging" msprop:Generator_RowEvArgName="TB_TR077OBOFXGLRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR077OBOFXGLRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR077OBOFXGLDataTable" msprop:Generator_TableVarName="tableTB_TR077OBOFXGL" msprop:Generator_RowDeletingName="TB_TR077OBOFXGLRowDeleting" msprop:Generator_TablePropName="TB_TR077OBOFXGL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SYSTEMDATE" msprop:Generator_UserColumnName="SYSTEMDATE" msprop:Generator_ColumnVarNameInTable="columnSYSTEMDATE" msprop:Generator_ColumnPropNameInRow="SYSTEMDATE" msprop:Generator_ColumnPropNameInTable="SYSTEMDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANPRCDATE" msprop:Generator_UserColumnName="BRANPRCDATE" msprop:Generator_ColumnPropNameInRow="BRANPRCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANPRCDATE" msprop:Generator_ColumnPropNameInTable="BRANPRCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TENOR" msprop:Generator_UserColumnName="TENOR" msprop:Generator_ColumnVarNameInTable="columnTENOR" msprop:Generator_ColumnPropNameInRow="TENOR" msprop:Generator_ColumnPropNameInTable="TENORColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BR" msprop:Generator_UserColumnName="BR" msprop:Generator_ColumnVarNameInTable="columnBR" msprop:Generator_ColumnPropNameInRow="BR" msprop:Generator_ColumnPropNameInTable="BRColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CMNE" msprop:Generator_UserColumnName="CMNE" msprop:Generator_ColumnVarNameInTable="columnCMNE" msprop:Generator_ColumnPropNameInRow="CMNE" msprop:Generator_ColumnPropNameInTable="CMNEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PS" msprop:Generator_UserColumnName="PS" msprop:Generator_ColumnVarNameInTable="columnPS" msprop:Generator_ColumnPropNameInRow="PS" msprop:Generator_ColumnPropNameInTable="PSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWAPDEAL" msprop:Generator_UserColumnName="SWAPDEAL" msprop:Generator_ColumnVarNameInTable="columnSWAPDEAL" msprop:Generator_ColumnPropNameInRow="SWAPDEAL" msprop:Generator_ColumnPropNameInTable="SWAPDEALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALDATE" msprop:Generator_UserColumnName="DEALDATE" msprop:Generator_ColumnVarNameInTable="columnDEALDATE" msprop:Generator_ColumnPropNameInRow="DEALDATE" msprop:Generator_ColumnPropNameInTable="DEALDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VDATE" msprop:Generator_UserColumnName="VDATE" msprop:Generator_ColumnVarNameInTable="columnVDATE" msprop:Generator_ColumnPropNameInRow="VDATE" msprop:Generator_ColumnPropNameInTable="VDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCYRATE_8" msprop:Generator_UserColumnName="CCYRATE_8" msprop:Generator_ColumnVarNameInTable="columnCCYRATE_8" msprop:Generator_ColumnPropNameInRow="CCYRATE_8" msprop:Generator_ColumnPropNameInTable="CCYRATE_8Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCYAMT" msprop:Generator_UserColumnName="CCYAMT" msprop:Generator_ColumnVarNameInTable="columnCCYAMT" msprop:Generator_ColumnPropNameInRow="CCYAMT" msprop:Generator_ColumnPropNameInTable="CCYAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CTRCCY" msprop:Generator_UserColumnName="CTRCCY" msprop:Generator_ColumnVarNameInTable="columnCTRCCY" msprop:Generator_ColumnPropNameInRow="CTRCCY" msprop:Generator_ColumnPropNameInTable="CTRCCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CTRAMT" msprop:Generator_UserColumnName="CTRAMT" msprop:Generator_ColumnVarNameInTable="columnCTRAMT" msprop:Generator_ColumnPropNameInRow="CTRAMT" msprop:Generator_ColumnPropNameInTable="CTRAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CONTINGENT" msprop:Generator_UserColumnName="CONTINGENT" msprop:Generator_ColumnVarNameInTable="columnCONTINGENT" msprop:Generator_ColumnPropNameInRow="CONTINGENT" msprop:Generator_ColumnPropNameInTable="CONTINGENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EXCHANGERATE" msprop:Generator_UserColumnName="EXCHANGERATE" msprop:Generator_ColumnVarNameInTable="columnEXCHANGERATE" msprop:Generator_ColumnPropNameInRow="EXCHANGERATE" msprop:Generator_ColumnPropNameInTable="EXCHANGERATEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="REALIZEGAINLOSS" msprop:Generator_UserColumnName="REALIZEGAINLOSS" msprop:Generator_ColumnVarNameInTable="columnREALIZEGAINLOSS" msprop:Generator_ColumnPropNameInRow="REALIZEGAINLOSS" msprop:Generator_ColumnPropNameInTable="REALIZEGAINLOSSColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,54 @@
+2021-05-06 17:26:24,050 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:26:24,121 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:26:24,122 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:28:10,419 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:28:10,472 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:28:10,472 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:28:14,463 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-05-06 17:28:14,464 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-05-06 17:28:14,497 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-05-06 17:28:14,497 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-05-06 17:28:16,283 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-06 17:28:16,326 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-06 17:28:16,327 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-06 17:28:16,327 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-06 17:28:16,327 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-06 17:28:16,327 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-06 17:28:16,328 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-06 17:28:16,328 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-06 17:28:16,329 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:28:16,386 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:28:16,644 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:28:17,625 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:28:17,857 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:28:17,890 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:29:11,270 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:29:11,318 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:29:11,319 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:29:30,470 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:29:30,490 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:29:30,491 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:29:53,872 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:29:53,915 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:29:53,915 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:29:57,983 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-05-06 17:29:58,004 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-05-06 17:29:58,005 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-05-06 17:30:04,468 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-05-06 17:30:04,468 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-05-06 17:30:04,504 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-05-06 17:30:04,504 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-05-06 17:30:07,015 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-05-06 17:30:07,036 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-05-06 17:30:07,037 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-05-06 17:30:07,037 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-05-06 17:30:07,037 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-05-06 17:30:07,037 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-05-06 17:30:07,038 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-05-06 17:30:07,038 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-05-06 17:30:07,039 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:30:07,079 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:30:07,114 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:30:07,150 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:30:07,184 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-05-06 17:30:07,219 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----

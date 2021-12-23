@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR057DBOSL" targetNamespace="http://tempuri.org/DS_TR057DBOSL.xsd" xmlns:mstns="http://tempuri.org/DS_TR057DBOSL.xsd" xmlns="http://tempuri.org/DS_TR057DBOSL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR057DBOSL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR057DBOSL" msprop:Generator_DataSetName="DS_TR057DBOSL" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR057DBOSL" msprop:Generator_UserTableName="TB_TR057DBOSL" msprop:Generator_RowDeletedName="TB_TR057DBOSLRowDeleted" msprop:Generator_RowChangedName="TB_TR057DBOSLRowChanged" msprop:Generator_RowClassName="TB_TR057DBOSLRow" msprop:Generator_RowChangingName="TB_TR057DBOSLRowChanging" msprop:Generator_RowEvArgName="TB_TR057DBOSLRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR057DBOSLRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR057DBOSLDataTable" msprop:Generator_TableVarName="tableTB_TR057DBOSL" msprop:Generator_RowDeletingName="TB_TR057DBOSLRowDeleting" msprop:Generator_TablePropName="TB_TR057DBOSL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAYMENTDATE" msprop:Generator_UserColumnName="PAYMENTDATE" msprop:Generator_ColumnVarNameInTable="columnPAYMENTDATE" msprop:Generator_ColumnPropNameInRow="PAYMENTDATE" msprop:Generator_ColumnPropNameInTable="PAYMENTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODUCT" msprop:Generator_UserColumnName="PRODUCT" msprop:Generator_ColumnVarNameInTable="columnPRODUCT" msprop:Generator_ColumnPropNameInRow="PRODUCT" msprop:Generator_ColumnPropNameInTable="PRODUCTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODTYPE" msprop:Generator_UserColumnName="PRODTYPE" msprop:Generator_ColumnVarNameInTable="columnPRODTYPE" msprop:Generator_ColumnPropNameInRow="PRODTYPE" msprop:Generator_ColumnPropNameInTable="PRODTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER" msprop:Generator_UserColumnName="CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER" msprop:Generator_ColumnPropNameInRow="CUSTOMER" msprop:Generator_ColumnPropNameInTable="CUSTOMERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRANNO" msprop:Generator_UserColumnName="TRANNO" msprop:Generator_ColumnVarNameInTable="columnTRANNO" msprop:Generator_ColumnPropNameInRow="TRANNO" msprop:Generator_ColumnPropNameInTable="TRANNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRINCIPAL" msprop:Generator_UserColumnName="PRINCIPAL" msprop:Generator_ColumnVarNameInTable="columnPRINCIPAL" msprop:Generator_ColumnPropNameInRow="PRINCIPAL" msprop:Generator_ColumnPropNameInTable="PRINCIPALColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IRRate" msprop:Generator_UserColumnName="IRRate" msprop:Generator_ColumnVarNameInTable="columnIRRate" msprop:Generator_ColumnPropNameInRow="IRRate" msprop:Generator_ColumnPropNameInTable="IRRateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAYAMT" msprop:Generator_UserColumnName="PAYAMT" msprop:Generator_ColumnVarNameInTable="columnPAYAMT" msprop:Generator_ColumnPropNameInRow="PAYAMT" msprop:Generator_ColumnPropNameInTable="PAYAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BALANCE" msprop:Generator_UserColumnName="BALANCE" msprop:Generator_ColumnVarNameInTable="columnBALANCE" msprop:Generator_ColumnPropNameInRow="BALANCE" msprop:Generator_ColumnPropNameInTable="BALANCEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CURRENCY" msprop:Generator_UserColumnName="CURRENCY" msprop:Generator_ColumnVarNameInTable="columnCURRENCY" msprop:Generator_ColumnPropNameInRow="CURRENCY" msprop:Generator_ColumnPropNameInTable="CURRENCYColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,215 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TreasuryShadowSystem.Site" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html >
+<head runat="server">
+    <title>Web Teasury System(WTS) -- Kiatnakin Bank Public Co., Ltd.</title>
+	<meta http-equiv="description" content="Web Treasury System(WTS) -- Kiatnakin Bank Public Co., Ltd." />
+    <meta http-equiv="content-type" content="text/html; charset=windows-874" />  
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery-1.9.1.min.js") %>"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(function() {
+
+                $("ul.dropdown li").hover(function() {
+
+                    $(this).addClass("hover");
+                    $('ul:first', this).css('visibility', 'visible');
+
+                }, function() {
+
+                    $(this).removeClass("hover");
+                    $('ul:first', this).css('visibility', 'hidden');
+
+                });
+
+                /*$("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");*/
+
+            });
+            
+        });
+    </script>
+    <style type="text/css">
+    /*body {
+	    margin: 10px auto;
+	    font: 10pt tahoma;
+    }
+    .msg_list 
+    {
+	    background-color: #0195C5;
+        width: 100%;
+        height: 30px;
+    }
+    p {
+	    padding: 0 0 1em; float:left; position:fixed;
+    }
+    .msg_head {
+	    padding: 5px 10px;
+	    cursor: pointer;
+	    position: relative;
+	    margin: 1px;
+	    background-color: #0195C5;
+	    border-right: 1px solid #FFFFFF;
+	    font: 10pt tahoma;
+	    font-weight: bold;
+	    color: #ffffff;
+    }
+    .msg_subbody 
+    {
+    	position: absolute; 
+    	margin-top: 31px;
+	    cursor: pointer;
+	    z-index: 99;
+	    background-color: #12A6C5;
+        font: 10pt tahoma;
+        color: White;
+    }
+    .msg_body 
+    {
+    	position: absolute; 
+	    z-index: 99;
+	    background-color: #12A6C5;
+        font: 10pt tahoma;
+        color: White;
+    }*/
+    a { text-decoration: none; font: 10pt tahoma; color: White; font-weight: bold; }
+    
+    ul { list-style: none; }
+    ul.dropdown                          
+    {
+    	margin: 0px;
+    	padding: 0px;
+    	position: relative; 
+        background-color: #12A6C5;
+        width: 100%;
+    }
+    ul.dropdown li                       
+    {
+    	margin: 0px;
+    	float: left; 
+        background-color: #12A6C5;
+        border-right: 1px solid #fff;
+	    font: 10pt tahoma;
+	    font-weight: bold;
+	    color: #ffffff;
+	}
+    ul.dropdown a:hover		            { color: #fff; }
+    ul.dropdown li a                    { display: block; padding: 4px 8px;  color: #fff; }
+    ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+    ul.dropdown li.hover,
+    ul.dropdown li:hover                { color: white; position: relative; }
+    ul.dropdown li:hover a              { color: white; }
+
+
+    /* 
+	    LEVEL TWO
+    */
+    ul.dropdown ul 						{ visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 99; padding: 0px; margin: 0px;}
+    ul.dropdown ul.submenu              { width: 150px; }
+    ul.dropdown ul.submenu li           { border: 0px; }
+    ul.dropdown ul li 					{ background: #12A6C5; color: #fff; float: none; }
+    									  
+    /* 
+	    LEVEL THREE
+    */
+    ul.dropdown ul ul 					{ position: absolute; left: 150; top: 0; }
+    ul.dropdown li:hover > ul 			{ visibility: visible; background: #12A6C5;}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td height="60" id="headlogo" style="background-color: #0195C5;border-bottom: 1px solid #ffffff">
+                <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>                        
+                        <td style="padding-left: 20px;">
+                            <asp:Image ID="KKBLogo" ImageUrl="~/Theme/Default/Images/logokkb.png" runat="server" />
+                        </td>
+                        <td height="60%" valign="middle" style="padding-left: 280px; ">
+                            <asp:Label ID="lbSystemName" Font-Size="36px" Font-Bold="true" ForeColor="#4e9abe" runat="server" Text="Web Treasury System"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #12A6C5;">
+                <ul class="dropdown">
+                    <li><a href="LogOut.aspx"><asp:Image ID="Image4" ImageUrl="~/Theme/icon/icon-home.png" ImageAlign="AbsMiddle" runat="server" /> Home</a></li>
+                    <li id="ReportMenu" runat="server"><a href="#"><asp:Image ID="Image5" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle" runat="server" /> Report</a>
+        		        <ul class="submenu">  
+        		        <asp:DataList ID="DataList2" Width="100%" runat="server">
+                            <ItemTemplate>                              
+                                <li><a href="#"><asp:Image ID="MenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                    <ul>
+                                        <li>
+                                            <asp:DataList ID="DataListReportSubMenu" RepeatDirection="Vertical" CellSpacing="5" Width="100%" RepeatColumns="5" RepeatLayout="Table" runat="server">
+                                                <ItemTemplate>
+                                                        <a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>"  Target="ifMain"><asp:Image ID="SubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                                </ItemTemplate>
+                                                <ItemStyle Wrap="false" />
+                                            </asp:DataList>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ItemTemplate>
+                        </asp:DataList>  
+                        </ul>      		        
+        	        </li>
+        	        <li id="MainTainMenu" runat="server"><a href="#"><asp:Image ID="IconMainTain" ImageUrl="~/Theme/icon/icon-maintain.png" ImageAlign="AbsMiddle" runat="server" /> Maintain Data</a>
+                        <ul class="submenu">   
+        	            <asp:DataList ID="DataList1" Width="100%" runat="server">
+                            <ItemTemplate>
+                                <li><a href="#"><asp:Image ID="MaintainLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                    <ul>
+                                        <li>
+                                            <asp:DataList ID="DataListMaintainSubMenu" RepeatDirection="Vertical" CellSpacing="5" Width="100%" runat="server">
+                                                <ItemTemplate>
+                                                    <a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>" Target="ifMain"><asp:Image ID="MaintainSubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                                </ItemTemplate>
+                                                <ItemStyle Wrap="false" />
+                                            </asp:DataList>
+                                        </li>     
+                                    </ul>                                       
+                                </li>
+                            </ItemTemplate>
+                        </asp:DataList>
+                        </ul>
+        	        </li>
+        	        <li id="UserMenu" runat="server"><a href="#"><asp:Image ID="Image3" ImageUrl="~/Theme/icon/icon-user.png" ImageAlign="AbsMiddle" runat="server" /> User Management</a>
+                        <ul class="submenu">
+        	            <asp:DataList ID="DataList3" Width="100%" runat="server">
+                            <ItemTemplate>
+                                <li><a href="#"><asp:Image ID="UserLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>   
+                                    <ul>
+                                        <li>
+                                            <asp:DataList ID="DataListUserSubMenu" RepeatDirection="Vertical" CellSpacing="5" Width="100%" runat="server">
+                                                <ItemTemplate>
+                                                    <a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>" Target="ifMain"><asp:Image ID="UserSubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                                </ItemTemplate>
+                                                <ItemStyle Wrap="false" />
+                                            </asp:DataList>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ItemTemplate>
+                        </asp:DataList>
+                        </ul>
+        	        </li>
+                </ul>       
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="MainContent">
+                    <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
+                </div>                
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

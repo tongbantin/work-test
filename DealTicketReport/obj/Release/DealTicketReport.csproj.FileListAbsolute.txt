@@ -1,0 +1,5 @@
+C:\TRO\Trunk\DealTicketReport\bin\Release\DealTicketReport.dll
+C:\TRO\Trunk\DealTicketReport\bin\Release\DealTicketReport.pdb
+C:\TRO\Trunk\DealTicketReport\obj\Release\ResolveAssemblyReference.cache
+C:\TRO\Trunk\DealTicketReport\obj\Release\DealTicketReport.dll
+C:\TRO\Trunk\DealTicketReport\obj\Release\DealTicketReport.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR142SWIFTREC" targetNamespace="http://tempuri.org/DS_TR142SWIFTREC.xsd" xmlns:mstns="http://tempuri.org/DS_TR142SWIFTREC.xsd" xmlns="http://tempuri.org/DS_TR142SWIFTREC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR142SWIFTREC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR142SWIFTREC" msprop:Generator_DataSetName="DS_TR142SWIFTREC" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR142SWIFTREC" msprop:Generator_UserTableName="TB_TR142SWIFTREC" msprop:Generator_RowDeletedName="TB_TR142SWIFTRECRowDeleted" msprop:Generator_RowChangedName="TB_TR142SWIFTRECRowChanged" msprop:Generator_RowClassName="TB_TR142SWIFTRECRow" msprop:Generator_RowChangingName="TB_TR142SWIFTRECRowChanging" msprop:Generator_RowEvArgName="TB_TR142SWIFTRECRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR142SWIFTRECRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR142SWIFTRECDataTable" msprop:Generator_TableVarName="tableTB_TR142SWIFTREC" msprop:Generator_RowDeletingName="TB_TR142SWIFTRECRowDeleting" msprop:Generator_TablePropName="TB_TR142SWIFTREC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VDATE" msprop:Generator_UserColumnName="VDATE" msprop:Generator_ColumnPropNameInRow="VDATE" msprop:Generator_ColumnVarNameInTable="columnVDATE" msprop:Generator_ColumnPropNameInTable="VDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CCY" msprop:Generator_UserColumnName="CCY" msprop:Generator_ColumnPropNameInRow="CCY" msprop:Generator_ColumnVarNameInTable="columnCCY" msprop:Generator_ColumnPropNameInTable="CCYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AMT" msprop:Generator_UserColumnName="AMT" msprop:Generator_ColumnPropNameInRow="AMT" msprop:Generator_ColumnVarNameInTable="columnAMT" msprop:Generator_ColumnPropNameInTable="AMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SWIFT_REF" msprop:Generator_UserColumnName="SWIFT_REF" msprop:Generator_ColumnPropNameInRow="SWIFT_REF" msprop:Generator_ColumnVarNameInTable="columnSWIFT_REF" msprop:Generator_ColumnPropNameInTable="SWIFT_REFColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWIFT_AMT" msprop:Generator_UserColumnName="SWIFT_AMT" msprop:Generator_ColumnPropNameInRow="SWIFT_AMT" msprop:Generator_ColumnVarNameInTable="columnSWIFT_AMT" msprop:Generator_ColumnPropNameInTable="SWIFT_AMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SWIFT_STATUS" msprop:Generator_UserColumnName="SWIFT_STATUS" msprop:Generator_ColumnPropNameInRow="SWIFT_STATUS" msprop:Generator_ColumnVarNameInTable="columnSWIFT_STATUS" msprop:Generator_ColumnPropNameInTable="SWIFT_STATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWIFT_NETW_STATUS" msprop:Generator_UserColumnName="SWIFT_NETW_STATUS" msprop:Generator_ColumnPropNameInRow="SWIFT_NETW_STATUS" msprop:Generator_ColumnVarNameInTable="columnSWIFT_NETW_STATUS" msprop:Generator_ColumnPropNameInTable="SWIFT_NETW_STATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FLAG" msprop:Generator_UserColumnName="FLAG" msprop:Generator_ColumnPropNameInRow="FLAG" msprop:Generator_ColumnVarNameInTable="columnFLAG" msprop:Generator_ColumnPropNameInTable="FLAGColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NETTING" msprop:Generator_UserColumnName="NETTING" msprop:Generator_ColumnVarNameInTable="columnNETTING" msprop:Generator_ColumnPropNameInRow="NETTING" msprop:Generator_ColumnPropNameInTable="NETTINGColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SWIFT_TYPE" msprop:Generator_UserColumnName="SWIFT_TYPE" msprop:Generator_ColumnPropNameInRow="SWIFT_TYPE" msprop:Generator_ColumnVarNameInTable="columnSWIFT_TYPE" msprop:Generator_ColumnPropNameInTable="SWIFT_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CMNE" msprop:Generator_UserColumnName="CMNE" msprop:Generator_ColumnVarNameInTable="columnCMNE" msprop:Generator_ColumnPropNameInRow="CMNE" msprop:Generator_ColumnPropNameInTable="CMNEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CTYPE" msprop:Generator_UserColumnName="CTYPE" msprop:Generator_ColumnPropNameInRow="CTYPE" msprop:Generator_ColumnVarNameInTable="columnCTYPE" msprop:Generator_ColumnPropNameInTable="CTYPEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

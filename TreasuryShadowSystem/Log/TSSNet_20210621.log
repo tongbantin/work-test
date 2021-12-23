@@ -1,0 +1,21 @@
+2021-06-21 16:30:31,299 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-21 16:31:09,527 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :21/06/2021 04:31:09
+2021-06-21 16:31:09,623 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-21 16:31:49,448 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-06-21 16:31:49,448 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-06-21 16:44:12,453 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT UpdTemplateType-----
+2021-06-21 16:44:23,495 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-06-21 16:44:23,557 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start RunningRefNo-----
+2021-06-21 16:44:23,745 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-06-21 16:44:23,745 [4] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-01722: invalid number
+ORA-06512: at "OPICINF.KKB_SP_TSS_TR136BOBESERIES", line 383
+ORA-06512: at line 1
+2021-06-21 16:44:23,745 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-06-21 16:45:04,540 [8] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT UpdTemplateType-----
+2021-06-21 16:45:17,025 [8] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-06-21 16:45:25,671 [8] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start RunningRefNo-----
+2021-06-21 16:45:33,353 [8] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - -----Oracle ExecuteReader Error----
+2021-06-21 16:45:33,353 [8] ERROR KKB.Treasury.TreasuryCommon.Common.Oracle [(null)] - ORA-01722: invalid number
+ORA-06512: at "OPICINF.KKB_SP_TSS_TR136BOBESERIES", line 383
+ORA-06512: at line 1
+2021-06-21 16:45:44,667 [8] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----

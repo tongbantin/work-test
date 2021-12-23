@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1526E282-9C06-41A1-B767-EB6B4BBE4F77}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TreasuryModel</RootNamespace>
+    <AssemblyName>TreasuryModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Project Resource\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Project Resource\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.3.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.3.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.3.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.3.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TreasuryShadowSystem\Lib\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\BOTExchangeRate.cs" />
+    <Compile Include="Api\BOTLoanInterestRate.cs" />
+    <Compile Include="Api\ExchangeRateResponse.cs" />
+    <Compile Include="Api\LoanInterestRateResponse.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Data\AdjustNostro.cs" />
+    <Compile Include="Data\AssetGroup.cs" />
+    <Compile Include="Data\BatchSchedule.cs" />
+    <Compile Include="Data\BEAllotment.cs" />
+    <Compile Include="Data\BESeries.cs" />
+    <Compile Include="Data\BrokerageFee.cs" />
+    <Compile Include="Data\BrokerageFeeConfig.cs" />
+    <Compile Include="Data\BrokerageFeeDiscount.cs" />
+    <Compile Include="Data\CashPro.cs" />
+    <Compile Include="Data\CBSAddress.cs" />
+    <Compile Include="Data\CBSContact.cs" />
+    <Compile Include="Data\CBSCustomer.cs" />
+    <Compile Include="Data\CBSMapping.cs" />
+    <Compile Include="Data\Collateral\BALANCE.cs" />
+    <Compile Include="Data\Collateral\BaseModel.cs" />
+    <Compile Include="Data\Collateral\CASH_FLOW.cs" />
+    <Compile Include="Data\Collateral\CTR_EXPOSURE.cs" />
+    <Compile Include="Data\Collateral\CTR_EXPOSURE_DETAIL.cs" />
+    <Compile Include="Data\Collateral\CTR_SETTING.cs" />
+    <Compile Include="Data\Collateral\RATE_GRP.cs" />
+    <Compile Include="Data\Collateral\RATE_INT.cs" />
+    <Compile Include="Data\Collateral\TRANS_TYPE.cs" />
+    <Compile Include="Data\FXNostroAvg.cs" />
+    <Compile Include="Data\KKBSTN.cs" />
+    <Compile Include="Data\PartyMsgChk.cs" />
+    <Compile Include="Data\Custodian.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\CustTypeMapping.cs" />
+    <Compile Include="Data\Deal.cs" />
+    <Compile Include="Data\MarkPoint.cs" />
+    <Compile Include="Data\Menu.cs" />
+    <Compile Include="Data\MessageStatus.cs" />
+    <Compile Include="Data\Model_MS_Debenture.cs" />
+    <Compile Include="Data\NostroDaily.cs" />
+    <Compile Include="Data\NUPDCheck.cs" />
+    <Compile Include="Data\PartyMsg.cs" />
+    <Compile Include="Data\PDFMerger.cs" />
+    <Compile Include="Data\PositionDetail.cs" />
+    <Compile Include="Data\PreConfirm.cs" />
+    <Compile Include="Data\PreConfirmation.cs" />
+    <Compile Include="Data\RepoRefYield.cs" />
+    <Compile Include="Data\ResponseStatus.cs" />
+    <Compile Include="Data\SecAsset.cs" />
+    <Compile Include="Data\STNCONFIG.cs" />
+    <Compile Include="Data\STNMASTER.cs" />
+    <Compile Include="Data\SwiftImport.cs" />
+    <Compile Include="Data\SWIFTMsg.cs" />
+    <Compile Include="Data\SWIFTMsgChk.cs" />
+    <Compile Include="Data\TransToALR.cs" />
+    <Compile Include="Data\WebParameter.cs" />
+    <Compile Include="Enhance\ExcelRateModel.cs" />
+    <Compile Include="Enhance\FileManage.cs" />
+    <Compile Include="Enhance\ImportRateModel.cs" />
+    <Compile Include="Enhance\MappingList.cs" />
+    <Compile Include="Enhance\ReportExport.cs" />
+    <Compile Include="Enhance\SendMail.cs" />
+    <Compile Include="Enhance\XRateModel.cs" />
+    <Compile Include="Enumeration\AssetSubReport.cs" />
+    <Compile Include="Enumeration\CustomerType.cs" />
+    <Compile Include="FX\KKB_TB_TND_CUR_EXCH_RATE.cs" />
+    <Compile Include="FX\KKB_TB_TNH_CUR_EXCH_RATE.cs" />
+    <Compile Include="Loan\LOAN_INTEREST_RATE.cs" />
+    <Compile Include="Master\Model_MS_BOND.cs" />
+    <Compile Include="Master\Model_MS_CALENDAR.cs" />
+    <Compile Include="Master\Model_MS_COST.cs" />
+    <Compile Include="Master\Model_MS_COUNTERPARTY.cs" />
+    <Compile Include="Master\Model_MS_CURRENTPOSITION.cs" />
+    <Compile Include="Master\Model_MS_CUSTOMER.cs" />
+    <Compile Include="Master\Model_MS_DEALFEE.cs" />
+    <Compile Include="Master\Model_MS_FUNDPOSITION.cs" />
+    <Compile Include="Master\Model_MS_MTMMAPPING.cs" />
+    <Compile Include="Master\Model_MS_MTMSCHEDULE.cs" />
+    <Compile Include="Master\Model_MS_PCONFIG.cs" />
+    <Compile Include="Master\Model_MS_PTITRANS.cs" />
+    <Compile Include="Master\Model_MS_WEBPARAM.cs" />
+    <Compile Include="Model\Model_RPT_TR096CLOSEBOOK.cs" />
+    <Compile Include="Model\Model_RPT_CONFIRMREPORT.cs" />
+    <Compile Include="Model\Model_RPT_KNOCKOUTREPORT.cs" />
+    <Compile Include="Model\Model_RPT_PRICINGREPORT.cs" />
+    <Compile Include="Model\Model_RPT_SETTLEMENTREPORT.cs" />
+    <Compile Include="Model\Model_RPT_TR149OBOFCDOUT.cs" />
+    <Compile Include="Model\Model_RPT_TR049DBOFX.cs" />
+    <Compile Include="Model\Model_RPT_TR049DBOPF.cs" />
+    <Compile Include="Model\Model_RPT_TR051TAX.cs" />
+    <Compile Include="Model\Model_RPT_TR051TAXSUMMARY.cs" />
+    <Compile Include="Model\Model_RPT_TR089OTHMTM.cs" />
+    <Compile Include="Model\Model_RPT_TR097BODETAIL.cs" />
+    <Compile Include="Model\Model_RPT_TR098OBOTSDD.cs" />
+    <Compile Include="Model\Model_RPT_TR099OBOBRFI.cs" />
+    <Compile Include="Model\Model_RPT_TR100OBOBRFX.cs" />
+    <Compile Include="Model\Model_RPT_TR090OBOFIBC.cs" />
+    <Compile Include="Model\Model_RPT_TR095OBOECAI.cs" />
+    <Compile Include="Model\Model_RPT_TR094OBOFXSW.cs" />
+    <Compile Include="Model\Model_RPT_TR093OBOFXCF.cs" />
+    <Compile Include="Model\Model_RPT_TR092OBOFXCF.cs" />
+    <Compile Include="Model\Model_RPT_TR091OBOFXCF.cs" />
+    <Compile Include="Model\Model_RPT_TR086MFOCCO.cs" />
+    <Compile Include="Model\Model_RPT_TR085DBOIRS.cs" />
+    <Compile Include="Model\Model_RPT_TR084DBOBERP.cs" />
+    <Compile Include="Model\Model_RPT_TR083DBOBECF.cs" />
+    <Compile Include="Model\Model_RPT_TR082DBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TC021OBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TC022OBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TF020OBOPN.cs" />
+    <Compile Include="Model\Model_RPT_TF026OBOTX.cs" />
+    <Compile Include="Model\Model_RPT_TF048OBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TR007MBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TR008DBOBN.cs" />
+    <Compile Include="Model\Model_RPT_TR012MFOFI.cs" />
+    <Compile Include="Model\Model_RPT_TR014DFOFI.cs" />
+    <Compile Include="Model\Model_RPT_TR023OBOBE.cs" />
+    <Compile Include="Model\Model_RPT_TR024MBOFI.cs" />
+    <Compile Include="Model\Model_RPT_TR025OITAL.cs" />
+    <Compile Include="Model\Model_RPT_TR027DFOEQ.cs" />
+    <Compile Include="Model\Model_RPT_TR033DBOAL.cs" />
+    <Compile Include="Model\Model_RPT_TR034MFOEQ.cs" />
+    <Compile Include="Model\Model_RPT_TR043OBOBN.cs" />
+    <Compile Include="Model\Model_RPT_TR045OBORP.cs" />
+    <Compile Include="Model\Model_RPT_TR046OBOBN.cs" />
+    <Compile Include="Model\Model_RPT_TR050OBOBN.cs" />
+    <Compile Include="Model\Model_RPT_TR051BONTH.cs" />
+    <Compile Include="Model\Model_RPT_TR052OBORP.cs" />
+    <Compile Include="Model\Model_RPT_TR053OBOBN.cs" />
+    <Compile Include="Model\Model_RPT_TR054OBOSW.cs" />
+    <Compile Include="Model\Model_RPT_TR055OBOFX.cs" />
+    <Compile Include="Model\Model_RPT_TR056OBODL.cs" />
+    <Compile Include="Model\Model_RPT_TR057DBOSL.cs" />
+    <Compile Include="Model\Model_RPT_TR058DBOSL.cs" />
+    <Compile Include="Model\Model_RPT_TR059MBOFI.cs" />
+    <Compile Include="Model\Model_RPT_TR060MBOFI.cs" />
+    <Compile Include="Model\Model_RPT_TR063MBOAL.cs" />
+    <Compile Include="Model\Model_RPT_TR064DBORP.cs" />
+    <Compile Include="Model\Model_RPT_TR065DBOCM.cs" />
+    <Compile Include="Model\Model_RPT_TR067FMFICOF1.cs" />
+    <Compile Include="Model\Model_RPT_TR068FMFIOUT1.cs" />
+    <Compile Include="Model\Model_RPT_TR069FMALLPM.cs" />
+    <Compile Include="Model\Model_RPT_TR070DFOTD.cs" />
+    <Compile Include="Model\Model_RPT_TR072OFOCF.cs" />
+    <Compile Include="Model\Model_RPT_TR073DBOFIDF.cs" />
+    <Compile Include="Model\Model_RPT_TR074OBOFX.cs" />
+    <Compile Include="Model\Model_RPT_TR075OBOFXSW.cs" />
+    <Compile Include="Model\Model_RPT_TR076OBOFXSW.cs" />
+    <Compile Include="Model\Model_RPT_TR077OBOFXDL.cs" />
+    <Compile Include="Model\Model_RPT_TR078DFFISD.cs" />
+    <Compile Include="Model\Model_RPT_TR079DFFITD.cs" />
+    <Compile Include="Model\Model_RPT_TR080ACSWGL.cs" />
+    <Compile Include="Model\Model_RPT_TR081ACSWPR.cs" />
+    <Compile Include="Model\Model_RPT_TR096MBOFIDB.cs" />
+    <Compile Include="Model\Model_RPT_TR108DBOEMIR.cs" />
+    <Compile Include="Model\Model_RPT_TR109DBOEQTB.cs" />
+    <Compile Include="Model\Model_RPT_TR110DBODVTB.cs" />
+    <Compile Include="Model\Model_RPT_TR113OBOFXCFC.cs" />
+    <Compile Include="Model\Model_RPT_TR114TO125OBOCF.cs" />
+    <Compile Include="Model\Model_RPT_TR130BOTANNUAL.cs" />
+    <Compile Include="Model\Model_RPT_TR130BOTANNUALD.cs" />
+    <Compile Include="Model\Model_RPT_TR130BOTQUATER.cs" />
+    <Compile Include="Model\Model_RPT_TR132BODBSHOT.cs" />
+    <Compile Include="Model\Model_RPT_TR133BODEBTOUT.cs" />
+    <Compile Include="Model\Model_RPT_TR134BOLCR.cs" />
+    <Compile Include="Model\Model_RPT_TR135BOTBP.cs" />
+    <Compile Include="Model\Model_RPT_TR136BOBE.cs" />
+    <Compile Include="Model\Model_RPT_TR137BOCPTYPE.cs" />
+    <Compile Include="Model\Model_RPT_TR138PTBE.cs" />
+    <Compile Include="Model\Model_RPT_TR139PAYS.cs" />
+    <Compile Include="Model\Model_RPT_TR140NTFXCF.cs" />
+    <Compile Include="Model\Model_RPT_TR141FIXRATE.cs" />
+    <Compile Include="Model\Model_RPT_TR142SWIFTREC.cs" />
+    <Compile Include="Model\Model_RPT_TR143PCOMREC.cs" />
+    <Compile Include="Model\Model_RPT_TR145BORATEAVG.cs" />
+    <Compile Include="Model\Model_RPT_TR146OBOPFXCF.cs" />
+    <Compile Include="Model\Model_RPT_TR152OBOSWIFT.cs" />
+    <Compile Include="Model\Model_RPT_TR153DEBE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Model_RPT_TR155OBOACKNAK.cs" />
+    <Compile Include="Model\Model_RPT_TRPTIBONTH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Model_RPT_UNWINDREPORT.cs" />
+    <Compile Include="Opics\DLDT.cs" />
+    <Compile Include="Opics\SoftLoan.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\AssetGroupRepository.cs" />
+    <Compile Include="Repository\BaseCollateralRepository.cs" />
+    <Compile Include="Repository\CollateralExposures\BaseExcelReader.cs" />
+    <Compile Include="Repository\CollateralExposures\TR049DBOFX_340.cs" />
+    <Compile Include="Repository\CollateralExposures\TR049DBOFX_800.cs" />
+    <Compile Include="Repository\CollateralExposures\TR049DBOLFX_340.cs" />
+    <Compile Include="Repository\CollateralExposures\TR049DBOPE_800.cs" />
+    <Compile Include="Repository\CollateralExposures\TR085DBOIRS_800.cs" />
+    <Compile Include="Repository\CollateralExposures\TR086MFOCCO_340.cs" />
+    <Compile Include="Repository\CollateralExposures\TR086MFOCCO_800.cs" />
+    <Compile Include="Repository\CounterPartyConfigRepository.cs" />
+    <Compile Include="Repository\ExposureRepository.cs" />
+    <Compile Include="Repository\RateGroupRepository.cs" />
+    <Compile Include="Repository\RateRepository.cs" />
+    <Compile Include="Repository\SecAssetRepository.cs" />
+    <Compile Include="Repository\TransactionRepository.cs" />
+    <Compile Include="Web References\CBSCustomerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\LookupCDDService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\LookupService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SanctionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Xml\excel.cs">
+      <DependentUpon>excel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Xml\excel.designer.cs">
+      <DependentUpon>excel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xml\excel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>excel.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DealTicketModel\DealTicketModel.csproj">
+      <Project>{AC01377B-E647-4BA5-8E86-19D6D94008F4}</Project>
+      <Name>DealTicketModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DealTicketReport\DealTicketReport.csproj">
+      <Project>{483580EB-64DA-4754-AAA4-1998C36BF32F}</Project>
+      <Name>DealTicketReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryShadowCommon\TreasuryCommon.csproj">
+      <Project>{ED4763EF-2086-4BF7-9715-FDA78E65DE2F}</Project>
+      <Name>TreasuryCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreasuryShadowReport\TreasuryReport.csproj">
+      <Project>{A175330E-C339-4A81-AF51-DCA29DC7E45B}</Project>
+      <Name>TreasuryReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\CBSCustomerService\CBSCustomerService.wsdl" />
+    <None Include="Web References\CBSCustomerService\InquiryC2ARelationshipResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryC2CRelationshipResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerAddressResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerByAccountResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerByContactResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerByIDResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerByInformationResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerByNameResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerContactResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerDetailResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerOtherRelationResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerProfileSubscriptionLevelResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerSharedInformationResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryCustomerSingleViewResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryInstructionWithBankResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\InquiryServiceWithBankResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CBSCustomerService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LookupCDDService\lookupCDDResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\LookupCDDService\LookupCDDService.wsdl" />
+    <None Include="Web References\LookupCDDService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LookupService\lookupResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\LookupService\LookupService.wsdl" />
+    <None Include="Web References\LookupService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SanctionService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SanctionService\searchResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SanctionService\SearchService.wsdl" />
+    <None Include="Xml\excel.xsc">
+      <DependentUpon>excel.xsd</DependentUpon>
+    </None>
+    <None Include="Xml\excel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>excel1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Xml\excel.xss">
+      <DependentUpon>excel.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="C:\Temp\CBSCustomerService.xml">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CBSCustomerService\</RelPath>
+      <UpdateFromURL>C:\Temp\CBSCustomerService.xml</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TreasuryModel_CBSCustomerService_CBSCustomerService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="C:\Temp\LookupCDDService.xml">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LookupCDDService\</RelPath>
+      <UpdateFromURL>C:\Temp\LookupCDDService.xml</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TreasuryModel_LookupCDDService_LookupCDDService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="C:\Temp\LookupService.xml">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LookupService\</RelPath>
+      <UpdateFromURL>C:\Temp\LookupService.xml</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TreasuryModel_LookupService_LookupService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="C:\Temp\SearchService.xml">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SanctionService\</RelPath>
+      <UpdateFromURL>C:\Temp\SearchService.xml</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TreasuryModel_SanctionService_SearchService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

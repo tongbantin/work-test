@@ -1,0 +1,208 @@
+/* 
+- Name: megamenu.js - style.css
+- Version: 1.0
+- Latest update: 29.01.2016.
+- Author: Mario Loncarek
+- Author web site: http://marioloncarek.com
+*/
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    margin: 0px;	
+}
+
+* 
+{
+	font: 10pt tahoma;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.menu-container {
+    width: 100%;
+    margin: 0 auto;
+    background: #403a6a;
+}
+/* Start level 1 */
+.menu > ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul:after {
+    clear: both;
+}
+
+.menu > ul > li {
+    float: left;
+    background: #403a6a;
+    padding: 0;
+    margin: 0;    
+}
+
+.menu > ul > li > a { 
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+	font-weight: bold;
+	color: White;
+}
+
+.menu > ul > li:hover {
+    background: #7ab4de;
+}
+
+/* Start Level 2 */
+
+.menu > ul > li > ul {
+    display: none;
+    background: #403a6a;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    width: 90%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    height: auto;
+}
+/*
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+    display: inline-block;
+}*/
+
+.menu > ul > li > ul > li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: none;
+	/*
+	border: 1px solid;
+    position: relative;  
+    float: left;
+    width: 25%;
+    display: inline-block;
+    
+*/
+}
+
+.menu > ul > li > ul > li  a {
+    color: #fff;
+    padding: 0;
+    display: block;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.menu li {
+	list-style: none;
+}
+
+/*Level 3*/
+/*
+.menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 4px 0;
+    margin: 0;
+    font-size: .8em;
+    text-indent: 20px;
+}
+.menu > ul > li > ul > li > ul > li > a {
+    border: 0;
+	font-weight: bold;
+	color: White;
+	text-decoration: none;
+}
+.menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 4px 8px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li > a {
+    border: 0;
+    padding: 1em 0;
+	font-weight: bold;
+	color: White;
+}*/
+
+
+#wrapper {
+	width: 90%;
+	max-width: 100%;
+	min-width: 800px;
+	margin: 0px;
+}
+
+#columns {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+
+.pin {
+	margin: 0px;
+	padding: 15px;
+	display: inline-block;
+	background: none;
+	
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	
+}

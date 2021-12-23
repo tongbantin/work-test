@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR025OITAL" targetNamespace="http://tempuri.org/DS_TR025OITAL.xsd" xmlns:mstns="http://tempuri.org/DS_TR025OITAL.xsd" xmlns="http://tempuri.org/DS_TR025OITAL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR025OITAL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS_TR025OITAL" msprop:Generator_UserDSName="DS_TR025OITAL" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR025OITAL" msprop:Generator_UserTableName="TB_TR025OITAL" msprop:Generator_RowDeletedName="TB_TR025OITALRowDeleted" msprop:Generator_TableClassName="TB_TR025OITALDataTable" msprop:Generator_RowChangedName="TB_TR025OITALRowChanged" msprop:Generator_RowClassName="TB_TR025OITALRow" msprop:Generator_RowChangingName="TB_TR025OITALRowChanging" msprop:Generator_RowEvArgName="TB_TR025OITALRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR025OITALRowChangeEventHandler" msprop:Generator_TablePropName="TB_TR025OITAL" msprop:Generator_TableVarName="tableTB_TR025OITAL" msprop:Generator_RowDeletingName="TB_TR025OITALRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BRANCH" msprop:Generator_UserColumnName="BRANCH" msprop:Generator_ColumnPropNameInRow="BRANCH" msprop:Generator_ColumnVarNameInTable="columnBRANCH" msprop:Generator_ColumnPropNameInTable="BRANCHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCHPROCDATE" msprop:Generator_UserColumnName="BRANCHPROCDATE" msprop:Generator_ColumnPropNameInRow="BRANCHPROCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANCHPROCDATE" msprop:Generator_ColumnPropNameInTable="BRANCHPROCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TXNDATE" msprop:Generator_UserColumnName="TXNDATE" msprop:Generator_ColumnPropNameInRow="TXNDATE" msprop:Generator_ColumnVarNameInTable="columnTXNDATE" msprop:Generator_ColumnPropNameInTable="TXNDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VALUEDATE" msprop:Generator_UserColumnName="VALUEDATE" msprop:Generator_ColumnPropNameInRow="VALUEDATE" msprop:Generator_ColumnVarNameInTable="columnVALUEDATE" msprop:Generator_ColumnPropNameInTable="VALUEDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEALNO" msprop:Generator_UserColumnName="DEALNO" msprop:Generator_ColumnPropNameInRow="DEALNO" msprop:Generator_ColumnVarNameInTable="columnDEALNO" msprop:Generator_ColumnPropNameInTable="DEALNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODUCTTYPE" msprop:Generator_UserColumnName="PRODUCTTYPE" msprop:Generator_ColumnPropNameInRow="PRODUCTTYPE" msprop:Generator_ColumnVarNameInTable="columnPRODUCTTYPE" msprop:Generator_ColumnPropNameInTable="PRODUCTTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRODUCTCODE" msprop:Generator_UserColumnName="PRODUCTCODE" msprop:Generator_ColumnPropNameInRow="PRODUCTCODE" msprop:Generator_ColumnVarNameInTable="columnPRODUCTCODE" msprop:Generator_ColumnPropNameInTable="PRODUCTCODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SETTLEMENTMEAN" msprop:Generator_UserColumnName="SETTLEMENTMEAN" msprop:Generator_ColumnPropNameInRow="SETTLEMENTMEAN" msprop:Generator_ColumnVarNameInTable="columnSETTLEMENTMEAN" msprop:Generator_ColumnPropNameInTable="SETTLEMENTMEANColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENTTYPE" msprop:Generator_UserColumnName="PAYMENTTYPE" msprop:Generator_ColumnPropNameInRow="PAYMENTTYPE" msprop:Generator_ColumnVarNameInTable="columnPAYMENTTYPE" msprop:Generator_ColumnPropNameInTable="PAYMENTTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GLNO" msprop:Generator_UserColumnName="GLNO" msprop:Generator_ColumnPropNameInRow="GLNO" msprop:Generator_ColumnVarNameInTable="columnGLNO" msprop:Generator_ColumnPropNameInTable="GLNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CIF" msprop:Generator_UserColumnName="CIF" msprop:Generator_ColumnPropNameInRow="CIF" msprop:Generator_ColumnVarNameInTable="columnCIF" msprop:Generator_ColumnPropNameInTable="CIFColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMERACCNO" msprop:Generator_UserColumnName="CUSTOMERACCNO" msprop:Generator_ColumnPropNameInRow="CUSTOMERACCNO" msprop:Generator_ColumnVarNameInTable="columnCUSTOMERACCNO" msprop:Generator_ColumnPropNameInTable="CUSTOMERACCNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_UserColumnName="AMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CASHINTERFACESTATUS" msprop:Generator_UserColumnName="CASHINTERFACESTATUS" msprop:Generator_ColumnPropNameInRow="CASHINTERFACESTATUS" msprop:Generator_ColumnVarNameInTable="columnCASHINTERFACESTATUS" msprop:Generator_ColumnPropNameInTable="CASHINTERFACESTATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SECINTERFACESTATUS" msprop:Generator_UserColumnName="SECINTERFACESTATUS" msprop:Generator_ColumnPropNameInRow="SECINTERFACESTATUS" msprop:Generator_ColumnVarNameInTable="columnSECINTERFACESTATUS" msprop:Generator_ColumnPropNameInTable="SECINTERFACESTATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="THIRDPARTYSTATUS" msprop:Generator_UserColumnName="THIRDPARTYSTATUS" msprop:Generator_ColumnPropNameInRow="THIRDPARTYSTATUS" msprop:Generator_ColumnVarNameInTable="columnTHIRDPARTYSTATUS" msprop:Generator_ColumnPropNameInTable="THIRDPARTYSTATUSColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

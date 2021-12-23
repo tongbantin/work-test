@@ -1,0 +1,194 @@
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\log4net.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+D:\SVN TRO\TSS\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN TRO\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+D:\SVN TRO\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\log4net.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+D:\Deploy\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+D:\Deploy\TSS\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\Deploy\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+D:\Deploy\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\log4net.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+C:\Users\voranun.jun\Desktop\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\log4net.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+C:\Users\voranun.jun\Desktop\deploy prod\TSS\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\log4net.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.pdb
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\Newtonsoft.Json.dll
+C:\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\RestSharp.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\log4net.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\office.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+E:\KiatnakinBank\Windows7x2008\Project\Project\TreasuryShadowSystem-Production\TreasuryBusiness\bin\Debug\Oracle.DataAccess.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+C:\TRO\Production\TreasuryBusiness\bin\Debug\Ionic.Zip.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\log4net.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\office.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\itextsharp.dll
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+C:\TRO\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\TRO\Production\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+C:\TRO\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+C:\TRO\Production\TreasuryBusiness\bin\Debug\office.xml
+C:\TRO\Production\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+C:\TRO\Production\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\TRO\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+C:\TRO\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\Ionic.Zip.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\log4net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\office.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\NPOI.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\Oracle.DataAccess.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\NPOI.OOXML.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\itextsharp.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\office.xml
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+C:\Users\MKGTA\Desktop\Source Code\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryBusiness.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\Ionic.Zip.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryModel.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\log4net.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\office.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\NPOI.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\DealTicketReport.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\KKB.Treasury.ThirdParty.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\Oracle.DataAccess.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\NPOI.OOXML.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\itextsharp.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\NPOI.OpenXml4Net.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\DealTicketModel.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryReport.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryCommon.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\office.xml
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\DealTicketReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryModel.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\DealTicketModel.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\TreasuryReport.pdb
+D:\Project\KKP\Production3\Production\TreasuryBusiness\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Project\KKP\Production3\Production\TreasuryBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\KKP\Production3\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.dll
+D:\Project\KKP\Production3\Production\TreasuryBusiness\obj\Debug\TreasuryBusiness.pdb

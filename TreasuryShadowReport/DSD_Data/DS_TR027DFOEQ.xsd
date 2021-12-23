@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR027DFOEQ" targetNamespace="http://tempuri.org/DS_TR027DFOEQ.xsd" xmlns:mstns="http://tempuri.org/DS_TR027DFOEQ.xsd" xmlns="http://tempuri.org/DS_TR027DFOEQ.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR027DFOEQ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR027DFOEQ" msprop:Generator_DataSetName="DS_TR027DFOEQ" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR027DFOEQ" msprop:Generator_UserTableName="TB_TR027DFOEQ" msprop:Generator_RowDeletedName="TB_TR027DFOEQRowDeleted" msprop:Generator_RowChangedName="TB_TR027DFOEQRowChanged" msprop:Generator_RowClassName="TB_TR027DFOEQRow" msprop:Generator_RowChangingName="TB_TR027DFOEQRowChanging" msprop:Generator_RowEvArgName="TB_TR027DFOEQRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR027DFOEQRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR027DFOEQDataTable" msprop:Generator_TableVarName="tableTB_TR027DFOEQ" msprop:Generator_RowDeletingName="TB_TR027DFOEQRowDeleting" msprop:Generator_TablePropName="TB_TR027DFOEQ">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BRANCH" msprop:Generator_UserColumnName="BRANCH" msprop:Generator_ColumnVarNameInTable="columnBRANCH" msprop:Generator_ColumnPropNameInRow="BRANCH" msprop:Generator_ColumnPropNameInTable="BRANCHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCHPROCDATE" msprop:Generator_UserColumnName="BRANCHPROCDATE" msprop:Generator_ColumnVarNameInTable="columnBRANCHPROCDATE" msprop:Generator_ColumnPropNameInRow="BRANCHPROCDATE" msprop:Generator_ColumnPropNameInTable="BRANCHPROCDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PORTGROUP" msprop:Generator_UserColumnName="PORTGROUP" msprop:Generator_ColumnVarNameInTable="columnPORTGROUP" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="PORTGROUP" msprop:Generator_ColumnPropNameInTable="PORTGROUPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PORT" msprop:Generator_UserColumnName="PORT" msprop:Generator_ColumnVarNameInTable="columnPORT" msprop:Generator_ColumnPropNameInRow="PORT" msprop:Generator_ColumnPropNameInTable="PORTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SECID" msprop:Generator_UserColumnName="SECID" msprop:Generator_ColumnVarNameInTable="columnSECID" msprop:Generator_ColumnPropNameInRow="SECID" msprop:Generator_ColumnPropNameInTable="SECIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ISSUERNAME" msprop:Generator_UserColumnName="ISSUERNAME" msprop:Generator_ColumnVarNameInTable="columnISSUERNAME" msprop:Generator_ColumnPropNameInRow="ISSUERNAME" msprop:Generator_ColumnPropNameInTable="ISSUERNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HOLDING" msprop:Generator_UserColumnName="HOLDING" msprop:Generator_ColumnVarNameInTable="columnHOLDING" msprop:Generator_ColumnPropNameInRow="HOLDING" msprop:Generator_ColumnPropNameInTable="HOLDINGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNITCOST" msprop:Generator_UserColumnName="UNITCOST" msprop:Generator_ColumnVarNameInTable="columnUNITCOST" msprop:Generator_ColumnPropNameInRow="UNITCOST" msprop:Generator_ColumnPropNameInTable="UNITCOSTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COST" msprop:Generator_UserColumnName="COST" msprop:Generator_ColumnVarNameInTable="columnCOST" msprop:Generator_ColumnPropNameInRow="COST" msprop:Generator_ColumnPropNameInTable="COSTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CLOSEPRICE" msprop:Generator_UserColumnName="CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnCLOSEPRICE" msprop:Generator_ColumnPropNameInRow="CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MKTVALUE_CLOSEPRICE" msprop:Generator_UserColumnName="MKTVALUE_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnMKTVALUE_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="MKTVALUE_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="MKTVALUE_CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNREALIZEGAIN_CLOSEPRICE" msprop:Generator_UserColumnName="UNREALIZEGAIN_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnUNREALIZEGAIN_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="UNREALIZEGAIN_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="UNREALIZEGAIN_CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MVCOST_CLOSEPRICE" msprop:Generator_UserColumnName="MVCOST_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnMVCOST_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="MVCOST_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="MVCOST_CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTALMV_CLOSEPRICE" msprop:Generator_UserColumnName="TOTALMV_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnTOTALMV_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="TOTALMV_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="TOTALMV_CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNREALIZE_CLOSEPRICE" msprop:Generator_UserColumnName="UNREALIZE_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnUNREALIZE_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="UNREALIZE_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="UNREALIZE_CLOSEPRICEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STATUS_CLOSEPRICE" msprop:Generator_UserColumnName="STATUS_CLOSEPRICE" msprop:Generator_ColumnVarNameInTable="columnSTATUS_CLOSEPRICE" msprop:Generator_ColumnPropNameInRow="STATUS_CLOSEPRICE" msprop:Generator_ColumnPropNameInTable="STATUS_CLOSEPRICEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LASTBID" msprop:Generator_UserColumnName="LASTBID" msprop:Generator_ColumnVarNameInTable="columnLASTBID" msprop:Generator_ColumnPropNameInRow="LASTBID" msprop:Generator_ColumnPropNameInTable="LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MKTVALUE_LASTBID" msprop:Generator_UserColumnName="MKTVALUE_LASTBID" msprop:Generator_ColumnVarNameInTable="columnMKTVALUE_LASTBID" msprop:Generator_ColumnPropNameInRow="MKTVALUE_LASTBID" msprop:Generator_ColumnPropNameInTable="MKTVALUE_LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNREALIZEGAIN_LASTBID" msprop:Generator_UserColumnName="UNREALIZEGAIN_LASTBID" msprop:Generator_ColumnVarNameInTable="columnUNREALIZEGAIN_LASTBID" msprop:Generator_ColumnPropNameInRow="UNREALIZEGAIN_LASTBID" msprop:Generator_ColumnPropNameInTable="UNREALIZEGAIN_LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MVCOST_LASTBID" msprop:Generator_UserColumnName="MVCOST_LASTBID" msprop:Generator_ColumnVarNameInTable="columnMVCOST_LASTBID" msprop:Generator_ColumnPropNameInRow="MVCOST_LASTBID" msprop:Generator_ColumnPropNameInTable="MVCOST_LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTALMV_LASTBID" msprop:Generator_UserColumnName="TOTALMV_LASTBID" msprop:Generator_ColumnVarNameInTable="columnTOTALMV_LASTBID" msprop:Generator_ColumnPropNameInRow="TOTALMV_LASTBID" msprop:Generator_ColumnPropNameInTable="TOTALMV_LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNREALIZE_LASTBID" msprop:Generator_UserColumnName="UNREALIZE_LASTBID" msprop:Generator_ColumnVarNameInTable="columnUNREALIZE_LASTBID" msprop:Generator_ColumnPropNameInRow="UNREALIZE_LASTBID" msprop:Generator_ColumnPropNameInTable="UNREALIZE_LASTBIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STATUS_LASTBID" msprop:Generator_UserColumnName="STATUS_LASTBID" msprop:Generator_ColumnVarNameInTable="columnSTATUS_LASTBID" msprop:Generator_ColumnPropNameInRow="STATUS_LASTBID" msprop:Generator_ColumnPropNameInTable="STATUS_LASTBIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMOFSHARE" msprop:Generator_UserColumnName="NUMOFSHARE" msprop:Generator_ColumnVarNameInTable="columnNUMOFSHARE" msprop:Generator_ColumnPropNameInRow="NUMOFSHARE" msprop:Generator_ColumnPropNameInTable="NUMOFSHAREColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISSUESHARE" msprop:Generator_UserColumnName="ISSUESHARE" msprop:Generator_ColumnVarNameInTable="columnISSUESHARE" msprop:Generator_ColumnPropNameInRow="ISSUESHARE" msprop:Generator_ColumnPropNameInTable="ISSUESHAREColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STATUSISSUESHARE" msprop:Generator_UserColumnName="STATUSISSUESHARE" msprop:Generator_ColumnVarNameInTable="columnSTATUSISSUESHARE" msprop:Generator_ColumnPropNameInRow="STATUSISSUESHARE" msprop:Generator_ColumnPropNameInTable="STATUSISSUESHAREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INVTYPE" msprop:Generator_UserColumnName="INVTYPE" msprop:Generator_ColumnVarNameInTable="columnINVTYPE" msprop:Generator_ColumnPropNameInRow="INVTYPE" msprop:Generator_ColumnPropNameInTable="INVTYPEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,930 @@
+2021-06-23 02:28:47,809 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 02:28:47,935 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 02:28:47
+2021-06-23 02:28:48,033 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 02:28:54,627 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:28:54,802 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:28:54,803 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:28:54,804 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:28:54,804 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:28:54,805 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:28:54,805 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:28:54,805 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:28:54,805 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:28:54,805 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:28:54,806 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:28:54,806 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:28:54,822 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:54,870 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:54,896 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:54,919 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:54,949 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:55,022 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:55,048 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:55,074 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:55,094 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:28:55,114 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,452 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Get Report Settlement
+2021-06-23 02:29:04,454 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:29:04,481 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:29:04,504 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:29:04,504 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:29:04,504 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:29:04,505 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:29:04,506 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,524 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,543 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,564 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,584 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,609 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,634 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,659 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,697 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:04,725 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:10,083 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-06-23 02:29:10,090 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-06-23 02:29:12,043 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>326</STNID>
+    <ACTION>New Trade</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600017</ORDER_NO>
+    <ACCT_NO>56268472</ACCT_NO>
+    <SYMBOL>KKSFIN21O04V</SYMBOL>
+    <KKSYMBOL>KKP21O04V</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ????????? ?????????</FULLNAME>
+    <TAXID>1234567891234</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>123456789</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Kajornsak.pro@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>SFIN</STN_TYPE>
+    <NOTE_SERIES>5/2564</NOTE_SERIES>
+    <UNDERLYING1>GLD</UNDERLYING1>
+    <STRIKE_PRICE1>170</STRIKE_PRICE1>
+    <STRIKE_PRICE2>0</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>195.5</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>95</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>170</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>100</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>0</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>115</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>100</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>36.1</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>5</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>USD</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>3</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>31</EXCRATE_TRADEDATE>
+    <EXCHANGE1>NYSE</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <STN_NAME>??????????????????????? ????????????????????????????????????????????????????????</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Shark-Fin Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? Rebate ???????????????????????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+
+??????? 1 ? ????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????? (Barrier Price) ? ?????????????????????????? (????????????? Knock-Out) ?????????????????????????????????????? 
+(?) ?????????????? ??????????????? x ??????????????????????? ??? 
+(?) ??????????????? ??????????????? x Rebate x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ??????????????)
+
+??????? 2 ????????????????? Knock-Out ?????????????????????????????????????????????? ??????
+
+(2.1) ??????????????????? ? ?????????????????????????????????? ??????? Strike Price ??????????????????????????????????????
+(?) ????????????????????????????? x ??????????????????????? ???
+(?) ??????????????? [??????????????? x ???????????????????????????? x ((???????????????? ? ?????????????????????????????????? - ????????????) / ????????????????? ? ????????????????) x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ?????????????????????????????????????????????)] 
+
+(2.2) ??????????????????? ? ?????????????????????????????????? ?????????????????? Strike Price ????????????????????????????????????????????????????????????????????????????????????
+????????????????????????????? x ???????????????????????</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>1</SETTLE_PRICE1>
+    <SETTLE_PRICE2>0</SETTLE_PRICE2>
+    <SETTLE_PRICE3>0</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>0</SETTLE_DAYS>
+    <KO_PRICE1>200</KO_PRICE1>
+    <KO_PRICE2>0</KO_PRICE2>
+    <KO_PRICE3>0</KO_PRICE3>
+    <KO_PRICE4>0</KO_PRICE4>
+    <KO_PRICE5>0</KO_PRICE5>
+    <KO_PRICE6>0</KO_PRICE6>
+    <KO_STOCK_TYPE>1</KO_STOCK_TYPE>
+    <KO_DATE>03/09/2021</KO_DATE>
+    <KO_FXRATE>32</KO_FXRATE>
+    <SETTLE_FXRATE>32</SETTLE_FXRATE>
+    <STN_SEQ>1/2564</STN_SEQ>
+    <STN_SEQDATE>20 ?????? 2564</STN_SEQDATE>
+  </TB_STNCONF>
+</NewDataSet>
+2021-06-23 02:29:12,044 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Finish-----
+2021-06-23 02:29:39,278 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Get Report Settlement
+2021-06-23 02:29:39,281 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:29:39,292 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:29:39,293 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:29:39,293 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:29:39,293 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:29:39,293 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:29:39,294 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:29:39,295 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,313 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,334 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,356 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,369 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,391 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,412 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,435 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,457 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:39,476 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:29:41,766 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-06-23 02:29:41,772 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-06-23 02:29:41,915 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>328</STNID>
+    <ACTION>New Trade</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2021600018</ORDER_NO>
+    <ACCT_NO>78963333</ACCT_NO>
+    <SYMBOL>KKDRAN21O04U</SYMBOL>
+    <KKSYMBOL>KKP21O04U</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ?????? ??????????????</FULLNAME>
+    <TAXID>1122022546988</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>23698547</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>aa@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>DRAN</STN_TYPE>
+    <NOTE_SERIES>6/2564</NOTE_SERIES>
+    <UNDERLYING1>PTT</UNDERLYING1>
+    <STRIKE_PRICE1>38</STRIKE_PRICE1>
+    <STRIKE_PRICE2>42</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>0</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>99</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>121</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>40</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>95</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>105</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>0</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>0</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>5.22</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>3.6460000000000004</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>THB</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>2</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>SET</EXCHANGE1>
+    <CUST_TYPE>15</CUST_TYPE>
+    <PAY_TYPE>C</PAY_TYPE>
+    <STN_NAME>??????????????????????? ?????????????????????????????????????????????????????????????? ?????????????????? ?????(?????) ????????? ?????????????????? ????? (?????)</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Daily Range Accrual Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ???????????????????? ??????????????????????? ????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????????????????????? (?????) ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+(?) ??????? = ?????????????????????? x ???????????????????????
+(?) ???????? = ?????????????????????? x ???????????????????? (Rebate) x (????????????????????????????????????????????????????????????? / ????????????????????????????????????????????)</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>42</SETTLE_PRICE1>
+    <SETTLE_PRICE2>0</SETTLE_PRICE2>
+    <SETTLE_PRICE3>0</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>90</SETTLE_DAYS>
+    <SETTLE_FXRATE>0</SETTLE_FXRATE>
+    <STN_SEQ>1/2564</STN_SEQ>
+    <STN_SEQDATE>20 ?????? 2564</STN_SEQDATE>
+  </TB_STNCONF>
+</NewDataSet>
+2021-06-23 02:29:41,922 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Finish-----
+2021-06-23 02:34:40,741 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:34:43,370 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:34:43,376 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:34:51,582 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:34:55,331 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:34:55,339 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:39:59,279 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:40:01,406 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:40:01,413 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:40:08,790 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:40:13,340 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:40:13,348 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:43:31,443 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:43:31,472 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:43:31,472 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:43:31,472 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:43:31,472 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:43:31,473 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:43:31,495 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,521 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,546 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,570 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,599 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,624 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,678 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,706 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,728 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:31,764 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:43:36,800 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:43:39,031 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:43:39,039 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:43:46,373 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-06-23 02:43:46,382 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-06-23 02:43:46,417 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-06-23 02:43:46,425 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-06-23 02:44:01,553 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:44:04,858 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:44:04,864 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:44:12,593 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-06-23 02:44:12,601 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-06-23 02:44:12,712 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-06-23 02:44:12,731 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-06-23 02:45:44,484 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:45:44,506 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:45:44,506 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:45:44,507 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:45:44,508 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:45:44,508 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:45:44,520 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,546 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,566 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,585 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,599 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,626 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,645 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,656 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,679 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:44,700 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:45:53,849 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-23 02:45:55,564 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-23 02:45:55,571 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-23 02:49:27,193 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:49:27,225 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:49:27,226 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:49:27,227 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:49:27,227 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:49:27,228 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:49:27,228 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:49:27,229 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:49:27,229 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:49:27,229 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:49:27,230 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:49:27,230 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:49:27,251 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,270 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,297 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,317 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,338 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,364 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,447 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,472 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,494 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:49:27,515 [13] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:02,525 [5] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 02:59:02,608 [5] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 02:59:02
+2021-06-23 02:59:02,698 [5] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 02:59:08,980 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 02:59:09,174 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 02:59:09,176 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 02:59:09,177 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 02:59:09,177 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 02:59:09,178 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 02:59:09,179 [5] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 02:59:09,204 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,244 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,267 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,294 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,315 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,353 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,392 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,412 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,445 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 02:59:09,464 [5] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:01:27,133 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 03:04:14,155 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 03:04:40,947 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 03:04:41,768 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 03:04:59,757 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 03:05:00,475 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 03:05:01,106 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 03:05:07,034 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 03:06:01,694 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 03:12:26,773 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 03:12:26,852 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 03:12:26
+2021-06-23 03:12:26,936 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 03:12:31,560 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-23 03:12:33,966 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-23 03:12:38,135 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-23 03:12:38,145 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-23 03:12:38,146 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-23 03:12:38,146 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-23 03:12:38,147 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-23 03:12:38,147 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-23 03:12:38,147 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-23 03:12:38,149 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-23 03:12:38,149 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 9
+2021-06-23 03:12:38,149 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 10
+2021-06-23 03:12:38,168 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,210 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,245 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,278 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,316 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,350 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,382 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,450 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,483 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 03:12:38,518 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-23 12:06:36,207 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:06:36,302 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:06:36
+2021-06-23 12:06:36,391 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:07:12,164 [10] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:07:15,953 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:07:15,962 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:07:15,963 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:07:15,963 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:07:19,790 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:07:19,793 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:07:19,794 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:09:25,996 [10] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:12:10,040 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:12:10,098 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:12:10
+2021-06-23 12:12:10,168 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:12:21,826 [11] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:12:24,687 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:12:24,695 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:12:24,695 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:12:24,695 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:12:27,252 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:12:27,253 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:12:27,253 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:14:51,375 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:14:51,473 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:14:51
+2021-06-23 12:14:51,561 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:15:05,148 [4] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:15:11,670 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:15:11,678 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:15:11,679 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:15:11,679 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:15:14,419 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:15:14,420 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:15:14,420 [8] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:16:04,694 [4] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:16:06,349 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:16:06,358 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:16:06,358 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:16:06,358 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:16:06,685 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:16:06,692 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>1</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:16:06,692 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:19:13,298 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:19:13,399 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:19:13
+2021-06-23 12:19:13,482 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:19:29,910 [4] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:19:34,114 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:19:34,121 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:19:34,122 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:19:34,122 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:19:37,154 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:19:37,155 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:19:37,156 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:20:40,323 [12] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:20:45,616 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:20:45,627 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:20:45,627 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:20:45,627 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:20:45,934 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:20:45,942 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>1</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:20:45,942 [12] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:21:56,344 [12] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:21:58,913 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:21:58,924 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:21:58,924 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:21:58,925 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:21:59,323 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:21:59,333 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:21:59,333 [14] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:24:09,031 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:24:09,120 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:24:09
+2021-06-23 12:24:09,212 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:24:22,511 [7] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:24:25,491 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:24:25,499 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:24:25,499 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:24:25,500 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:24:28,507 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:24:28,508 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:24:28,508 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:25:12,225 [4] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:25:18,022 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:25:18,030 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:25:18,031 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:25:18,031 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:25:18,392 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:25:18,404 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>1</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:25:18,404 [4] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----
+2021-06-23 12:26:43,090 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-23 12:26:43,184 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :23/06/2021 12:26:43
+2021-06-23 12:26:43,276 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-23 12:26:56,523 [9] ERROR TreasuryShadowSystem.Form.frm_TR051TRANSLIST [(null)] - Object reference not set to an instance of an object.
+2021-06-23 12:26:59,945 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Start-----
+2021-06-23 12:26:59,953 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_TRPTIBONTH
+2021-06-23 12:26:59,953 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Transaction Log=
+2021-06-23 12:26:59,953 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Data : Deal No=1920050
+2021-06-23 12:27:02,796 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - Total Records : 1 Record(s)
+2021-06-23 12:27:02,797 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - <NewDataSet>
+  <TB_TR051BONTH>
+    <SENDERREF>19200500001</SENDERREF>
+    <COUNTERPARTY>BBLAMF</COUNTERPARTY>
+    <ATTN>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ATTN>
+    <FROMDEPT>TREASURY OPERATIONS DEPT.</FROMDEPT>
+    <KKB>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKB>
+    <FROMTELNO>02-495-1667, 1671, 1669       </FROMTELNO>
+    <FROMFAXNO>02-495-1996                   </FROMFAXNO>
+    <REFNO>19200500001</REFNO>
+    <BUYER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </BUYER>
+    <SELLER>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </SELLER>
+    <TRADEDATE>07 JAN 2019</TRADEDATE>
+    <SETTLEDATE>09 JAN 2019</SETTLEDATE>
+    <BONDCODE>LB23DA              </BONDCODE>
+    <ISSUER>MINISTRY OF FINANCE </ISSUER>
+    <ISIN>TH0623A33C00        </ISIN>
+    <COUPON>  2.400000</COUPON>
+    <ISSUEDATE>17 AUG 2018</ISSUEDATE>
+    <MATURITYDATE>17 DEC 2023</MATURITYDATE>
+    <YIELD>   2.130000</YIELD>
+    <QUANTITY>200000</QUANTITY>
+    <FACEAMT>200000000</FACEAMT>
+    <CLEANPRICE>202522380</CLEANPRICE>
+    <ACCINT>302466</ACCINT>
+    <HOLDINGTAX>0</HOLDINGTAX>
+    <GROSSPRICE>202824846</GROSSPRICE>
+    <KKBSELLER>KIATNAKIN PHATRA BANK PUBLIC COMPANY LIMITED</KKBSELLER>
+    <KKBBIC>KKPBTHBK   </KKBBIC>
+    <KKBCA>0010043357                         </KKBCA>
+    <KKBSA>5130000000110</KKBSA>
+    <BIC>AYUDTHBK   </BIC>
+    <BANKCA>0010039600</BANKCA>
+    <BANKSA>1234567890</BANKSA>
+    <ACKNOWLEDGE>MR. CHALIT UPRARIPUTHIPONG AND MR. SOMPOP UPARIPUTTIPONG AND MR. SUVICHA UPARIPHUTTHIPHONG BY KIATNAKIN PHATRA ASSET MANAGEMENT COMPANY LIMITED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ACKNOWLEDGE>
+    <SETTLEMENTTYPE>BAHTNET</SETTLEMENTTYPE>
+    <NOTSIGN>0</NOTSIGN>
+  </TB_TR051BONTH>
+</NewDataSet>
+2021-06-23 12:27:02,798 [9] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_TRPTIBONTH [(null)] - -----Model_RPT_TRPTIBONTH Finish-----

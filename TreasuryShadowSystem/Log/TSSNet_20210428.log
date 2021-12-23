@@ -1,0 +1,504 @@
+2021-04-28 03:02:39,151 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 03:02:39,345 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 03:02:39
+2021-04-28 03:02:39,425 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 03:06:16,580 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-28 03:06:16,700 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-28 03:06:31,000 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-28 03:06:34,081 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-28 03:07:53,206 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-28 03:08:06,301 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-28 03:11:22,771 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 03:11:40,460 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 03:11:47,010 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 03:11:49,394 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 03:12:23,605 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-28 03:12:23,730 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-28 03:16:02,910 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 03:16:33,147 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 03:16:37,040 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 03:16:39,325 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 03:20:43,022 [9] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Start UpdatePerson-----
+2021-04-28 03:20:43,068 [9] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKB_TB_STN Finish UpdatePerson-----
+2021-04-28 11:17:33,486 [7] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 11:17:33,994 [7] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 11:17:33
+2021-04-28 11:17:34,135 [7] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 11:21:11,213 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 11:21:14,518 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 11:21:14,705 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 11:21:14,815 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 11:21:26,767 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-04-28 11:21:26,937 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-04-28 11:21:52,972 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 11:21:57,951 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 11:21:58,970 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 11:21:58,970 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 11:22:31,911 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 11:22:44,468 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 11:22:44,623 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 11:22:44,623 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 11:27:04,944 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 11:27:21,326 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 11:27:28,381 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 11:27:31,139 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 11:34:15,631 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-04-28 11:34:16,639 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-28 11:34:39,412 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>248</STNID>
+    <ACTION>New Trade</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2020500032</ORDER_NO>
+    <ACCT_NO>56268472</ACCT_NO>
+    <SYMBOL>KKSFIN21O04W</SYMBOL>
+    <KKSYMBOL>KKP21O04W</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ????????? ????????</FULLNAME>
+    <TAXID>1234567891234</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>123456789</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Kajornsak.pro@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>SFIN</STN_TYPE>
+    <NOTE_SERIES>6/2564</NOTE_SERIES>
+    <UNDERLYING1>GLD</UNDERLYING1>
+    <STRIKE_PRICE1>170</STRIKE_PRICE1>
+    <STRIKE_PRICE2>0</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>195.5</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>95</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>33</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>100</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>0</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>115</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>100</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>36.1</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>5</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>USD</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>3</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>NYSE</EXCHANGE1>
+    <PAY_TYPE>P</PAY_TYPE>
+    <STN_NAME>??????????????????????? ????????????????????????????????????????????????????????</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Shark-Fin Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? Rebate ???????????????????????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+
+??????? 1 ? ????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????? (Barrier Price) ? ?????????????????????????? (????????????? Knock-Out) ?????????????????????????????????????? 
+(?) ?????????????? ??????????????? x ??????????????????????? ??? 
+(?) ??????????????? ??????????????? x Rebate x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ??????????????)
+
+??????? 2 ????????????????? Knock-Out ?????????????????????????????????????????????? ??????
+
+(2.1) ??????????????????? ? ?????????????????????????????????? ??????? Strike Price ??????????????????????????????????????
+(?) ????????????????????????????? x ??????????????????????? ???
+(?) ??????????????? [??????????????? x ???????????????????????????? x ((???????????????? ? ?????????????????????????????????? - ????????????) / ????????????????? ? ????????????????) x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ?????????????????????????????????????????????)] 
+
+(2.2) ??????????????????? ? ?????????????????????????????????? ?????????????????? Strike Price ????????????????????????????????????????????????????????????????????????????????????
+????????????????????????????? x ???????????????????????</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>1</SETTLE_PRICE1>
+    <SETTLE_PRICE2>0</SETTLE_PRICE2>
+    <SETTLE_PRICE3>0</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>1</SETTLE_DAYS>
+    <KO_PRICE1>11</KO_PRICE1>
+    <KO_PRICE2>0</KO_PRICE2>
+    <KO_PRICE3>0</KO_PRICE3>
+    <KO_PRICE4>0</KO_PRICE4>
+    <KO_PRICE5>0</KO_PRICE5>
+    <KO_PRICE6>0</KO_PRICE6>
+    <KO_STOCK_TYPE>1</KO_STOCK_TYPE>
+    <KO_DATE>2021-04-02T00:00:00+07:00</KO_DATE>
+  </TB_STNCONF>
+</NewDataSet>
+2021-04-28 11:34:45,030 [10] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Finish-----
+2021-04-28 11:35:53,308 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Start-----
+2021-04-28 11:35:53,386 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - Store Procedure : OPICINF.KKB_SP_TSS_STNCONF
+2021-04-28 11:35:53,583 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - <NewDataSet>
+  <TB_STNCONF>
+    <STNID>248</STNID>
+    <ACTION>New Trade</ACTION>
+    <CURR_DATE>01/04/2021</CURR_DATE>
+    <ORDER_NO>2020500032</ORDER_NO>
+    <ACCT_NO>56268472</ACCT_NO>
+    <SYMBOL>KKSFIN21O04W</SYMBOL>
+    <KKSYMBOL>KKP21O04W</KKSYMBOL>
+    <UNIT>5</UNIT>
+    <AMOUNT>5000000</AMOUNT>
+    <FULLNAME>??? ????????? ????????</FULLNAME>
+    <TAXID>1234567891234</TAXID>
+    <CUST_BANK_CODE>KKP</CUST_BANK_CODE>
+    <CUST_BANK_ACCT>123456789</CUST_BANK_ACCT>
+    <TEL>081-111-1111</TEL>
+    <EMAIL>Kajornsak.pro@gmail.com</EMAIL>
+    <FC_NAME>Kittiporn Sinsukthavorn</FC_NAME>
+    <FC_EMAIL>Kittiporn.Sins@kkpfg.com</FC_EMAIL>
+    <STN_TYPE>SFIN</STN_TYPE>
+    <NOTE_SERIES>6/2564</NOTE_SERIES>
+    <UNDERLYING1>GLD</UNDERLYING1>
+    <STRIKE_PRICE1>170</STRIKE_PRICE1>
+    <STRIKE_PRICE2>0</STRIKE_PRICE2>
+    <STRIKE_PRICE3>0</STRIKE_PRICE3>
+    <STRIKE_PRICE4>0</STRIKE_PRICE4>
+    <STRIKE_PRICE5>0</STRIKE_PRICE5>
+    <STRIKE_PRICE6>0</STRIKE_PRICE6>
+    <BARRIER_PRICE1>195.5</BARRIER_PRICE1>
+    <BARRIER_PRICE2>0</BARRIER_PRICE2>
+    <BARRIER_PRICE3>0</BARRIER_PRICE3>
+    <BARRIER_PRICE4>0</BARRIER_PRICE4>
+    <BARRIER_PRICE5>0</BARRIER_PRICE5>
+    <BARRIER_PRICE6>0</BARRIER_PRICE6>
+    <KI_PRICE>0</KI_PRICE>
+    <PROTECT_LEVELP>95</PROTECT_LEVELP>
+    <TTM>182</TTM>
+    <TRADING_DAY>0</TRADING_DAY>
+    <EXERCISE_TYPE>European</EXERCISE_TYPE>
+    <PAR_VALUE>1000000</PAR_VALUE>
+    <OFFER_PRICEP>100</OFFER_PRICEP>
+    <OFFER_PRICE_AMT>5000000</OFFER_PRICE_AMT>
+    <INITIAL_PRICEP>100</INITIAL_PRICEP>
+    <INITIAL_PRICE_AMT>33</INITIAL_PRICE_AMT>
+    <STRIKE_PRICE1P>100</STRIKE_PRICE1P>
+    <STRIKE_PRICE2P>0</STRIKE_PRICE2P>
+    <STRIKE_PRICE3P>0</STRIKE_PRICE3P>
+    <STRIKE_PRICE4P>0</STRIKE_PRICE4P>
+    <STRIKE_PRICE5P>0</STRIKE_PRICE5P>
+    <STRIKE_PRICE6P>0</STRIKE_PRICE6P>
+    <BARRIER_PRICE1P>115</BARRIER_PRICE1P>
+    <BARRIER_PRICE2P>0</BARRIER_PRICE2P>
+    <BARRIER_PRICE3P>0</BARRIER_PRICE3P>
+    <BARRIER_PRICE4P>0</BARRIER_PRICE4P>
+    <BARRIER_PRICE5P>0</BARRIER_PRICE5P>
+    <BARRIER_PRICE6P>0</BARRIER_PRICE6P>
+    <KK_PRICEP>0</KK_PRICEP>
+    <PR1>100</PR1>
+    <PR2>0</PR2>
+    <MIN_YIELD1P>0</MIN_YIELD1P>
+    <MIN_YIELD2P>0</MIN_YIELD2P>
+    <MAX_YIELD1P>36.1</MAX_YIELD1P>
+    <MAX_YIELD2P>0</MAX_YIELD2P>
+    <REBATE_AMT>0</REBATE_AMT>
+    <REBATEP>5</REBATEP>
+    <NOTE_CURR>THB</NOTE_CURR>
+    <UNDERLYING_CURR>USD</UNDERLYING_CURR>
+    <FX_DELIVERY_AMT>0</FX_DELIVERY_AMT>
+    <SURPLUS_CASH>0</SURPLUS_CASH>
+    <SUB_BEGIN_DATE>01/04/2021</SUB_BEGIN_DATE>
+    <SUB_END_DATE>01/04/2021</SUB_END_DATE>
+    <TRADE_DATE>01/04/2021</TRADE_DATE>
+    <EFFECTIVE_DATE>05/04/2021</EFFECTIVE_DATE>
+    <SETTLE_DATE>05/04/2021</SETTLE_DATE>
+    <ISSUE_DATE>05/04/2021</ISSUE_DATE>
+    <FIXING_DATE>30/09/2021</FIXING_DATE>
+    <MATURITY_DATE>04/10/2021</MATURITY_DATE>
+    <SETTLE_PERIOD>3</SETTLE_PERIOD>
+    <EXCRATE_TRADEDATE>0</EXCRATE_TRADEDATE>
+    <EXCHANGE1>NYSE</EXCHANGE1>
+    <PAY_TYPE>P</PAY_TYPE>
+    <STN_NAME>??????????????????????? ????????????????????????????????????????????????????????</STN_NAME>
+    <STN_TYPE_DESC>??????????????????????????????????????? ?????? Shark-Fin Note ??????????????????????????</STN_TYPE_DESC>
+    <STN_RETURN>???????????????????????????????????? ??????????????????????? ????????????? Rebate ???????????????????????????????????</STN_RETURN>
+    <STN_RULE_REDEEM>??????????????????????????????????????????? ??????????????????????????????????????????????????????????????????????????????? (?????) ?????????????????????????????????????????????? ????????????????????????????????????????????????????????????????????? 2 ???? ??????
+
+??????? 1 ? ????????????????????????????????????????????????????????????????????????????????????????????????????? ?????????????????????????????????????????????????????????? (Barrier Price) ? ?????????????????????????? (????????????? Knock-Out) ?????????????????????????????????????? 
+(?) ?????????????? ??????????????? x ??????????????????????? ??? 
+(?) ??????????????? ??????????????? x Rebate x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ??????????????)
+
+??????? 2 ????????????????? Knock-Out ?????????????????????????????????????????????? ??????
+
+(2.1) ??????????????????? ? ?????????????????????????????????? ??????? Strike Price ??????????????????????????????????????
+(?) ????????????????????????????? x ??????????????????????? ???
+(?) ??????????????? [??????????????? x ???????????????????????????? x ((???????????????? ? ?????????????????????????????????? - ????????????) / ????????????????? ? ????????????????) x (??????????????? ? ?????????????????????????????????? / ??????????????? ? ?????????????????????????????????????????????)] 
+
+(2.2) ??????????????????? ? ?????????????????????????????????? ?????????????????? Strike Price ????????????????????????????????????????????????????????????????????????????????????
+????????????????????????????? x ???????????????????????</STN_RULE_REDEEM>
+    <SETTLE_PRICE1>1</SETTLE_PRICE1>
+    <SETTLE_PRICE2>0</SETTLE_PRICE2>
+    <SETTLE_PRICE3>0</SETTLE_PRICE3>
+    <SETTLE_PRICE4>0</SETTLE_PRICE4>
+    <SETTLE_PRICE5>0</SETTLE_PRICE5>
+    <SETTLE_PRICE6>0</SETTLE_PRICE6>
+    <SETTLE_DAYS>1</SETTLE_DAYS>
+    <KO_PRICE1>11</KO_PRICE1>
+    <KO_PRICE2>0</KO_PRICE2>
+    <KO_PRICE3>0</KO_PRICE3>
+    <KO_PRICE4>0</KO_PRICE4>
+    <KO_PRICE5>0</KO_PRICE5>
+    <KO_PRICE6>0</KO_PRICE6>
+    <KO_STOCK_TYPE>1</KO_STOCK_TYPE>
+    <KO_DATE>2021-04-02T00:00:00+07:00</KO_DATE>
+  </TB_STNCONF>
+</NewDataSet>
+2021-04-28 11:35:53,583 [7] INFO  KKB.Treasury.TreasuryModel.Model.Model_RPT_SETTLEMENTREPORT [(null)] - -----Model_RPT_SETTLEMENTREPORT Finish-----
+2021-04-28 12:42:44,282 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 12:42:45,709 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 12:42:45
+2021-04-28 12:42:45,857 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 13:01:58,431 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 13:02:26,359 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 13:02:32,144 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 13:02:36,927 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 13:05:22,516 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 13:05:50,450 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 13:06:01,049 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 13:06:03,805 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 15:54:12,432 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 15:54:12,744 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 03:54:12
+2021-04-28 15:54:12,841 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 15:54:23,294 [9] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-04-28 15:54:23,295 [9] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-04-28 15:54:35,590 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-04-28 15:54:35,590 [4] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-04-28 15:54:51,139 [9] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_SERIES Start-----
+2021-04-28 15:54:51,157 [9] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY') as BE_ISSUE_DATE, BE_DIS_RATE, NVL(BE_ISSUER_ID,0) as BE_ISSUER_ID , TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY') as BE_MAT_DATE, NVL(CUST1.CUSTOMERID,0) as CUSTOMERID, NVL(CUST1.NAMEEN,'') as NAMEEN, NVL(CUST1.TARGETACCT,'') as TARGETACCT , NVL(CUST1.TARGETBANK,'') as TARGETBANK From OPICINF.KKB_TB_BE_SERIES SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID WHERE BESERIESID='8011' 
+2021-04-28 15:54:51,242 [9] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_SERIES Finish-----
+2021-04-28 15:54:57,159 [9] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 15:54:57,159 [9] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 15:54:57,227 [9] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 15:56:16,560 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 15:56:16,628 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 15:56:16,629 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 15:56:16,631 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 15:56:16,631 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 15:56:16,631 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 15:56:16,631 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 15:56:16,631 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 17:05:47,566 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 17:05:58,084 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 17:06:10,653 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 17:06:11,972 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 17:32:55,846 [8] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 17:32:56,084 [8] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 05:32:56
+2021-04-28 17:32:56,166 [8] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 17:33:00,999 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 17:33:01,172 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 17:33:01,173 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 17:33:01,174 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 17:33:01,174 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 17:33:01,174 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 17:33:01,174 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 17:33:01,175 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 17:33:01,190 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:33:01,255 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:33:01,293 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:33:01,336 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:33:01,390 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:33:01,440 [8] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:40:48,379 [8] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-04-28 17:40:48,379 [8] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-04-28 17:47:08,621 [9] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 17:47:08,841 [9] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 05:47:08
+2021-04-28 17:47:08,926 [9] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 17:47:24,957 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 17:47:25,156 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 17:47:25,158 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 17:47:25,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 17:47:25,161 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 17:47:25,162 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 17:47:25,162 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 17:47:25,162 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 17:47:25,183 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:25,239 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:25,294 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:25,330 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:25,378 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:25,417 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 17:47:47,199 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 17:47:52,532 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 17:48:11,415 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:03:01,861 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 18:03:02,109 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 06:03:02
+2021-04-28 18:03:02,200 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 18:03:25,124 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 18:03:25,311 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 18:03:25,313 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 18:03:25,316 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 18:03:25,316 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 18:03:25,316 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 18:03:25,316 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 18:03:25,316 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 18:03:25,332 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:25,403 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:25,446 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:25,473 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:25,514 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:25,560 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:03:32,118 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:03:36,075 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:03:37,522 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:04:30,086 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:04:31,920 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:05:26,062 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:05:26,649 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:05:28,950 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:05:30,124 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:05:51,707 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:05:53,640 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:05:54,385 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:06:27,792 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:06:32,132 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:06:33,213 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:08:28,219 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:08:34,922 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:08:39,295 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:35:24,803 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-04-28 18:35:24,886 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :28/04/2021 06:35:24
+2021-04-28 18:35:24,990 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-04-28 18:35:29,519 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 18:35:29,542 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 18:35:29,542 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 18:35:29,542 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 18:35:29,542 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 18:35:29,542 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 18:35:29,543 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 18:35:29,543 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 18:35:29,544 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:29,577 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:29,613 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:29,641 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:29,680 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:29,714 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:35:36,697 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:35:38,386 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:35:47,955 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:36:35,464 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 18:36:35,493 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 18:36:35,494 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 18:36:35,494 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 18:36:35,494 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 18:36:35,494 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 18:36:35,495 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 18:36:35,495 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 18:36:35,505 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:35,544 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:35,577 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:35,607 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:35,635 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:35,671 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 18:36:38,003 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:36:39,590 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:36:41,071 [13] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:37:32,051 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 18:37:37,262 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 18:37:58,658 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 18:46:32,408 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-04-28 18:46:32,408 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-04-28 18:46:38,615 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 18:46:38,615 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 18:46:39,884 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 18:46:46,848 [6] INFO  TreasuryModel.Data.BESeries [(null)] - -----Validate Holiday Start-----
+2021-04-28 18:46:46,849 [6] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT 1 FROM OPICS.HLDY WHERE CALENDARID = 'THB' AND HOLIDATE = to_date('10/04/2563', 'dd/mm/yyyy')
+2021-04-28 18:46:46,908 [6] INFO  TreasuryModel.Data.BESeries [(null)] - -----Validate Holiday Finish-----
+2021-04-28 18:46:47,089 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----Check Duplicate B/E No Start-----
+2021-04-28 18:46:47,090 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT 1 FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BE_ALLOT_NO = 'CPF086/2563         ' AND BEALLOTMENTID <> 9706 AND FLAG IS NULL
+2021-04-28 18:46:47,136 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----Check Duplicate B/E No Finish-----
+2021-04-28 18:46:47,225 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----Validate Holiday Start-----
+2021-04-28 18:46:47,226 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT 1 FROM OPICS.HLDY WHERE CALENDARID = 'THB' AND HOLIDATE = to_date('10/04/2563', 'dd/mm/yyyy')
+2021-04-28 18:46:47,253 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----Validate Holiday Finish-----
+2021-04-28 18:46:47,471 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start update-----
+2021-04-28 18:46:47,534 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 18:46:49,308 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----BESeriesList-----
+2021-04-28 18:46:49,308 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY HH:MI:SS') as BE_ISSUE_DATE, BE_DIS_RATE, BE_ISSUER_ID, CUST1.NAMEEN as BE_ISSUER_NAME, TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY HH:MI:SS') as BE_MAT_DATE, NVL(BE_AVAL_TYPE, '0') as BE_AVAL_TYPE, NAMEEN as BE_ISSUER_NAME, TARGETACCT as BE_ISSUER_ACCT, TARGETBANK as BE_ISSUER_BANK, BE_TOTAL_AMT - NVL((SELECT SUM(NVL(BE_ALLOT_AMT,0)) FROM OPICINF.KKB_TB_BE_ALLOTMENT WHERE BESERIESID = KKB_TB_BE_SERIES.BESERIESID AND FLAG IS NULL),0) as BE_SERIES_REMAIN, NVL(BE_SERIES_PROCEED,BE_TOTAL_AMT) as BE_SERIES_PROCEED From OPICINF.KKB_TB_BE_SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON KKB_TB_BE_SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID Where 1=1 ORDER BY BESERIESID DESC
+2021-04-28 18:46:54,862 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 18:46:54,862 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 18:46:54,892 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 20:28:09,694 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 20:28:09,694 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 20:28:09,910 [10] ERROR TreasuryModel.Data.BESeries [(null)] - -----Model Error-----
+2021-04-28 20:28:09,910 [10] ERROR TreasuryModel.Data.BESeries [(null)] - Object reference not set to an instance of an object.
+2021-04-28 20:28:09,910 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 20:28:22,173 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_SERIES Start-----
+2021-04-28 20:28:22,173 [10] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : Select BESERIESID, BE_SERIES_CODE, BE_TOTAL_AMT, BE_SERIES_DEAL_NO, TO_CHAR(BE_ISSUE_DATE,'MM/DD/YYYY') as BE_ISSUE_DATE, BE_DIS_RATE, NVL(BE_ISSUER_ID,0) as BE_ISSUER_ID , TO_CHAR(BE_MAT_DATE,'MM/DD/YYYY') as BE_MAT_DATE, NVL(CUST1.CUSTOMERID,0) as CUSTOMERID, NVL(CUST1.NAMEEN,'') as NAMEEN, NVL(CUST1.TARGETACCT,'') as TARGETACCT , NVL(CUST1.TARGETBANK,'') as TARGETBANK From OPICINF.KKB_TB_BE_SERIES SERIES LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER CUST1 ON SERIES.BE_ISSUER_ID = CUST1.CUSTOMERID WHERE BESERIESID='8011' 
+2021-04-28 20:28:22,417 [10] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_SERIES Finish-----
+2021-04-28 20:28:26,818 [12] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 20:28:26,819 [12] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 20:28:26,857 [12] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 20:28:40,568 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Start-----
+2021-04-28 20:28:40,568 [4] INFO  TreasuryModel.Data.BESeries [(null)] - SQL Statement : SELECT AL.BE_ALLOT_NO, AL.BE_ALLOT_REF_NO, AL.BE_ALLOT_AMT, TO_CHAR(AL.BE_COMF_DATE,'MM/DD/YYYY') as BE_COMF_DATE, TO_CHAR(AL.BE_SETTLE_DATE,'MM/DD/YYYY') as BE_SETTLE_DATE, AL.BE_ALLOT_UNIT, AL.BE_ALLOT_YIELD, NVL(AL.BE_BUYER_ID,'0') as BE_BUYER_ID, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_COMMENT, AL.BESERIESID, NVL(AL.BE_SELLER_ID, '0') as BE_SELLER_ID, NVL(SC.NAMEEN, ' ') as SELLER_NAME, NVL(AL.BE_SELLER_ALLOT_YIELD, 0) as BE_SELLER_ALLOT_YIELD, NVL(SC.TARGETBANK, ' ') as SELLER_TARGETBANK, NVL(SC.TARGETACCT, ' ') as SELLER_TARGETACCT, TO_CHAR(AL.BE_SELLER_COMF_DATE,'MM/DD/YYYY') as BE_SELLER_COMF_DATE, TO_CHAR(AL.BE_SELLER_SETTLE_DATE,'MM/DD/YYYY') as BE_SELLER_SETTLE_DATE, NVL(BC.CUSTOMERID,'0') as CUSTOMERID, NVL(BC.NAMEEN,' ') as NAMEEN, BC.INCVAT, nvl(BC.TARGETBANK, ' ') as BUYER_TARGETBANK, nvl(BC.TARGETACCT, ' ') as BUYER_TARGETACCT, AL.BE_ALLOT_DEAL_NO, AL.BE_ALLOT_SKSNO, AL.BE_ALLOT_PATRAREGNO, AL.BE_ALLOT_CLIENTNAME, TO_CHAR(AL.BE_ALLOT_DEPOSITDATE,'MM/DD/YYYY') as BE_ALLOT_DEPOSITDATE, TO_CHAR(AL.BE_ALLOT_WITHDRAWDATE,'MM/DD/YYYY') as BE_ALLOT_WITHDRAWDATE, AL.BE_ALLOT_IDCARD, AL.BE_ALLOT_BOOKBANK, AL.BE_ALLOT_OTHER, AL.BE_OWNER_FLAG From OPICINF.KKB_TB_BE_ALLOTMENT AL LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER BC ON AL.BE_BUYER_ID=BC.CUSTOMERID LEFT OUTER JOIN OPICINF.KKB_TB_CUSTOMER SC ON AL.BE_SELLER_ID=SC.CUSTOMERID Where AL.BEALLOTMENTID='9706'
+2021-04-28 20:28:40,615 [4] INFO  TreasuryModel.Data.BESeries [(null)] - -----KKB_TB_BE_ALLOTMENT Finish-----
+2021-04-28 20:28:58,315 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 20:28:58,347 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 20:28:58,348 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 20:28:58,348 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 20:28:58,348 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 20:28:58,348 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 20:28:58,349 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 20:28:58,349 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 20:28:58,352 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:28:58,420 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:28:58,463 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:28:58,500 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:28:58,538 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:28:58,593 [15] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 20:29:14,330 [15] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-04-28 20:29:14,330 [15] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-04-28 20:29:27,620 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-04-28 20:29:27,621 [4] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----
+2021-04-28 21:24:50,060 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-04-28 21:25:22,348 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-04-28 21:25:37,769 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-04-28 21:26:06,346 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-04-28 21:26:13,679 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-04-28 21:26:31,761 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-04-28 21:26:34,577 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-04-28 21:26:56,959 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-04-28 21:26:57,005 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-04-28 21:26:57,005 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-04-28 21:26:57,005 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-04-28 21:26:57,005 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-04-28 21:26:57,006 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-04-28 21:26:57,006 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-04-28 21:26:57,006 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-04-28 21:26:57,010 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:26:57,063 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:26:57,127 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:26:57,189 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:26:57,262 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:26:57,315 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-04-28 21:27:10,011 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - -----MasterSTN EditPerson-----
+2021-04-28 21:27:14,182 [4] INFO  TreasuryModel.Data.KKBSTN [(null)] - -----KKBSTN Start getSTN-----

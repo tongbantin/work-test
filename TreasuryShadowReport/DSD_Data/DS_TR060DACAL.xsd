@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_TR060DACAL" targetNamespace="http://tempuri.org/DS_TR060DACAL.xsd" xmlns:mstns="http://tempuri.org/DS_TR060DACAL.xsd" xmlns="http://tempuri.org/DS_TR060DACAL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_TR060DACAL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_TR060DACAL" msprop:Generator_DataSetName="DS_TR060DACAL" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TR060DACAL" msprop:Generator_UserTableName="TB_TR060DACAL" msprop:Generator_RowDeletedName="TB_TR060DACALRowDeleted" msprop:Generator_RowChangedName="TB_TR060DACALRowChanged" msprop:Generator_RowClassName="TB_TR060DACALRow" msprop:Generator_RowChangingName="TB_TR060DACALRowChanging" msprop:Generator_RowEvArgName="TB_TR060DACALRowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TR060DACALRowChangeEventHandler" msprop:Generator_TableClassName="TB_TR060DACALDataTable" msprop:Generator_TableVarName="tableTB_TR060DACAL" msprop:Generator_RowDeletingName="TB_TR060DACALRowDeleting" msprop:Generator_TablePropName="TB_TR060DACAL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BU" msprop:Generator_UserColumnName="BU" msprop:Generator_ColumnPropNameInRow="BU" msprop:Generator_ColumnVarNameInTable="columnBU" msprop:Generator_ColumnPropNameInTable="BUColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INVTYPE" msprop:Generator_UserColumnName="INVTYPE" msprop:Generator_ColumnPropNameInRow="INVTYPE" msprop:Generator_ColumnVarNameInTable="columnINVTYPE" msprop:Generator_ColumnPropNameInTable="INVTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BOND" msprop:Generator_UserColumnName="BOND" msprop:Generator_ColumnPropNameInRow="BOND" msprop:Generator_ColumnVarNameInTable="columnBOND" msprop:Generator_ColumnPropNameInTable="BONDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FACEAMT" msprop:Generator_UserColumnName="FACEAMT" msprop:Generator_ColumnPropNameInRow="FACEAMT" msprop:Generator_ColumnVarNameInTable="columnFACEAMT" msprop:Generator_ColumnPropNameInTable="FACEAMTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RATE" msprop:Generator_UserColumnName="RATE" msprop:Generator_ColumnPropNameInRow="RATE" msprop:Generator_ColumnVarNameInTable="columnRATE" msprop:Generator_ColumnPropNameInTable="RATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="XIDATE" msprop:Generator_UserColumnName="XIDATE" msprop:Generator_ColumnPropNameInRow="XIDATE" msprop:Generator_ColumnVarNameInTable="columnXIDATE" msprop:Generator_ColumnPropNameInTable="XIDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INTPAYMENTDATE" msprop:Generator_UserColumnName="INTPAYMENTDATE" msprop:Generator_ColumnPropNameInRow="INTPAYMENTDATE" msprop:Generator_ColumnVarNameInTable="columnINTPAYMENTDATE" msprop:Generator_ColumnPropNameInTable="INTPAYMENTDATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYS" msprop:Generator_UserColumnName="DAYS" msprop:Generator_ColumnPropNameInRow="DAYS" msprop:Generator_ColumnVarNameInTable="columnDAYS" msprop:Generator_ColumnPropNameInTable="DAYSColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LASTIRDEPOSIT" msprop:Generator_UserColumnName="LASTIRDEPOSIT" msprop:Generator_ColumnPropNameInRow="LASTIRDEPOSIT" msprop:Generator_ColumnVarNameInTable="columnLASTIRDEPOSIT" msprop:Generator_ColumnPropNameInTable="LASTIRDEPOSITColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IRDEPOSIT365" msprop:Generator_UserColumnName="IRDEPOSIT365" msprop:Generator_ColumnPropNameInRow="IRDEPOSIT365" msprop:Generator_ColumnVarNameInTable="columnIRDEPOSIT365" msprop:Generator_ColumnPropNameInTable="IRDEPOSIT365Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IRDEPOSIT360" msprop:Generator_UserColumnName="IRDEPOSIT360" msprop:Generator_ColumnPropNameInRow="IRDEPOSIT360" msprop:Generator_ColumnVarNameInTable="columnIRDEPOSIT360" msprop:Generator_ColumnPropNameInTable="IRDEPOSIT360Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ADJAMT" msprop:Generator_UserColumnName="ADJAMT" msprop:Generator_ColumnPropNameInRow="ADJAMT" msprop:Generator_ColumnVarNameInTable="columnADJAMT" msprop:Generator_ColumnPropNameInTable="ADJAMTColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

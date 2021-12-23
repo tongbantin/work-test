@@ -1,0 +1,449 @@
+2021-06-02 02:43:40,345 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 02:43:40,661 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 02:43:40
+2021-06-02 02:43:40,752 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 02:43:51,581 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 02:43:51,777 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 02:43:51,779 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 02:43:51,781 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 02:43:51,781 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 02:43:51,782 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 02:43:51,782 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 02:43:51,782 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 02:43:51,782 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 02:43:51,782 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 02:43:51,796 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:51,849 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:51,882 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:51,916 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:51,949 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:51,983 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:52,014 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:43:52,040 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:45:02,113 [4] ERROR TreasuryModel.Data.KKBSTN [(null)] - Column 'UNDERLYING_CURR' does not belong to table Table1.
+2021-06-02 02:45:17,639 [4] ERROR TreasuryShadowSystem.STN.MasterSTN [(null)] - Object reference not set to an instance of an object.
+2021-06-02 02:51:00,206 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 02:51:00,453 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 02:51:00
+2021-06-02 02:51:00,522 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 02:51:15,073 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 02:51:15,213 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 02:51:15,213 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 02:51:15,215 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 02:51:15,216 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 02:51:15,228 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,267 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,298 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,333 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,361 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,391 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,422 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:51:15,450 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 02:57:28,115 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-06-02 02:57:28,276 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-06-02 03:14:16,694 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 03:14:17,020 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 03:14:17
+2021-06-02 03:14:17,117 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 03:14:35,063 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 03:14:35,293 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 03:14:35,295 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 03:14:35,297 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 03:14:35,297 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 03:14:35,297 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 03:14:35,297 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 03:14:35,297 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 03:14:35,298 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 03:14:35,298 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 03:14:35,321 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,387 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,431 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,456 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,496 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,546 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,590 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:14:35,635 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 03:18:38,765 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-06-02 03:21:01,592 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-06-02 03:23:24,703 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-06-02 03:23:32,596 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-06-02 09:55:38,770 [4] ERROR TreasuryShadowSystem.Site [(null)] - Thread was being aborted.
+2021-06-02 09:55:48,106 [11] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 09:55:48,216 [11] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 09:55:48
+2021-06-02 09:55:48,382 [11] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 09:55:54,830 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 09:55:54,858 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 09:55:54,859 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 09:55:54,872 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:54,921 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:54,954 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:54,990 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:55,026 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:55,062 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:55,100 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 09:55:55,133 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:00:09,682 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 10:00:10,023 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 10:00:10
+2021-06-02 10:00:10,119 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 10:02:41,582 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 10:02:41,798 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 10:02:41,800 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 10:02:41,801 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 10:02:41,802 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 10:02:41,819 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:41,883 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:41,920 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:41,964 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:42,001 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:42,038 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:42,073 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:02:42,108 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,019 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 10:06:03,061 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 10:06:03,061 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 10:06:03,062 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 10:06:03,062 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 10:06:03,062 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 10:06:03,062 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 10:06:03,063 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 10:06:03,063 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 10:06:03,063 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 10:06:03,076 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,116 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,156 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,198 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,236 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,273 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,320 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:06:03,357 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,052 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 10:47:11,157 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 10:47:11,157 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 10:47:11,158 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 10:47:11,159 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 10:47:11,171 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,235 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,277 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,319 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,363 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,430 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,517 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:47:11,605 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:10,751 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 10:53:10,811 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 10:53:10,811 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 10:53:10,812 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 10:53:10,812 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 10:53:10,812 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 10:53:10,812 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 10:53:10,812 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 10:53:10,813 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 10:53:10,814 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 10:53:10,823 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:12,924 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:13,943 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:13,988 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:14,029 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:14,095 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:14,169 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:53:14,207 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,131 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 10:58:10,175 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 10:58:10,176 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 10:58:10,176 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 10:58:10,176 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 10:58:10,176 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 10:58:10,176 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 10:58:10,177 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 10:58:10,177 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 10:58:10,177 [12] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 10:58:10,192 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,239 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,297 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,335 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,372 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,415 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,456 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 10:58:10,495 [12] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,646 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 11:01:38,682 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 11:01:38,682 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 11:01:38,683 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 11:01:38,684 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 11:01:38,697 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,736 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,773 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,808 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,842 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,883 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,919 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:01:38,960 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,713 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 11:03:00,746 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 11:03:00,746 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 11:03:00,747 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 11:03:00,758 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,793 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,825 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,856 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,890 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,925 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,963 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:00,999 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:32,889 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 11:03:32,931 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 11:03:32,931 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 11:03:32,932 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 11:03:32,932 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 11:03:32,932 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 11:03:32,932 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 11:03:32,933 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 11:03:32,933 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 11:03:32,933 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 11:03:32,944 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:32,981 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,037 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,078 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,113 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,155 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,197 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:03:33,242 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:20,864 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 11:04:20,898 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 11:04:20,898 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 11:04:20,899 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 11:04:20,899 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 11:04:20,899 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 11:04:20,899 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 11:04:20,899 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 11:04:20,900 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 11:04:20,900 [17] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 11:04:20,912 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:20,949 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:20,988 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:21,027 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:21,063 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:21,099 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:21,147 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:04:21,191 [17] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,378 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 11:05:27,415 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 11:05:27,415 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 11:05:27,415 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 11:05:27,416 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 11:05:27,416 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 11:05:27,416 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 11:05:27,416 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 11:05:27,416 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 11:05:27,417 [14] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 11:05:27,429 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,474 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,511 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,547 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,585 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,620 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,656 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 11:05:27,691 [14] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:28,594 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'V@ranun4') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'V@ranun4')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 14:09:28,988 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 02:09:28
+2021-06-02 14:09:29,120 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 14:09:41,225 [4] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 14:09:41,438 [4] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 02:09:41
+2021-06-02 14:09:41,583 [4] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 14:09:49,235 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 14:09:49,510 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 14:09:49,518 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 14:09:49,526 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 14:09:49,556 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:49,717 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:49,817 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:49,893 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:49,954 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:50,023 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:50,100 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:50,207 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:09:58,249 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 14:10:00,716 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 14:10:00,716 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 14:10:09,627 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 14:10:11,560 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 14:10:11,560 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 14:17:01,351 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 14:17:01,428 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 14:17:01,428 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 14:17:01,428 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 14:17:01,428 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 14:17:01,435 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 14:17:01,435 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 14:17:01,435 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 14:17:01,435 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 14:17:01,435 [6] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 14:17:01,463 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,505 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,540 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,611 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,660 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,702 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,744 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:01,786 [6] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:17:08,925 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 14:37:57,572 [6] INFO  TreasuryShadowSystem.Model.Model_Tb_Menu_Auth [(null)] - Select p.* From (Select l.* From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject') UNION Select * From OPICINF.KKB_TB_MS_LOOKUP WHERE ENABLED='1' AND ID IN (Select DISTINCT GROUPID From OPICINF.KKB_TB_MS_LOOKUP l, OPICINF.KKB_TB_MS_MENU_AUTH a Where l.ID=a.MENU_ID And l.ENABLED='1' And a.USERGROUP_ID=(SELECT USERGROUP_ID FROM OPICINF.KKB_TB_MS_USERGROUP WHERE USERGROUP_NAME = 'ITProject')) ) p Order By p.GroupID, p.SEQ 
+2021-06-02 14:37:58,096 [6] INFO  TreasuryShadowSystem.Login [(null)] - Login successfull on :02/06/2021 02:37:58
+2021-06-02 14:37:58,221 [6] ERROR TreasuryShadowSystem.Login [(null)] - Thread was being aborted.
+2021-06-02 14:39:15,697 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 14:39:15,955 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 14:39:15,955 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 14:39:15,963 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 14:39:15,978 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,291 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,346 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,408 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,463 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,502 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,572 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:17,658 [9] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 14:39:24,517 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 14:39:26,635 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 14:39:26,642 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 14:39:52,490 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 14:39:54,448 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 14:39:54,448 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:34:25,344 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:34:27,516 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:34:27,516 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:35:32,711 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 15:35:32,758 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 15:35:32,766 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 15:35:32,766 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 15:35:32,766 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 15:35:32,790 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:32,844 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:32,899 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:32,946 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:32,993 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:33,040 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:33,086 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:33,149 [4] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:35:51,993 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:35:57,308 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:35:57,308 [4] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:36:16,869 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:36:19,235 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:36:19,235 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:37:03,788 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:37:06,519 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:37:06,519 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:37:29,594 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:37:31,198 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:37:31,198 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:37:55,714 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdateKnockout-----
+2021-06-02 15:37:55,852 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdateKnockout-----
+2021-06-02 15:38:06,763 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:38:08,803 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:38:08,803 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:38:22,126 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - UpldatePriceClose webmetode
+2021-06-02 15:38:22,126 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Start UpdatePriceClose-----
+2021-06-02 15:38:22,186 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - update success return ok
+2021-06-02 15:38:22,186 [11] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----KKB_TB_STN_MASTER Finish UpdatePriceClose-----
+2021-06-02 15:38:26,391 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:38:28,642 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:38:28,642 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:38:35,819 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:38:38,360 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:38:38,369 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:39:03,323 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:39:05,742 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:39:05,742 [11] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:41:41,041 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 15:41:41,080 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 15:41:41,080 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 15:41:41,088 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 15:41:41,112 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,159 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,213 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,268 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,315 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,362 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,424 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:41,471 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:41:53,612 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:41:56,854 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:41:56,854 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:42:50,565 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - BindGridReport MasterSTN
+2021-06-02 15:42:50,616 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - MasterSTN ConvertDataTableToListMaster
+2021-06-02 15:42:50,616 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 1
+2021-06-02 15:42:50,616 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 2
+2021-06-02 15:42:50,616 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 3
+2021-06-02 15:42:50,616 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 4
+2021-06-02 15:42:50,624 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 5
+2021-06-02 15:42:50,624 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 6
+2021-06-02 15:42:50,624 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 7
+2021-06-02 15:42:50,624 [10] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - 8
+2021-06-02 15:42:50,650 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,709 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,752 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,803 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,854 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,905 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:50,965 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:51,016 [10] INFO  TreasuryModel.Data.STNMASTER [(null)] - -----STNNAME Start getSTN-----
+2021-06-02 15:42:53,573 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:42:54,807 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:42:54,807 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:43:05,117 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - Click Closed Price
+2021-06-02 15:43:08,639 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose start
+2021-06-02 15:43:08,639 [9] INFO  TreasuryShadowSystem.STN.MasterSTN [(null)] - ##dialogpriceclose end
+2021-06-02 15:43:49,540 [10] ERROR TreasuryShadowSystem.STN.MasterSTN [(null)] - Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.

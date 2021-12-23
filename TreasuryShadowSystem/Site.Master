@@ -1,0 +1,146 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TreasuryShadowSystem.Site" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html >
+<head runat="server">
+    <title>Web Teasury System(WTS) -- Kiatnakin Bank Public Co., Ltd.</title>
+	<meta http-equiv="description" content="Web Treasury System(WTS) -- Kiatnakin Bank Public Co., Ltd." />
+    <meta http-equiv="content-type" content="text/html; charset=windows-874" />  
+    
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/Theme/megamenu/megastyle.css") %>" type="text/css" />
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/Theme/megamenu/normalize.min.css") %>" type="text/css" />
+    
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/jquery-1.9.1.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/modernizr.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/megamenu.js") %>"></script>
+    <style>
+	    .content-wrap{
+            background-color: #403a6a;
+        }
+        .font-white {
+                color:#FFF;
+        }
+        .logo {
+            text-align:center;
+            margin-bottom: 2%;
+        }
+	</style>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div style="border-bottom: 1px solid #ffffff; height:60px" class="content-wrap">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>                        
+                    <td style="padding-left: 20px;">
+                        <asp:Image ID="Image1" ImageUrl="~/Theme/Default/Images/logo_kkp.png" 
+                            Width="192px" Height="50px" runat="server" />
+                    </td>
+                    <td valign="middle">
+                        <asp:Label ID="Label1" Font-Size="36px" Font-Bold="true" ForeColor="white" runat="server" Text="Web Treasury System"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="UserLabel" Text="User : " ForeColor="White" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt" runat="server"></asp:Label>
+                        <asp:Label ID="Username" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt"  ForeColor="White"  runat="server"></asp:Label><br />
+                        <asp:Label ID="BranchDateLabel" Text="Branch Processing Date : " ForeColor="White" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt" runat="server"></asp:Label>
+                        <asp:Label ID="BranchProcessingDate" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt" ForeColor="White" runat="server"></asp:Label><br /> 
+                        <asp:Label ID="VersionLabel" Text="Version : " ForeColor="White" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt" runat="server"></asp:Label>
+                        <asp:Label ID="Version" Font-Bold="true" Font-Names="tahoma" Font-Size="10pt"  ForeColor="White"  runat="server"></asp:Label><br />
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/LogOut.aspx" runat="server"><asp:Image ID="Image2" BorderWidth="0" ImageUrl="~/Theme/icon/logout.gif" runat="server" /></asp:HyperLink>
+                    </td>                    
+                </tr>
+            </table>
+        </div>
+                
+        <div class="menu-container" style="background-color: #403a6a;border-bottom: 1px solid #ffffff">
+            <div class="menu">            
+                <ul>
+                    <li><a href="Main.aspx"><asp:Image ID="Image4" ImageUrl="~/Theme/icon/icon-home.png" ImageAlign="AbsMiddle" runat="server" /> Home</a></li>
+                    <li id="ReportMenu" runat="server"><a href="#"><asp:Image ID="Image5" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle" runat="server" /> Report</a>
+                        <ul>                             
+                                <li>
+                                <div id="wrapper">
+	<div id="columns">
+    		            <asp:Repeater ID="DataList2" runat="server">
+                            <ItemTemplate>   
+		<div class="pin">
+                                    <a href="#"><asp:Image ID="MenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                    <ul>
+                                    <asp:Repeater ID="DataListReportSubMenu" runat="server">
+                                        <ItemTemplate>
+                                                <li><a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>"  Target="ifMain"><asp:Image ID="SubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater> 
+                                    </ul>
+                                    </div>
+                            </ItemTemplate>
+                        </asp:Repeater>   
+                        </div></div>
+                                </li>
+                        </ul> 
+                    </li>
+    	            <li id="SanctionMenu" runat="server"><a href="#"><asp:Image ID="IconSanction" ImageUrl="~/Theme/icon/icon-maintain.png" ImageAlign="AbsMiddle" runat="server" /> Sanction</a>
+                        <ul>   
+    	                <asp:Repeater ID="DataList4" runat="server">
+                            <ItemTemplate>
+                                <li><a href="#"><asp:Image ID="SanctionLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                    <ul>                                        
+                                        <asp:Repeater ID="DataListSanctionSubMenu" runat="server">
+                                            <ItemTemplate>
+                                                <li><a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>" Target="ifMain"><asp:Image ID="SanctionSubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a></li> 
+                                            </ItemTemplate>
+                                        </asp:Repeater>                                            
+                                    </ul>                                       
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                        </ul>
+    	            </li>
+    	            <li id="MainTainMenu" runat="server"><a href="#"><asp:Image ID="IconMainTain" ImageUrl="~/Theme/icon/icon-maintain.png" ImageAlign="AbsMiddle" runat="server" /> Maintain Data</a>
+                        <ul>   
+    	                <asp:Repeater ID="DataList1" runat="server">
+                            <ItemTemplate>
+                                <li><a href="#"><asp:Image ID="MaintainLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>
+                                    <ul>                                        
+                                        <asp:Repeater ID="DataListMaintainSubMenu" runat="server">
+                                            <ItemTemplate>
+                                                <li><a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>" Target="ifMain"><asp:Image ID="MaintainSubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a></li> 
+                                            </ItemTemplate>
+                                        </asp:Repeater>                                            
+                                    </ul>                                       
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                        </ul>
+    	            </li>
+    	            <li id="UserMenu" runat="server"><a href="#"><asp:Image ID="Image3" ImageUrl="~/Theme/icon/icon-user.png" ImageAlign="AbsMiddle" runat="server" /> User Management</a>
+                        <ul>
+    	                <asp:Repeater ID="DataList3" runat="server">
+                            <ItemTemplate>
+                                <li><a href="#"><asp:Image ID="UserLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a>   
+                                    <ul>                                        
+                                        <asp:Repeater ID="DataListUserSubMenu" runat="server">
+                                            <ItemTemplate>
+                                                <li><a href="<%# DataBinder.Eval(Container.DataItem, "PATH_URL") %>" Target="ifMain"><asp:Image ID="UserSubMenuLinkIcon"  runat="server" ImageUrl="~/Theme/icon/icon-report.png" ImageAlign="AbsMiddle"/> <%# DataBinder.Eval(Container.DataItem, "DATA_NAME_ENG") %></a></li>
+                                            </ItemTemplate>
+                                        </asp:Repeater>                                        
+                                    </ul>
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                        </ul>
+    	            </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="MainContent">
+            <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
+        </div>  
+    </form>
+</body>
+</html>
